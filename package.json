@@ -1,0 +1,27 @@
+{
+  "name": "movie-night-backend",
+  "version": "0.1.0",
+  "description": "Backend for the movie night site",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Howling-Techie/movie-night-backend.git"
+  },
+  "author": "Howling Techie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Howling-Techie/movie-night-backend/issues"
+  },
+  "homepage": "https://github.com/Howling-Techie/movie-night-backend#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  }
+}
