@@ -10,6 +10,7 @@ module.exports = [
         description: "Vote for your favorite movies!",
         tag_id: null,
         points_available: 10,
+        visibility: 2
     },
     {
         event_id: 2,
@@ -22,6 +23,7 @@ module.exports = [
         description: "Nothing scarier than a bad movie...",
         tag_id: 2,
         points_available: 8,
+        visibility: 0
     },
     {
         event_id: 3,
@@ -34,5 +36,6 @@ module.exports = [
         description: "A night only for the best of the best that movies have to offer.",
         tag_id: 3,
         points_available: 12,
+        visibility: 2
     },
 ];
