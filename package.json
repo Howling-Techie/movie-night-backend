@@ -4,7 +4,12 @@
   "description": "Backend for the movie night site",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "setup-dbs": "psql -f ./db/setup.sql",
+    "seed": "node ./database/seeds/run-seed.js",
+    "test": "jest",
+    "prepare": "husky install",
+    "start": "node listen.js",
+    "seed-prod": "NODE_ENV=production npm run seed"
   },
   "repository": {
     "type": "git",
