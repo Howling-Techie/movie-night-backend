@@ -41,7 +41,7 @@ exports.signInUser = async (body) => {
                     },
                 });
                 const discordUser = discordUserResponse.data;
-                discordUser.guilds = discordUserGuildsResponse.data;
+                const userGuilds = discordUserGuildsResponse.data;
 
                 // Store the user info in database
                 const userResponse = await client.query(`INSERT INTO users(user_id, username, display_name, avatar, banner, banner_color)
@@ -53,6 +53,23 @@ exports.signInUser = async (body) => {
                                                                            banner       = $5,
                                                                            banner_color = $5
                                                          RETURNING *;`, [discordUser.id, discordUser.username, discordUser.global_name, discordUser.avatar, discordUser.banner, discordUser.accent_color]);
+
+                // Add server info for users
+                for (const userGuild of userGuilds) {
+                    // Add server if it does not exist first
+                    await client.query(`INSERT INTO servers(server_id, server_name, visibility, avatar)
+                                        VALUES ($1, $2, $3, $4)
+                                        ON CONFLICT ON CONSTRAINT servers_pkey
+                                            DO UPDATE SET server_name = $2,
+                                                          avatar      = $4;`,
+                        [userGuild.id, userGuild.name, 0, userGuild.icon]);
+
+                    await client.query(`INSERT INTO server_users(user_id, server_id, access_level)
+                                        VALUES ($1, $2, $3)
+                                        ON CONFLICT ON CONSTRAINT server_users_pkey
+                                            DO UPDATE SET access_level = $3;`,
+                        [discordUser.id, userGuild.id, userGuild.owner ? 2 : 1]);
+                }
 
                 // User data to generate auth tokens
                 return generateReturnObject(userResponse.rows[0]);
