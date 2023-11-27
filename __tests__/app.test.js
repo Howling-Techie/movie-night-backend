@@ -124,7 +124,6 @@ describe("/api/events", () => {
                     .set("Authorization", accessToken)
                     .then(({body}) => {
                         const event = body.event;
-                        console.log(event);
                         expect(event).toMatchObject({
                             event_id: 1,
                             server_id: "1",
@@ -330,6 +329,63 @@ describe("/api/events", () => {
         });
         describe("/api/events/:event_id/entries", () => {
 
+        });
+    });
+});
+
+describe("/api/movies", () => {
+    describe("GET", () => {
+        describe("/api/movies", () => {
+            test("return 200 status code", () => {
+                return request(app).get("/api/movies")
+                    .expect(200);
+            });
+            test("return an array of movies", () => {
+                return request(app).get("/api/movies")
+                    .then(({body}) => {
+                        body.movies.forEach((movie) => {
+                            expect(movie).toMatchObject({
+                                movie_id: expect.any(Number),
+                                title: expect.any(String),
+                                release_date: expect.any(String),
+                                duration: expect.any(Number),
+                                description: expect.any(String),
+                                image: expect.any(String),
+                                poster: expect.any(String),
+                                imdb_id: expect.any(String),
+                                letterboxd_url: expect.any(String),
+                            });
+                        });
+                    });
+            });
+        });
+
+        describe("/api/movies/:movie_id", () => {
+            test("return 200 status code", () => {
+                return request(app).get("/api/movies/1")
+                    .expect(200);
+            });
+            test("return a specific movie", () => {
+                return request(app).get("/api/movies/2")
+                    .then(({body}) => {
+                        const movie = body.movie;
+                        expect(movie).toMatchObject({
+                            movie_id: 2,
+                            title: "The Shawshank Redemption",
+                            release_date: "1994-09-22T23:00:00.000Z",
+                            duration: 142,
+                            description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+                            image: "shawshank_image.jpg",
+                            poster: "shawshank_poster.jpg",
+                            imdb_id: "tt0111161",
+                            letterboxd_url: "https://letterboxd.com/film/the-shawshank-redemption/"
+                        });
+                    });
+            });
+            test("return 404 when trying to access an invalid movie", () => {
+                return request(app).get("/api/movies/10")
+                    .expect(404);
+            });
         });
     });
 });
