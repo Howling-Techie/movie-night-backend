@@ -11,7 +11,7 @@ exports.selectEvent = async (params, headers) => {
     if (Number.isNaN(+event_id)) {
         return Promise.reject({status: 400, msg: "Invalid event_id datatype"});
     }
-    if (!(await checkIfExists("events", "event_id", event_id))) {
+    if (!(await checkIfExists("events", "event_id", +event_id))) {
         return Promise.reject({status: 404, msg: "Event not found"});
     }
     const token = headers["authorization"];
@@ -68,7 +68,7 @@ exports.selectEvents = async (queries, headers) => {
                                             FROM events e
                                                      LEFT JOIN servers s ON e.server_id = s.server_id
                                             WHERE e.visibility = 0
-                                              AND S.visibility = 0`);
+                                              AND s.visibility = 0`);
         return results.rows;
     }
 };

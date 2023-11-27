@@ -12,13 +12,8 @@ async function seed(data) {
         if (data) {
             await insertData(data);
         }
-
-        console.log("Tables seeded successfully.");
     } catch (error) {
         console.error("Error seeding tables:", error);
-    } finally {
-        // Close the database connection pool
-        await client.end();
     }
 }
 

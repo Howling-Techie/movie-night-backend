@@ -24,7 +24,7 @@ describe("/api/events", () => {
                     display_name: "User One"
                 }, "0s");
                 return request(app).get("/api/events")
-                    .send({token: accessToken})
+                    .set("Authorization", accessToken)
                     .expect(401);
             });
             test("return an array of events", () => {
@@ -82,7 +82,7 @@ describe("/api/events", () => {
                     display_name: "User One"
                 }, "0s");
                 return request(app).get("/api/events/1")
-                    .send({token: accessToken})
+                    .set("Authorization", accessToken)
                     .expect(401);
             });
             test("return 200 status code", () => {
@@ -92,7 +92,7 @@ describe("/api/events", () => {
                     display_name: "User One"
                 });
                 return request(app).get("/api/events/1")
-                    .send({token: accessToken})
+                    .set("Authorization", accessToken)
                     .expect(200);
             });
             test("return a public event regardless of token", () => {
@@ -120,20 +120,23 @@ describe("/api/events", () => {
                     display_name: "User One"
                 });
                 return request(app).get("/api/events/1")
-                    .send({token: accessToken}).then(({body}) => {
+                    .set("Authorization", accessToken)
+                    .then(({body}) => {
                         const event = body.event;
-                        expect(typeof event.event_id).toBe("number");
-                        expect(typeof event.server_id).toBe("string");
-                        expect(typeof event.created_by).toBe("string");
-                        expect(typeof event.visibility).toBe("number");
-                        expect(typeof event.start_time).toBe("string");
-                        expect(typeof event.voting_open_time).toBe("string");
-                        expect(typeof event.voting_closing_time).toBe("string");
-                        expect(typeof event.time_created).toBe("string");
-                        expect(typeof event.title).toBe("string");
-                        expect(typeof event.description).toBe("string");
-                        expect(typeof event.tag_id).toBe("number");
-                        expect(typeof event.points_available).toBe("number");
+                        console.log(event);
+                        expect(event).toMatchObject({
+                            event_id: 1,
+                            server_id: "1",
+                            created_by: "1",
+                            visibility: 2,
+                            start_time: "2023-01-01T12:00:00.000Z",
+                            voting_open_time: "2023-01-02T12:00:00.000Z",
+                            voting_closing_time: "2023-01-03T12:00:00.000Z",
+                            title: "Movie Night",
+                            description: "Vote for your favorite movies!",
+                            tag_id: null,
+                            points_available: 10
+                        });
                     });
             });
             test("return 404 when trying to access an invalid event", () => {
