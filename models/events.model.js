@@ -99,7 +99,7 @@ const checkEventIsAccessible = async (event_id, token) => {
     if (!event_id) {
         return Promise.reject({status: 400, msg: "Event ID not provided"});
     }
-    if (Number.isNaN(+event_id)) {
+    if (Number.isNaN(event_id)) {
         return Promise.reject({status: 400, msg: "Invalid event_id datatype"});
     }
     if (!(await checkIfExists("events", "event_id", +event_id))) {
