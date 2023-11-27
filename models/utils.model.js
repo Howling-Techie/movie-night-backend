@@ -35,6 +35,25 @@ exports.getServerAccessLevel = async (server_id, user_id) => {
     return result.rows.length > 0 ? result.rows[0].access_level : 0;
 };
 
+exports.canUserAccessEvent = async (event_id, user_id) => {
+    // Check if the user can access the given event
+    const result = await client.query(
+        `SELECT e.*
+         FROM events e
+                  LEFT JOIN servers s ON e.server_id = s.server_id
+                  LEFT JOIN server_users su ON su.server_id = s.server_id AND su.user_id = $1
+         WHERE (
+                 (e.visibility = 0 AND s.visibility = 0)
+                 OR
+                 (su.user_id = $1 AND e.visibility <= su.access_level)
+             )
+           AND e.event_id = $2`,
+        [user_id, event_id]
+    );
+    // If a row is returned, they have access
+    return result.rows.length > 0;
+};
+
 exports.generateToken = (payload, duration = "1hr") => {
     return sign(payload, process.env.JWT_KEY, {expiresIn: duration});
 };
