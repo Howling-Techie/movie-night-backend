@@ -56,7 +56,8 @@ async function createTables() {
             server_id   VARCHAR(255) PRIMARY KEY,
             server_name VARCHAR(255)      NOT NULL,
             visibility  INTEGER DEFAULT 0 NOT NULL,
-            avatar      VARCHAR(255)
+            avatar      VARCHAR(255),
+            owner_id    VARCHAR(255) REFERENCES users (user_id)
         );
     `);
 
@@ -174,8 +175,8 @@ async function createTables() {
             entry_id      SERIAL PRIMARY KEY,
             event_id      INTEGER REFERENCES events (event_id)           NOT NULL,
             submission_id INTEGER REFERENCES submissions (submission_id) NOT NULL,
-            score         INTEGER      DEFAULT 0                         NOT NULL,
-            status        VARCHAR(255) DEFAULT 'pending'                 NOT NULL
+            score         DECIMAL DEFAULT 0                              NOT NULL,
+            status        INTEGER DEFAULT 0                              NOT NULL
         );
     `);
 
@@ -197,7 +198,7 @@ async function createTables() {
         (
             entry_id INTEGER REFERENCES event_entries (entry_id) NOT NULL,
             vote_id  INTEGER REFERENCES votes (vote_id)          NOT NULL,
-            points   INTEGER DEFAULT NULL,
+            points   DECIMAL DEFAULT NULL,
             PRIMARY KEY (entry_id, vote_id)
         );
     `);
@@ -205,12 +206,12 @@ async function createTables() {
 
 async function insertData(data) {
     // Insert data into each table
+    await insertDataIntoTable("users", data.users);
     await insertDataIntoTable("servers", data.servers);
     await insertDataIntoTable("movies", data.movies);
     await insertDataIntoTable("genres", data.genres);
     await insertDataIntoTable("movie_genres", data.movieGenres);
-    await insertDataIntoTable("users", data.users);
-    await insertDataIntoTable("tags", data.tags);
+    //await insertDataIntoTable("tags", data.tags);
     await insertDataIntoTable("server_users", data.serverUsers);
     await insertDataIntoTable("submissions", data.submissions);
     await insertDataIntoTable("submission_movies", data.submissionMovies);

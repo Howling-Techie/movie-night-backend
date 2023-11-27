@@ -1,0 +1,13 @@
+exports.entryVotes = require("./entry_votes.js");
+exports.eventEntries = require("./event_entries.js");
+exports.events = require("./events.js");
+exports.genres = require("./genres.js");
+exports.movieGenres = require("./movie_genres.js");
+exports.movies = require("./movies.js");
+exports.serverUsers = require("./server_users.js");
+exports.servers = require("./servers.js");
+exports.submissionMovies = require("./submission_movies.js");
+exports.submissions = require("./submissions.js");
+exports.tags = require("./tags.js");
+exports.users = require("./users.js");
+exports.votes = require("./votes.js");
