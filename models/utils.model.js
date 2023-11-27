@@ -3,11 +3,11 @@ const format = require("pg-format");
 const {sign, verify, decode} = require("jsonwebtoken");
 
 exports.checkIfExists = async (tableName, columnName, value) => {
-    if (Number.isNaN(+value)) {
-        const query = format("SELECT %I FROM %I WHERE %I like %L", columnName, tableName, columnName, value);
+    if (Number.isNaN(value)) {
+        const query = format("SELECT %I FROM %I WHERE %I like %L", columnName, tableName, columnName, +value);
         return (await client.query(query)).rows.length > 0;
     }
-    const query = format("SELECT %I FROM %I WHERE %I = %s", columnName, tableName, columnName, value);
+    const query = format("SELECT %I FROM %I WHERE %I = %L", columnName, tableName, columnName, value.toString());
     return (await client.query(query)).rows.length > 0;
 };
 
@@ -49,6 +49,24 @@ exports.canUserAccessEvent = async (event_id, user_id) => {
              )
            AND e.event_id = $2`,
         [user_id, event_id]
+    );
+    // If a row is returned, they have access
+    return result.rows.length > 0;
+};
+
+exports.canUserAccessServer = async (server_id, user_id) => {
+    // Check if the user can access the given server
+    const result = await client.query(
+        `SELECT s.*
+         FROM servers s
+                  LEFT JOIN server_users su ON su.server_id = s.server_id AND su.user_id = $1
+         WHERE (
+                 (s.visibility = 0)
+                 OR
+                 (su.user_id = $1 AND s.visibility <= su.access_level)
+             )
+           AND s.server_id = $2`,
+        [user_id, server_id]
     );
     // If a row is returned, they have access
     return result.rows.length > 0;
