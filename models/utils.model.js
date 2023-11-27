@@ -54,6 +54,24 @@ exports.canUserAccessEvent = async (event_id, user_id) => {
     return result.rows.length > 0;
 };
 
+exports.canUserAccessServer = async (server_id, user_id) => {
+    // Check if the user can access the given server
+    const result = await client.query(
+        `SELECT s.*
+         FROM servers s
+                  LEFT JOIN server_users su ON su.server_id = s.server_id AND su.user_id = $1
+         WHERE (
+                 (s.visibility = 0)
+                 OR
+                 (su.user_id = $1 AND s.visibility <= su.access_level)
+             )
+           AND s.server_id = $2`,
+        [user_id, server_id]
+    );
+    // If a row is returned, they have access
+    return result.rows.length > 0;
+};
+
 exports.generateToken = (payload, duration = "1hr") => {
     return sign(payload, process.env.JWT_KEY, {expiresIn: duration});
 };
