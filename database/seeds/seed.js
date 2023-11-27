@@ -12,13 +12,8 @@ async function seed(data) {
         if (data) {
             await insertData(data);
         }
-
-        console.log("Tables seeded successfully.");
     } catch (error) {
         console.error("Error seeding tables:", error);
-    } finally {
-        // Close the database connection pool
-        await client.end();
     }
 }
 
@@ -188,10 +183,11 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS votes
         (
-            vote_id    SERIAL PRIMARY KEY,
-            user_id    VARCHAR(255) REFERENCES users (user_id) NOT NULL,
-            event_id   INTEGER REFERENCES events (event_id)    NOT NULL,
-            split_vote BOOLEAN DEFAULT FALSE                   NOT NULL
+            vote_id        SERIAL PRIMARY KEY,
+            user_id        VARCHAR(255) REFERENCES users (user_id) NOT NULL,
+            event_id       INTEGER REFERENCES events (event_id)    NOT NULL,
+            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP   NOT NULL,
+            split_vote     BOOLEAN     DEFAULT FALSE               NOT NULL
         );
     `);
 
