@@ -3,11 +3,11 @@ const format = require("pg-format");
 const {sign, verify, decode} = require("jsonwebtoken");
 
 exports.checkIfExists = async (tableName, columnName, value) => {
-    if (Number.isNaN(+value)) {
-        const query = format("SELECT %I FROM %I WHERE %I like %L", columnName, tableName, columnName, value);
+    if (Number.isNaN(value)) {
+        const query = format("SELECT %I FROM %I WHERE %I like %L", columnName, tableName, columnName, +value);
         return (await client.query(query)).rows.length > 0;
     }
-    const query = format("SELECT %I FROM %I WHERE %I = %s", columnName, tableName, columnName, value);
+    const query = format("SELECT %I FROM %I WHERE %I = %L", columnName, tableName, columnName, value.toString());
     return (await client.query(query)).rows.length > 0;
 };
 

@@ -24,18 +24,17 @@ exports.selectServerUsers = async (params, queries, headers) => {
                                         WHERE su.server_id = $1`, [server_id]);
     return results.rows;
 };
-
 exports.selectServerEvents = async (params, queries, headers) => {
     const {server_id} = params;
     const token = headers["authorization"];
+    console.log("Checking server is accessible");
     await checkServerIsAccessible(server_id, token);
-
+    console.log("Passed check");
     const results = await client.query(`SELECT *
                                         FROM events
                                         WHERE server_id = $1`, [server_id]);
     return results.rows;
 };
-
 exports.selectServerSubmissions = async (params, queries, headers) => {
     const {server_id} = params;
     const token = headers["authorization"];
@@ -46,7 +45,6 @@ exports.selectServerSubmissions = async (params, queries, headers) => {
                                         WHERE server_id = $1`, [server_id]);
     return results.rows;
 };
-
 exports.selectServers = async (queries, headers) => {
     const token = headers["authorization"];
     if (token) {
@@ -72,7 +70,6 @@ exports.selectServers = async (queries, headers) => {
         return results.rows;
     }
 };
-
 exports.selectServerTags = async (params, headers) => {
     const {server_id} = params;
     const token = headers["authorization"];
@@ -109,10 +106,10 @@ const checkServerIsAccessible = async (server_id, token) => {
     if (!server_id) {
         return Promise.reject({status: 400, msg: "Server ID not provided"});
     }
-    if (Number.isNaN(+server_id)) {
+    if (Number.isNaN(server_id)) {
         return Promise.reject({status: 400, msg: "Invalid server_id datatype"});
     }
-    if (!(await checkIfExists("servers", "server_id", +server_id))) {
+    if (!(await checkIfExists("servers", "server_id", server_id.toString()))) {
         return Promise.reject({status: 404, msg: "Server not found"});
     }
     if (token) {

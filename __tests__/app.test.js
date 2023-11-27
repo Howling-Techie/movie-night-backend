@@ -389,3 +389,177 @@ describe("/api/movies", () => {
         });
     });
 });
+
+describe("/api/servers", () => {
+    describe("GET", () => {
+        describe("/api/servers", () => {
+            test("return 200 status code", () => {
+                return request(app).get("/api/servers")
+                    .expect(200);
+            });
+            test("return 401 when passed an invalid token", () => {
+                const accessToken = generateToken({
+                    user_id: "1",
+                    username: "user1",
+                    display_name: "User One"
+                }, "0s");
+                return request(app).get("/api/servers")
+                    .set("Authorization", accessToken)
+                    .expect(401);
+            });
+            test("return an array of servers", () => {
+                const accessToken = generateToken({
+                    user_id: "1",
+                    username: "user1",
+                    display_name: "User One"
+                });
+                return request(app).get("/api/servers")
+                    .send({token: accessToken})
+                    .then(({body}) => {
+                        body.servers.forEach((server) => {
+                            expect(typeof server.server_id).toBe("string");
+                            expect(typeof server.server_name).toBe("string");
+                            expect(typeof server.visibility).toBe("number");
+                            expect(typeof server.avatar).toBe("string");
+                        });
+                    });
+            });
+            test("only return public servers when no token is passed", () => {
+                return request(app).get("/api/servers")
+                    .then(({body}) => {
+                        body.servers.forEach((server) => {
+                            expect(server.visibility).toBe(0);
+                        });
+                    });
+            });
+            test("do not return servers a user should not have access to", () => {
+                const accessToken = generateToken({
+                    user_id: "2",
+                    username: "user2",
+                    display_name: "User Two",
+                });
+                return request(app).get("/api/servers")
+                    .send({token: accessToken})
+                    .then(({body}) => {
+                        body.servers.forEach((event) => {
+                            expect(event.visibility).not.toBe(2);
+                        });
+                    });
+            });
+        });
+
+        describe("/api/servers/:server_id", () => {
+            test("Return 401 when passed an invalid token", () => {
+                const accessToken = generateToken({
+                    user_id: "1",
+                    username: "user1",
+                    display_name: "User One"
+                }, "0s");
+                return request(app).get("/api/servers/1")
+                    .set("Authorization", accessToken)
+                    .expect(401);
+            });
+            test("return 200 status code", () => {
+                const accessToken = generateToken({
+                    user_id: "1",
+                    username: "user1",
+                    display_name: "User One"
+                });
+                return request(app).get("/api/servers/1")
+                    .set("Authorization", accessToken)
+                    .expect(200);
+            });
+            test("return a public server regardless of token", () => {
+                return request(app).get("/api/servers/2")
+                    .then(({body}) => {
+                        const server = body.server;
+                        expect(typeof server.server_id).toBe("string");
+                        expect(typeof server.server_name).toBe("string");
+                        expect(typeof server.visibility).toBe("number");
+                        expect(typeof server.avatar).toBe("string");
+                    });
+            });
+            test("return a private server when correct tokens are provided", () => {
+                const accessToken = generateToken({
+                    user_id: "1",
+                    username: "user1",
+                    display_name: "User One"
+                });
+                return request(app).get("/api/servers/1")
+                    .set("Authorization", accessToken)
+                    .then(({body}) => {
+                        const server = body.server;
+                        expect(server).toMatchObject({
+                            server_id: "1",
+                            server_name: "Movie Lovers",
+                            visibility: 1,
+                            avatar: "movie_lovers_avatar.jpg"
+                        });
+                    });
+            });
+            test("return 404 when trying to access an invalid server", () => {
+                return request(app).get("/api/servers/10")
+                    .expect(404);
+            });
+            test("return 401 when trying to access a private server", () => {
+                const accessToken = generateToken({
+                    user_id: "2",
+                    username: "user2",
+                    display_name: "User Two",
+                });
+                return request(app).get("/api/servers/1")
+                    .send({token: accessToken})
+                    .expect(401);
+            });
+        });
+
+        describe("/api/servers/:server_id/events", () => {
+            test("Return 401 when passed an invalid token", () => {
+                const accessToken = generateToken({
+                    user_id: "1",
+                    username: "user1",
+                    display_name: "User One"
+                }, "0s");
+                return request(app).get("/api/servers/1/events")
+                    .set("Authorization", accessToken)
+                    .expect(401);
+            });
+            test("return 200 status code", () => {
+                const accessToken = generateToken({
+                    user_id: "1",
+                    username: "user1",
+                    display_name: "User One"
+                });
+                return request(app).get("/api/servers/1/events")
+                    .set("Authorization", accessToken)
+                    .expect(200);
+            });
+        });
+    });
+    describe("PATCH", () => {
+        describe("/api/events", () => {
+
+        });
+    });
+    describe("POST", () => {
+        describe("/api/events", () => {
+
+        });
+        describe("/api/events/:event_id/entries", () => {
+
+        });
+    });
+    describe("PUT", () => {
+        describe("/api/events/:event_id/votes", () => {
+
+        });
+    });
+    describe("DELETE", () => {
+        describe("/api/events", () => {
+
+        });
+        describe("/api/events/:event_id/entries", () => {
+
+        });
+    });
+});
