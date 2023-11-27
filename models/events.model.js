@@ -45,7 +45,32 @@ exports.selectEvent = async (params, headers) => {
     }
 };
 exports.selectEvents = async (queries, headers) => {
-
+    const token = headers["authorization"];
+    if (token) {
+        try {
+            const decoded = jwt.verify(token, process.env.JWT_KEY);
+            const user_id = decoded.user_id;
+            const results = await client.query(`SELECT e.*
+                                                FROM events e
+                                                         LEFT JOIN servers s ON e.server_id = s.server_id
+                                                         LEFT JOIN server_users su ON su.server_id = s.server_id AND su.user_id = $1
+                                                WHERE (
+                                                              (e.visibility = 0 AND s.visibility = 0)
+                                                              OR
+                                                              (su.user_id = $1 AND e.visibility <= su.access_level)
+                                                          );`, [user_id]);
+            return results.rows;
+        } catch {
+            return Promise.reject({status: 401, msg: "Unauthorised"});
+        }
+    } else {
+        const results = await client.query(`SELECT e.*
+                                            FROM events e
+                                                     LEFT JOIN servers s ON e.server_id = s.server_id
+                                            WHERE e.visibility = 0
+                                              AND S.visibility = 0`);
+        return results.rows;
+    }
 };
 exports.selectEventEntries = async (params, headers) => {
 

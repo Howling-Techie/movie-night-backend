@@ -73,3 +73,5 @@ app.listen(PORT, function (err) {
     }
     console.log(`Listening at http://localhost:${PORT}/`);
 });
+
+module.exports = app;
