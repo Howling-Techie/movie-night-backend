@@ -58,12 +58,12 @@ exports.signInUser = async (body) => {
                 for (const userGuild of userGuilds) {
                     // Add server if the user owns it
                     if (userGuild.owner) {
-                        await client.query(`INSERT INTO servers(server_id, server_name, visibility, avatar)
-                                            VALUES ($1, $2, $3, $4)
+                        await client.query(`INSERT INTO servers(server_id, server_name, visibility, avatar, owner_id)
+                                            VALUES ($1, $2, $3, $4, $5)
                                             ON CONFLICT ON CONSTRAINT servers_pkey
                                                 DO UPDATE SET server_name = $2,
                                                               avatar      = $4;`,
-                            [userGuild.id, userGuild.name, 0, userGuild.icon]);
+                            [userGuild.id, userGuild.name, 0, userGuild.icon, discordUser.id]);
 
                         await client.query(`INSERT INTO server_users(user_id, server_id, access_level)
                                             VALUES ($1, $2, $3)
