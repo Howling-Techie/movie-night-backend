@@ -21,6 +21,10 @@ exports.selectSubmission = async (params, headers) => {
                                            FROM users u
                                            WHERE u.user_id = $1`, [submission.user_id]);
     submission.user = userResult.rows[0];
+    const serverResult = await client.query(`SELECT *
+                                             FROM servers s
+                                             WHERE s.server_id = $1`, [submission.server_id]);
+    submission.server = serverResult.rows[0];
     const movieResults = await client.query(`SELECT sm.movie_id, sm.image, sm.poster
                                              FROM submission_movies sm
                                              WHERE sm.submission_id = $1`, [submission.submission_id]);
