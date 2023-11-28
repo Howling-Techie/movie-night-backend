@@ -32,6 +32,9 @@ async function dropTables() {
     await client.query("DROP TABLE IF EXISTS server_users;");
     await client.query("DROP TABLE IF EXISTS servers;");
     await client.query("DROP TABLE IF EXISTS users;");
+    await client.query("DROP TABLE IF EXISTS reviews;");
+    await client.query("DROP TABLE IF EXISTS comments;");
+    await client.query("DROP TABLE IF EXISTS event_comments;");
 }
 
 async function createTables() {
@@ -108,10 +111,11 @@ async function createTables() {
         CREATE TABLE IF NOT EXISTS movies
         (
             movie_id       SERIAL PRIMARY KEY,
-            title          VARCHAR(255) NOT NULL,
+            title          VARCHAR(255)      NOT NULL,
             release_date   DATE,
             duration       INTEGER,
             description    TEXT,
+            avg_rating     DECIMAL DEFAULT 0 NOT NULL,
             image          VARCHAR(255),
             poster         VARCHAR(255),
             imdb_id        VARCHAR(255),
@@ -150,6 +154,7 @@ async function createTables() {
             time_submitted   TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP       NOT NULL,
             title            VARCHAR(255)                                NOT NULL,
             description      TEXT,
+            rating           INTEGER     DEFAULT 0                       NOT NULL,
             status           VARCHAR(255),
             first_appearance DATE,
             last_appearance  DATE
@@ -202,6 +207,40 @@ async function createTables() {
             PRIMARY KEY (entry_id, vote_id)
         );
     `);
+
+    // Create reviews table
+    await client.query(`
+        CREATE TABLE IF NOT EXISTS reviews
+        (
+            review_id      SERIAL PRIMARY KEY,
+            user_id        VARCHAR(255) REFERENCES users (user_id) NOT NULL,
+            movie_id       INTEGER REFERENCES movies (movie_id)    NOT NULL,
+            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP   NOT NULL,
+            rating         INTEGER,
+            comment        TEXT
+        );
+    `);
+
+    // Create comments table
+    await client.query(`
+        CREATE TABLE IF NOT EXISTS comments
+        (
+            comment_id     SERIAL PRIMARY KEY,
+            user_id        VARCHAR(255) REFERENCES users (user_id) NOT NULL,
+            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP   NOT NULL,
+            comment        TEXT
+        );
+    `);
+
+    // Create event_comments table
+    await client.query(`
+        CREATE TABLE IF NOT EXISTS event_comments
+        (
+            event_id   INTEGER REFERENCES events (event_id),
+            comment_id INTEGER REFERENCES comments (comment_id),
+            PRIMARY KEY (event_id, comment_id)
+        );
+    `);
 }
 
 async function insertData(data) {
@@ -211,7 +250,7 @@ async function insertData(data) {
     await insertDataIntoTable("movies", data.movies);
     await insertDataIntoTable("genres", data.genres);
     await insertDataIntoTable("movie_genres", data.movieGenres);
-    //await insertDataIntoTable("tags", data.tags);
+    await insertDataIntoTable("tags", data.tags);
     await insertDataIntoTable("server_users", data.serverUsers);
     await insertDataIntoTable("submissions", data.submissions);
     await insertDataIntoTable("submission_movies", data.submissionMovies);
