@@ -258,6 +258,25 @@ async function insertData(data) {
     await insertDataIntoTable("event_entries", data.eventEntries);
     await insertDataIntoTable("votes", data.votes);
     await insertDataIntoTable("entry_votes", data.entryVotes);
+
+    //Update first and last appearance based on the latest event_date for each submission_id
+    await client.query(`
+        UPDATE submissions s
+        SET first_appearance = ee.min_event_date
+        FROM (SELECT submission_id, MIN(e.start_time) AS min_event_date
+              FROM event_entries
+                       LEFT JOIN events e on e.event_id = event_entries.event_id
+              GROUP BY submission_id) ee
+        WHERE s.submission_id = ee.submission_id;
+
+        UPDATE submissions s
+        SET last_appearance = ee.max_event_date
+        FROM (SELECT submission_id, MAX(e.start_time) AS max_event_date
+              FROM event_entries
+                       LEFT JOIN events e on e.event_id = event_entries.event_id
+              GROUP BY submission_id) ee
+        WHERE s.submission_id = ee.submission_id;
+    `);
 }
 
 async function insertDataIntoTable(tableName, dataArray) {
