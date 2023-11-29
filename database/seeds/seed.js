@@ -19,6 +19,9 @@ async function seed(data) {
 
 async function dropTables() {
     // Drop tables in reverse order to avoid foreign key constraints
+    await client.query("DROP TABLE IF EXISTS reviews;");
+    await client.query("DROP TABLE IF EXISTS event_comments;");
+    await client.query("DROP TABLE IF EXISTS comments;");
     await client.query("DROP TABLE IF EXISTS entry_votes;");
     await client.query("DROP TABLE IF EXISTS votes;");
     await client.query("DROP TABLE IF EXISTS event_entries;");
@@ -32,9 +35,6 @@ async function dropTables() {
     await client.query("DROP TABLE IF EXISTS server_users;");
     await client.query("DROP TABLE IF EXISTS servers;");
     await client.query("DROP TABLE IF EXISTS users;");
-    await client.query("DROP TABLE IF EXISTS reviews;");
-    await client.query("DROP TABLE IF EXISTS comments;");
-    await client.query("DROP TABLE IF EXISTS event_comments;");
 }
 
 async function createTables() {
