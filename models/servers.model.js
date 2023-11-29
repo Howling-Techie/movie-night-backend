@@ -27,9 +27,7 @@ exports.selectServerUsers = async (params, queries, headers) => {
 exports.selectServerEvents = async (params, queries, headers) => {
     const {server_id} = params;
     const token = headers["authorization"];
-    console.log("Checking server is accessible");
     await checkServerIsAccessible(server_id, token);
-    console.log("Passed check");
     const results = await client.query(`SELECT *
                                         FROM events
                                         WHERE server_id = $1`, [server_id]);
