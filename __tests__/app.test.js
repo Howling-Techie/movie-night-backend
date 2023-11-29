@@ -183,7 +183,7 @@ describe("/api/events", () => {
                             expect(typeof entry.event_id).toBe("number");
                             expect(typeof entry.entry_id).toBe("number");
                             expect(typeof entry.submission_id).toBe("number");
-                            expect(typeof entry.status).toBe("string");
+                            expect(typeof entry.status).toBe("number");
                             expect(typeof entry.score).toBe("number");
                         });
                     });
@@ -201,7 +201,7 @@ describe("/api/events", () => {
                             expect(typeof entry.event_id).toBe("number");
                             expect(typeof entry.entry_id).toBe("number");
                             expect(typeof entry.submission_id).toBe("number");
-                            expect(typeof entry.status).toBe("string");
+                            expect(typeof entry.status).toBe("number");
                             expect(typeof entry.score).toBe("number");
                         });
                     });

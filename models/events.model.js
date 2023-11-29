@@ -51,7 +51,9 @@ exports.selectEventEntries = async (params, headers) => {
     const results = await client.query(`SELECT *
                                         FROM event_entries
                                         WHERE event_id = $1`, [event_id]);
-    return results.rows;
+    return results.rows.map(entry => {
+        return {...entry, score: +entry.score};
+    });
 };
 
 exports.selectEventVotes = async (params, headers) => {
@@ -75,7 +77,9 @@ exports.selectEventVotes = async (params, headers) => {
             FROM entry_votes
             WHERE vote_id = $1;
         `, [vote.vote_id]);
-        vote.votes = voteValuesResult.rows;
+        vote.votes = voteValuesResult.rows.map(entryVote => {
+            return {...entryVote, points: +entryVote.points};
+        });
     }
     return votes;
 };
