@@ -537,15 +537,15 @@ describe("/api/servers", () => {
         });
     });
     describe("PATCH", () => {
-        describe("/api/events", () => {
+        describe("/api/servers", () => {
 
         });
     });
     describe("POST", () => {
-        describe("/api/events", () => {
+        describe("/api/servers", () => {
 
         });
-        describe("/api/events/:event_id/entries", () => {
+        describe("/api/servers/:event_id/entries", () => {
 
         });
     });
@@ -560,6 +560,65 @@ describe("/api/servers", () => {
         });
         describe("/api/events/:event_id/entries", () => {
 
+        });
+    });
+});
+
+describe("/api/submissions", () => {
+    describe("GET", () => {
+        describe("/api/submissions", () => {
+            test("return 200 status code", () => {
+                return request(app).get("/api/submissions")
+                    .expect(200);
+            });
+            test("return an array of submissions", () => {
+                return request(app).get("/api/submissions")
+                    .then(({body}) => {
+                        body.submissions.forEach((submission) => {
+                            expect(submission).toMatchObject({
+                                submission_id: expect.any(Number),
+                                user_id: expect.any(String),
+                                server_id: expect.any(String),
+                                title: expect.any(String),
+                                time_submitted: expect.any(String),
+                                rating: expect.any(Number),
+                                description: expect.any(String),
+                                first_appearance: expect.any(String),
+                                last_appearance: expect.any(String),
+                                movies: expect.any(Array),
+                                user: expect.any(Object)
+                            });
+                        });
+                    });
+            });
+        });
+
+        describe("/api/movies/:movie_id", () => {
+            test("return 200 status code", () => {
+                return request(app).get("/api/movies/1")
+                    .expect(200);
+            });
+            test("return a specific movie", () => {
+                return request(app).get("/api/movies/2")
+                    .then(({body}) => {
+                        const movie = body.movie;
+                        expect(movie).toMatchObject({
+                            movie_id: 2,
+                            title: "The Shawshank Redemption",
+                            release_date: "1994-09-22T23:00:00.000Z",
+                            duration: 142,
+                            description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+                            image: "shawshank_image.jpg",
+                            poster: "shawshank_poster.jpg",
+                            imdb_id: "tt0111161",
+                            letterboxd_url: "https://letterboxd.com/film/the-shawshank-redemption/"
+                        });
+                    });
+            });
+            test("return 404 when trying to access an invalid movie", () => {
+                return request(app).get("/api/movies/10")
+                    .expect(404);
+            });
         });
     });
 });
