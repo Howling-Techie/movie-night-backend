@@ -8,10 +8,15 @@ exports.selectEvent = async (params, headers) => {
     const token = headers["authorization"];
     await checkEventIsAccessible(event_id, token);
 
-    const results = await client.query(`SELECT *
-                                        FROM events
-                                        WHERE event_id = $1`, [event_id]);
-    return results.rows[0];
+    const eventResult = await client.query(`SELECT *
+                                            FROM events
+                                            WHERE event_id = $1`, [event_id]);
+    const event = eventResult.rows[0];
+    const serverResult = await client.query(`SELECT *
+                                             FROM servers
+                                             WHERE server_id = $1`, [event.server_id]);
+    event.server = serverResult.rows[0];
+    return event;
 };
 
 exports.selectEvents = async (queries, headers) => {
@@ -34,12 +39,19 @@ exports.selectEvents = async (queries, headers) => {
             return Promise.reject({status: 401, msg: "Unauthorised"});
         }
     } else {
-        const results = await client.query(`SELECT e.*
-                                            FROM events e
-                                                     LEFT JOIN servers s ON e.server_id = s.server_id
-                                            WHERE e.visibility = 0
-                                              AND s.visibility = 0`);
-        return results.rows;
+        const eventResults = await client.query(`SELECT e.*
+                                                 FROM events e
+                                                          LEFT JOIN servers s ON e.server_id = s.server_id
+                                                 WHERE e.visibility = 0
+                                                   AND s.visibility = 0`);
+        const events = eventResults.rows;
+        for (const event of events) {
+            const serverResult = await client.query(`SELECT *
+                                                     FROM servers
+                                                     WHERE server_id = $1`, [event.server_id]);
+            event.server = serverResult.rows[0];
+        }
+        return events;
     }
 };
 
@@ -48,12 +60,43 @@ exports.selectEventEntries = async (params, headers) => {
     const token = headers["authorization"];
     await checkEventIsAccessible(event_id, token);
 
-    const results = await client.query(`SELECT *
-                                        FROM event_entries
-                                        WHERE event_id = $1`, [event_id]);
-    return results.rows.map(entry => {
+    const entryResults = await client.query(`SELECT *
+                                             FROM event_entries
+                                             WHERE event_id = $1`, [event_id]);
+    const entries = entryResults.rows.map(entry => {
         return {...entry, score: +entry.score};
     });
+    for (const entry of entries) {
+        const submissionResult = await client.query(`SELECT *
+                                                     FROM submissions
+                                                     WHERE submission_id = $1`, [entry.submission_id]);
+        const submission = submissionResult.rows[0];
+        const userResult = await client.query(`SELECT *
+                                               FROM users u
+                                               WHERE u.user_id = $1`, [submission.user_id]);
+        submission.user = userResult.rows[0];
+        const serverResult = await client.query(`SELECT *
+                                                 FROM servers s
+                                                 WHERE s.server_id = $1`, [submission.server_id]);
+        submission.server = serverResult.rows[0];
+        const movieResults = await client.query(`SELECT sm.movie_id, sm.image, sm.poster
+                                                 FROM submission_movies sm
+                                                 WHERE sm.submission_id = $1`, [submission.submission_id]);
+        submission.movies = movieResults.rows;
+        for (const movie of submission.movies) {
+            const movieResult = await client.query(`SELECT m.*
+                                                    FROM movies m
+                                                    WHERE m.movie_id = $1`, [movie.movie_id]);
+            const genreResult = await client.query(`SELECT g.name
+                                                    FROM movie_genres mg
+                                                             LEFT JOIN genres g on g.genre_id = mg.genre_id
+                                                    WHERE mg.movie_id = $1`, [movie.movie_id]);
+            movie.movie_info = movieResult.rows[0];
+            movie.movie_info.genres = genreResult.rows;
+        }
+        entry.submission = submission;
+    }
+    return entries;
 };
 
 exports.selectEventVotes = async (params, headers) => {
@@ -62,12 +105,12 @@ exports.selectEventVotes = async (params, headers) => {
     await checkEventIsAccessible(event_id, token);
 
     // Fetch votes for the given event_id
-    const votesResult = await client.query(`
+    const voteResults = await client.query(`
         SELECT *
         FROM votes
         WHERE event_id = $1;
     `, [event_id]);
-    const votes = votesResult.rows;
+    const votes = voteResults.rows;
 
     // Fetch vote_values for each vote_id
     for (const vote of votes) {
@@ -81,7 +124,38 @@ exports.selectEventVotes = async (params, headers) => {
             return {...entryVote, points: +entryVote.points};
         });
     }
-    return votes;
+
+    // Get all entries in event
+    const entryResults = await client.query(`SELECT *
+                                             FROM event_entries
+                                             WHERE event_id = $1
+                                             ORDER BY score`, [event_id]);
+    const entries = entryResults.rows.map(entry => {
+        return {...entry, score: +entry.score};
+    });
+    for (const entry of entries) {
+        const submissionResult = await client.query(`SELECT *
+                                                     FROM submissions
+                                                     WHERE submission_id = $1`, [entry.submission_id]);
+        entry.submission = submissionResult.rows[0];
+        //Match up votes to entries
+        entry.votes = [];
+        entry.score = 0;
+        for (const vote of votes) {
+            if (vote.votes.some(voteVote => voteVote.entry_id === entry.entry_id)) {
+                const userResult = await client.query(`SELECT *
+                                                       FROM users
+                                                       WHERE user_id = $1`, [vote.user_id]);
+                const user = userResult.rows[0];
+                entry.votes.push({
+                    user,
+                    points: vote.votes.find(voteVote => voteVote.entry_id === entry.entry_id).points
+                });
+                entry.score += vote.votes.find(voteVote => voteVote.entry_id === entry.entry_id).points;
+            }
+        }
+    }
+    return entries.sort((a, b) => a.score - b.score);
 };
 
 // UPDATE

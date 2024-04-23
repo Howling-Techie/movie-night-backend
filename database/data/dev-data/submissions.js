@@ -1,6 +1,6 @@
 module.exports = [
     {
-        "submission_id": 770,
+        "id": 770,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -8,12 +8,10 @@ module.exports = [
         "title": "Romeo + Juliet",
         "description": "Baz Lhurmann's Shakespearian tale of young romance",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 771,
+        "id": 771,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -21,12 +19,10 @@ module.exports = [
         "title": "Little Miss Sunshine",
         "description": "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-04-09"
+        "status": "Dead"
     },
     {
-        "submission_id": 772,
+        "id": 772,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -34,12 +30,10 @@ module.exports = [
         "title": "Kindergarten Cop",
         "description": "Arnold Schwarzenegger stars as a policeman who takes on the toughest assignment of his career when he poses as a kindergarten teacher in order to catch a criminal.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-05"
+        "status": "Dead"
     },
     {
-        "submission_id": 773,
+        "id": 773,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -47,12 +41,10 @@ module.exports = [
         "title": "Office Space",
         "description": "A movie about TPS reports and office shenanigans",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 774,
+        "id": 774,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -60,12 +52,10 @@ module.exports = [
         "title": "The Fugitive",
         "description": "A doctor, wrongly convicted for a murder he didn't commit, escapes custody and must stay ahead of the police to find the real killer. Starring Harrison Ford and Tommy Lee Jones, this film is based on the 1960s television series of the same name created by Roy Huggins",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-04-23"
+        "status": "Dead"
     },
     {
-        "submission_id": 775,
+        "id": 775,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -73,12 +63,10 @@ module.exports = [
         "title": "Bee Movie",
         "description": "A Bee fights for his rights to love humans",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-01"
+        "status": "Dead"
     },
     {
-        "submission_id": 776,
+        "id": 776,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -86,12 +74,10 @@ module.exports = [
         "title": "Turner & Hooch",
         "description": "A hilarious nonstop test of wills between this mismatched duo, Tom Hanks and a drooling slob of a junkyard dog named Hooch",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": "2022-07-23",
-        "last_appearance": "2022-07-23"
+        "status": "Dead"
     },
     {
-        "submission_id": 777,
+        "id": 777,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -99,12 +85,10 @@ module.exports = [
         "title": "Matchstick Men",
         "description": "A phobic con artist and his protÃ©gÃ© are on the verge of pulling off a lucrative swindle when the former's teenage daughter arrives unexpectedly.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-07-02",
-        "last_appearance": "2022-07-02"
+        "status": "Dead"
     },
     {
-        "submission_id": 778,
+        "id": 778,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -112,12 +96,10 @@ module.exports = [
         "title": "Terminal Velocity",
         "description": "Sheen finds himself hurled headlong into a nightmare world of intrigue and deceit -- caught in a deadly game of cat and mouse with the Russian mafia!",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-19"
+        "status": "Dead"
     },
     {
-        "submission_id": 779,
+        "id": 779,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -125,12 +107,10 @@ module.exports = [
         "title": "Look Who's Talking Too",
         "description": "The cast from the original blockbuster LOOK WHO'S TALKING is back--with one new addition",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-08-27",
-        "last_appearance": "2022-08-27"
+        "status": "Dead"
     },
     {
-        "submission_id": 780,
+        "id": 780,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -138,12 +118,10 @@ module.exports = [
         "title": "Police Story 4: First Strike",
         "description": "Jackie Chan as Secret Agent Man",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 781,
+        "id": 781,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -151,12 +129,10 @@ module.exports = [
         "title": "Look Who's Talking",
         "description": "The first feature film to literally voice the concerns of a baby",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-11-20"
+        "status": "Dead"
     },
     {
-        "submission_id": 782,
+        "id": 782,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -164,12 +140,10 @@ module.exports = [
         "title": "The Crow",
         "description": "A man brutally murdered comes back to life as an undead avenger of his and his fiancÃ©e's murder.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-12"
+        "status": "Dead"
     },
     {
-        "submission_id": 783,
+        "id": 783,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -177,12 +151,10 @@ module.exports = [
         "title": "K-9",
         "description": "A superbly-trained German shepherd police dog with the best nose in the drug-busting business team up with James Belushi",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-26"
+        "status": "Dead"
     },
     {
-        "submission_id": 784,
+        "id": 784,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -190,12 +162,10 @@ module.exports = [
         "title": "The Dark Half",
         "description": "Starring Timothy Hutten & Michael Rooker, A writer's fictional alter ego wants to take over his life...at any price! George Romero wrote the screenplay and directed, based on a Stephen King story.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-04-02"
+        "status": "Dead"
     },
     {
-        "submission_id": 785,
+        "id": 785,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -203,12 +173,10 @@ module.exports = [
         "title": "The Muppet Movie",
         "description": "The 1979 film debut of Kermit the Frog, Miss Piggy, & other Muppets favorites",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-15"
+        "status": "Dead"
     },
     {
-        "submission_id": 786,
+        "id": 786,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -216,12 +184,10 @@ module.exports = [
         "title": "Kung Pow: Enter the Fist",
         "description": "American martial arts comedy film that parodies Hong Kong action cinema.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": "2022-06-18",
-        "last_appearance": "2022-06-25"
+        "status": "Dead"
     },
     {
-        "submission_id": 787,
+        "id": 787,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -229,12 +195,10 @@ module.exports = [
         "title": "Legend",
         "description": "Tom Cruise as Link, Mia Sara as Zelda, oh and Tim Curry is in it as DARKNESS!",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-02"
+        "status": "Dead"
     },
     {
-        "submission_id": 788,
+        "id": 788,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -242,12 +206,10 @@ module.exports = [
         "title": "Look Who's Talking Now!",
         "description": "Diane Keaton and Danny DeVito play the voices of the canines",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": "2022-09-03",
-        "last_appearance": "2022-09-03"
+        "status": "Dead"
     },
     {
-        "submission_id": 789,
+        "id": 789,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -255,12 +217,10 @@ module.exports = [
         "title": "Turn the River",
         "description": "A pool shark (Famke Janssen) takes the ultimate gamble when she kidnaps her own son and flees her ex-husband.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-07-16",
-        "last_appearance": "2022-07-16"
+        "status": "Dead"
     },
     {
-        "submission_id": 790,
+        "id": 790,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -268,12 +228,10 @@ module.exports = [
         "title": "Poolhall Junkies",
         "description": "A talented pool hustler who has stayed out of the game for years, must go back to his old ways when his little brother gets involved with his enemy, the very man who held him back from greatness.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-07-30",
-        "last_appearance": "2022-07-30"
+        "status": "Dead"
     },
     {
-        "submission_id": 791,
+        "id": 791,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -281,12 +239,10 @@ module.exports = [
         "title": "Stickmen",
         "description": "Three young men unwittingly become involved in an underground pool tournament. You need balls to play this game",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-07-02",
-        "last_appearance": "2022-07-09"
+        "status": "Dead"
     },
     {
-        "submission_id": 792,
+        "id": 792,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -294,12 +250,10 @@ module.exports = [
         "title": "MirrorMask",
         "description": "A young woman gets trapped in a fantasy hell world",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-23"
+        "status": "Dead"
     },
     {
-        "submission_id": 793,
+        "id": 793,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -307,12 +261,10 @@ module.exports = [
         "title": "Going Overboard",
         "description": "A struggling young comedian takes a menial job on a cruise ship",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-11-27"
+        "status": "Dead"
     },
     {
-        "submission_id": 794,
+        "id": 794,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -320,12 +272,10 @@ module.exports = [
         "title": "Slappy and the Stinkers",
         "description": "Five feisty kids nicknamed the \"Stinkers\" team up with a Seal to cause chaos.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-11-06"
+        "status": "Dead"
     },
     {
-        "submission_id": 795,
+        "id": 795,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -333,12 +283,10 @@ module.exports = [
         "title": "9-Ball",
         "description": "A young woman aspires to become a 9-ball professional and champion but her hustling uncle has other plans for her skills.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-04-30",
-        "last_appearance": "2022-04-30"
+        "status": "Dead"
     },
     {
-        "submission_id": 796,
+        "id": 796,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -346,12 +294,10 @@ module.exports = [
         "title": "9-Ball",
         "description": "A young woman aspires to become a 9-ball professional and champion but her hustling uncle has other plans for her skills.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-08-13",
-        "last_appearance": "2022-08-13"
+        "status": "Dead"
     },
     {
-        "submission_id": 797,
+        "id": 797,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -359,12 +305,10 @@ module.exports = [
         "title": "Replicas",
         "description": "A daring synthetic biologist, after a car accident kills his family, will stop at nothing to bring them back, even if it means pitting himself against a government-controlled laboratory, a police task force and the physical laws of science.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-09-24",
-        "last_appearance": "2022-10-01"
+        "status": "Dead"
     },
     {
-        "submission_id": 798,
+        "id": 798,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -372,12 +316,10 @@ module.exports = [
         "title": "Space Jam: A New Legacy",
         "description": "When LeBron James and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court: a powered-up roster of professional basketball stars as you've never seen them before.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-04-16"
+        "status": "Dead"
     },
     {
-        "submission_id": 799,
+        "id": 799,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -385,12 +327,10 @@ module.exports = [
         "title": "Kingsglaive: Final Fantasy XV",
         "description": "Did you like FF15 with the 4 boys? This is the animated prequel to the successful role playing game, featuring Breaking Bad's Jesse Pinkman (Aaron Paul), 2 people from Game of Thrones (Lena Headley, Sean Bean) & Ray Chase himself as Noctis!",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-12"
+        "status": "Dead"
     },
     {
-        "submission_id": 800,
+        "id": 800,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -398,12 +338,10 @@ module.exports = [
         "title": "Get Out",
         "description": "A young black man uncovers a disturbing secret when he meets the family of his white girlfriend",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 801,
+        "id": 801,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -411,12 +349,10 @@ module.exports = [
         "title": "Crank",
         "description": "the two most annoying dudes you went to film school with who had the worst taste made a movie... and it turned out to fucking rule.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2022-11-12",
-        "last_appearance": "2022-11-12"
+        "status": "Victorious"
     },
     {
-        "submission_id": 802,
+        "id": 802,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -424,12 +360,10 @@ module.exports = [
         "title": "Reign of Fire",
         "description": "Matthew McConaughey as a bald, tatted, and hardened beast hunter. Young Christian Bale as his humble opposite. A ravaged post apocalyptic world. Dragons.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2022-09-17",
-        "last_appearance": "2022-09-17"
+        "status": "Victorious"
     },
     {
-        "submission_id": 803,
+        "id": 803,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -437,12 +371,10 @@ module.exports = [
         "title": "Kops",
         "description": "Josef Fares (of the VGAs fame) sophmore movie effort. A movie that is as much a pastiche of Swedish small-town living as it is a satirical take on the americanization of Swedish police culture, a real cult-classic.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2022-01-22",
-        "last_appearance": "2022-04-30"
+        "status": "Victorious"
     },
     {
-        "submission_id": 804,
+        "id": 804,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -450,12 +382,10 @@ module.exports = [
         "title": "Universal Soldier",
         "description": "Before he was Hollywoodâ€™s go-to guy for bloated hokey disaster filmsâ€”back when he was still tryingâ€”Roland Emmerich directed this ultra macho action spectacle. Giving our boy Lundgren what is likely his closest brush with mainstream stardom in his post-Rocky career.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2022-10-08",
-        "last_appearance": "2022-10-08"
+        "status": "Victorious"
     },
     {
-        "submission_id": 805,
+        "id": 805,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -463,12 +393,10 @@ module.exports = [
         "title": "Spy Kids 3-D: Game Over",
         "description": "by far the most iconic part of this movie is when elijah wood shows up as The Guyâ„¢, gives a rousing speech, and then gets absolutely wrecked all within 30 seconds of screentime",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2022-06-18",
-        "last_appearance": "2022-07-09"
+        "status": "Victorious"
     },
     {
-        "submission_id": 806,
+        "id": 806,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -476,12 +404,10 @@ module.exports = [
         "title": "Crank: High Voltage",
         "description": "two bored dirtbags / hyperactive camera operators working off the general ethos of \"fuck you, fuck everything\" accidentally destroy and rebuild cinema in their psychotically depraved image before simply burning it all down again anyway just for the hell of it. presumably we once lived in a world where real people ok'd this and spent money on it. we have to go back.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 807,
+        "id": 807,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -489,12 +415,10 @@ module.exports = [
         "title": "Les Misérables",
         "description": "i love every inch of this heavy-handed, poorly shot, badly sung masterpiece to pieces and it makes me wanna believe in god - letterboxd user",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-09-03",
-        "last_appearance": "2022-09-10"
+        "status": "Dead"
     },
     {
-        "submission_id": 808,
+        "id": 808,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -502,12 +426,10 @@ module.exports = [
         "title": "Death Academy",
         "description": "A couple of friends break into their school late one night to solve a mystery hidden in the past, only to realize that they are trapped inside with a masked serial killer. (Budget approx. 50 dollars)",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-07-09",
-        "last_appearance": "2022-07-09"
+        "status": "Dead"
     },
     {
-        "submission_id": 809,
+        "id": 809,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -515,12 +437,10 @@ module.exports = [
         "title": "Assassin 33 A.D.",
         "description": "Young geniuses create time travel only to find that extremists are using it to send assassins to kill Jesus. They must hijack the time machine, stop the assassins, and restore the resurrection to save the world from the apocalypse.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-05-07",
-        "last_appearance": "2022-06-11"
+        "status": "Victorious"
     },
     {
-        "submission_id": 810,
+        "id": 810,
         "user_id": "117799226741620738",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -528,12 +448,10 @@ module.exports = [
         "title": "Ben & Arthur",
         "description": "A gay man's (Sam Mraovich) religious fanatic brother plots to murder him and his new husband (Jamie Brett Gabel).",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 811,
+        "id": 811,
         "user_id": "117799226741620738",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -541,12 +459,10 @@ module.exports = [
         "title": "Money Plane",
         "description": "A crime boss forces one of his goons, after a failed robbery, to hijack the Moneyplane. This leads him and a band of crooks to try to steal a plane where ANYTHING is legal. Bad acting, bad sets, and bad hairlines!",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-05-01"
+        "status": "Victorious"
     },
     {
-        "submission_id": 812,
+        "id": 812,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -554,12 +470,10 @@ module.exports = [
         "title": "Chicken Run",
         "description": "Having been hopelessly repressed and facing eventual certain death at the British chicken farm where they are held, Ginger the chicken along with the help of Rocky the American rooster decide to rebel and lead their fellow chickens in a great escape from the murderous farmers Mr. and Mrs. Tweedy and their farm of doom.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": "2022-08-27",
-        "last_appearance": "2022-09-10"
+        "status": "Dead"
     },
     {
-        "submission_id": 813,
+        "id": 813,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -567,12 +481,10 @@ module.exports = [
         "title": "Barnyard",
         "description": "this film is legitimately the peak of cinema I like animals doing dumb shit and dumb shit in general and this film is just that it perfectly sums up my awful sense of humor -Wise Wizard. Also has trans icon and pronoun respecter Otis as main character.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-08-13",
-        "last_appearance": "2022-08-20"
+        "status": "Dead"
     },
     {
-        "submission_id": 814,
+        "id": 814,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -580,12 +492,10 @@ module.exports = [
         "title": "Robots",
         "description": "Robots is straight up a sexy political comedy-thriller, that also functions as an explicit commentary on class conflict & capitalism & propaganda & big pharma & MUCH more, disguised as a feel-good animated kids movie.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 815,
+        "id": 815,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -593,12 +503,10 @@ module.exports = [
         "title": "Shark Tale",
         "description": "A working class fish realizes that capitalism is built on a lie. Also there's Vegan Shark and Mafia Shark, guess there's some class conflict in that too. I really hope someone's reading this T-T",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-05"
+        "status": "Dead"
     },
     {
-        "submission_id": 816,
+        "id": 816,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -606,12 +514,10 @@ module.exports = [
         "title": "2012",
         "description": "Based on the false myth that the Mayan calander said the world would end in 2012, also, it's pretty bad.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 817,
+        "id": 817,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -619,12 +525,10 @@ module.exports = [
         "title": "The House of Orphans",
         "description": "A so bad it's good Swedish horror movie in English made by the legendary and totally famous director Daniel Lehmussaari. It's about a totally American family moving into a house that previously was an orphanage that did a lot of yikes stuff to the children living there, so it is now haunted and cursed.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-07-16",
-        "last_appearance": "2022-07-16"
+        "status": "Dead"
     },
     {
-        "submission_id": 818,
+        "id": 818,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -632,12 +536,10 @@ module.exports = [
         "title": "Birdemic: Shock and Terror",
         "description": "A beautiful romance movie with a wonderful soundtrack and amazing editing. There's also some birds that attack or something idk. You know what this movie is about.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-19"
+        "status": "Dead"
     },
     {
-        "submission_id": 819,
+        "id": 819,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -645,12 +547,10 @@ module.exports = [
         "title": "Anastasia",
         "description": "A completely historical movie about Anastasia, Rasputin and the Russian Revolution",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-02-20"
+        "status": "Victorious"
     },
     {
-        "submission_id": 820,
+        "id": 820,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -658,12 +558,10 @@ module.exports = [
         "title": "Miami Connection",
         "description": "Ninjas, Motorcycles and Ninjas on Motorcycles. We also have the brilliant Martial Arts band \"Dragon Sound\" with songs that have been featured in games like: Far Cry 3:Blood Dragon",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2021-01-30",
-        "last_appearance": "2021-01-30"
+        "status": "Victorious"
     },
     {
-        "submission_id": 821,
+        "id": 821,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -671,12 +569,10 @@ module.exports = [
         "title": "I Am Here....Now",
         "description": "A Neil Breen movie aboutan almigthy creator dissapointed is his creation arrives on Earth in a human form and interacts with various troubled, wicked and sinful people on his journey to Vegas.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2021-08-14",
-        "last_appearance": "2021-08-14"
+        "status": "Victorious"
     },
     {
-        "submission_id": 822,
+        "id": 822,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -684,12 +580,10 @@ module.exports = [
         "title": "Creating Rem Lezar",
         "description": "2 children are suffering from day dreams about 1 mysterious man, Rem Lezar!",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-28"
+        "status": "Victorious"
     },
     {
-        "submission_id": 823,
+        "id": 823,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -697,12 +591,10 @@ module.exports = [
         "title": "Ashens and the Quest for the Gamechild",
         "description": "Everyone's favourite hands, Ashens, needs to find the Gamechild with the help of Chef Excellence (And not that stupid puppet). It's also a movie filled with references to movies that came out before I was born.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 824,
+        "id": 824,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -710,12 +602,10 @@ module.exports = [
         "title": "Pass Thru",
         "description": "A Neil Breen movie about a messianic entity from the future travels to modern-day earth to wipe out 300,000,000 \"bad people\" and usher in a new era of peace.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-07-31"
+        "status": "Victorious"
     },
     {
-        "submission_id": 825,
+        "id": 825,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -723,12 +613,10 @@ module.exports = [
         "title": "The Emoji Movie",
         "description": "We follow a meh Emoj- you all know what movie this is",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 826,
+        "id": 826,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -736,12 +624,10 @@ module.exports = [
         "title": "Bobby the Hedgehog",
         "description": "Bobby is rainbow colored, but mostly blue, hedgehog that gets amnesia and thinks he's a bird. It's a chinese movie with the English dub featuring current and former Smosh members Ian Hecox and Anthony Padilla.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-02"
+        "status": "Victorious"
     },
     {
-        "submission_id": 827,
+        "id": 827,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -749,12 +635,10 @@ module.exports = [
         "title": "Twisted Pair",
         "description": "A Neil Breen Classic about two Identical twin brothers that become hybrid A.I (artificial intelligence) entities, yet torn in different directions to achieve justice for humanity. So pretty much like every other Breen movie",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-11-27"
+        "status": "Victorious"
     },
     {
-        "submission_id": 828,
+        "id": 828,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -762,12 +646,10 @@ module.exports = [
         "title": "Star Wars: Threads of Destiny",
         "description": "A Swedish fan film set 94 years after the Battle of Endor. But with the fall of the Galactic Empire, the ancient Skenvi Empire now comes out of the woodworks.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-01-23"
+        "status": "Dead"
     },
     {
-        "submission_id": 829,
+        "id": 829,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -775,12 +657,10 @@ module.exports = [
         "title": "Demons",
         "description": "A group of young people, a blind-man and his promiscuous carer and a pimp attend an exclusive screening of a new horror movie. Unfortunately the movie turns those who see it into demons! Sometimes. Or... well it isn't really clear why some of them become demons. But it has amazing gore effects and a helicopter falls through the ceiling for no reason at one point. Italian horror.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2022-05-21",
-        "last_appearance": "2022-08-13"
+        "status": "Victorious"
     },
     {
-        "submission_id": 830,
+        "id": 830,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -788,12 +668,10 @@ module.exports = [
         "title": "Hercules",
         "description": "Lou Ferrigno fights steampunk centaur robots, giant flies and throws a bear into the sky so hard it turns into a constellation in this amazing adaptation of the Greek myth.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-07-09",
-        "last_appearance": "2022-07-30"
+        "status": "Dead"
     },
     {
-        "submission_id": 831,
+        "id": 831,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -801,12 +679,10 @@ module.exports = [
         "title": "The Adventures of Hercules",
         "description": "Sequel to the Lou Ferrigno train wreck. This time Hercules fights a giant monster made of electricity and turns into a gorilla to combat a snake in space, who is also King Minos.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2022-09-10",
-        "last_appearance": "2022-10-15"
+        "status": "Victorious"
     },
     {
-        "submission_id": 832,
+        "id": 832,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -814,12 +690,10 @@ module.exports = [
         "title": "Deep Murder",
         "description": "The Fugitive",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-04-23",
-        "last_appearance": "2022-05-07"
+        "status": "Dead"
     },
     {
-        "submission_id": 833,
+        "id": 833,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -827,12 +701,10 @@ module.exports = [
         "title": "House of Gucci",
         "description": "A sprawling political and crime drama about the backstabbing politics of the Gucci family. But none of that matters because you're here for Jared Leto acting like he's in a Hangover sequel while everyone else makes serious faces.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-02-05"
+        "status": "Victorious"
     },
     {
-        "submission_id": 834,
+        "id": 834,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -840,12 +712,10 @@ module.exports = [
         "title": "Inspector Gadget",
         "description": "I don't remember this being good in any way at all.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-28"
+        "status": "Victorious"
     },
     {
-        "submission_id": 835,
+        "id": 835,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -853,12 +723,10 @@ module.exports = [
         "title": "Lara Croft: Tomb Raider",
         "description": "It's da tomb radier movie! James Bond is also there?",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-03-13"
+        "status": "Victorious"
     },
     {
-        "submission_id": 836,
+        "id": 836,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -866,12 +734,10 @@ module.exports = [
         "title": "Battlefield Earth",
         "description": "L Ron Hubbard presents: Dutch Angles",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-08-21"
+        "status": "Victorious"
     },
     {
-        "submission_id": 837,
+        "id": 837,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -879,12 +745,10 @@ module.exports = [
         "title": "Vampire's Kiss",
         "description": "Nicolas Cage vamping for maybe too long.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-01-16"
+        "status": "Victorious"
     },
     {
-        "submission_id": 838,
+        "id": 838,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -892,12 +756,10 @@ module.exports = [
         "title": "xXx",
         "description": "The most â€œearly 2000sâ€ film of all time. The movie opens on a Rammstein concert, and Xander Cage goes after a politician who tried to ban rap music. He also has the biggest coat. Seriously, look up Xander Cage's coat.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-09-11"
+        "status": "Victorious"
     },
     {
-        "submission_id": 839,
+        "id": 839,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -905,12 +767,10 @@ module.exports = [
         "title": "The Cat in the Hat",
         "description": "Mike Myers plays the Cat in the Hat who makes more sex jokes than he does in Austin Powers",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-14"
+        "status": "Victorious"
     },
     {
-        "submission_id": 840,
+        "id": 840,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -918,12 +778,10 @@ module.exports = [
         "title": "Max Payne",
         "description": "The movie begins with the title character, Max Payne (played by Mark Wahlberg) giving an opening monologue ¨I dont believe in heaven. I believe in pain. I believe in fear. I believe in death.¨ After watching this film I can honestly say that I too believe in pain. Although if you want proof of Mark's Gamer Credentials, look up what he was doing in June 1986.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2022-11-19",
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 841,
+        "id": 841,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -931,12 +789,10 @@ module.exports = [
         "title": "Mac and Me",
         "description": "What if ET had even more product placement?",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-15"
+        "status": "Victorious"
     },
     {
-        "submission_id": 842,
+        "id": 842,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -944,12 +800,10 @@ module.exports = [
         "title": "Delgo",
         "description": "Freddie Prinze Jr., Chris Kattan, Jennifer Love Hewitt, Val Kilmer, Malcolm McDowell, Michael Clarke Duncan, Louis Gossett Jr., Eric Idle, and Burt Reynolds all for some reason star in one of the ugliest animated movies that ever took nine years to make.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-12-18"
+        "status": "Dead"
     },
     {
-        "submission_id": 843,
+        "id": 843,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -957,12 +811,10 @@ module.exports = [
         "title": "Jupiter Ascending",
         "description": "From the people that brought you The Matrix and Speed Racer: Not Star Wars",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-21"
+        "status": "Victorious"
     },
     {
-        "submission_id": 844,
+        "id": 844,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -970,12 +822,10 @@ module.exports = [
         "title": "Car's Life 2",
         "description": "What if there was another Cars Life and it was twice as long as the first one?",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 845,
+        "id": 845,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -983,12 +833,10 @@ module.exports = [
         "title": "The Cat in the Hat",
         "description": "The Avengers of American Brands",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-28"
+        "status": "Victorious"
     },
     {
-        "submission_id": 846,
+        "id": 846,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -996,12 +844,10 @@ module.exports = [
         "title": "Left Behind",
         "description": "What if there was a movie where Nicolas Cage got Left Behind (from the Rapture)",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-08"
+        "status": "Victorious"
     },
     {
-        "submission_id": 847,
+        "id": 847,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1009,12 +855,10 @@ module.exports = [
         "title": "Dwegons and Leprechauns",
         "description": "Words cannot do this movie justice. Worse animation than Goat's Tale. Almost as much colour as Speed Racer.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-07"
+        "status": "Victorious"
     },
     {
-        "submission_id": 848,
+        "id": 848,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1022,12 +866,10 @@ module.exports = [
         "title": "Strange Magic",
         "description": "Written and produced by George Lucas, a jukebox animated fantasy musical about fairies, elves and the swamp-people fighting over a love potion. All the songs were specifically chosen by George Lucas too! Somehow this is one of these things that are both gay and homophobic",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 849,
+        "id": 849,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1035,12 +877,10 @@ module.exports = [
         "title": "Love on a Leash",
         "description": "Woman meets dog, dog falls in love with woman, woman falls in love with dog? Sponsored by the colour Green.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-01-02"
+        "status": "Victorious"
     },
     {
-        "submission_id": 850,
+        "id": 850,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1048,12 +888,10 @@ module.exports = [
         "title": "Inspector Gadget",
         "description": "From the person who brought you The Fifth Element and Lucy: Not Star Wars",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-12-05"
+        "status": "Victorious"
     },
     {
-        "submission_id": 851,
+        "id": 851,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1061,12 +899,10 @@ module.exports = [
         "title": "Brazil",
         "description": "A black comedy set in a dystopian future powered by wacky machines. Was a flop on release, but later acknowledged by the British Film Institute as the 54th greatest British film ever made.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-11-20"
+        "status": "Dead"
     },
     {
-        "submission_id": 852,
+        "id": 852,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1074,12 +910,10 @@ module.exports = [
         "title": "Godzilla",
         "description": "When some lizard eggs get a dose of radioactivity, only one man can stop them: Worm Scientist Dr. Niko \"Nick\" Tatopoulus, played by Matthew Broderick (The Lion King, Inspector Gadget).",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-02-06"
+        "status": "Victorious"
     },
     {
-        "submission_id": 853,
+        "id": 853,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1087,12 +921,10 @@ module.exports = [
         "title": "Equilibrium",
         "description": "This movie invented the term \"gun kata\". Christian Bale takes drugs and kills people who like art. Until he doesn't. And then gun kata.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-01-23"
+        "status": "Victorious"
     },
     {
-        "submission_id": 854,
+        "id": 854,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1100,12 +932,10 @@ module.exports = [
         "title": "Wild Wild West",
         "description": "A Cattle Punk classic. Taking place during the presidency of Ulysses S. Grant, government agents Jim West and Artemus Gordon attempt to prevent a renewal of the Civil War by amputee Southern scientist Dr. Arliss Loveless.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-02-13"
+        "status": "Victorious"
     },
     {
-        "submission_id": 855,
+        "id": 855,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1113,12 +943,10 @@ module.exports = [
         "title": "Hudson Hawk",
         "description": "The movie that flopped so bad that Tri-Star Pictures had to merge. A film that pays tribute to heist films. A film that, on release, was criticized by people thinking it was a horrible action movie, but it is in reality a very good comedy film. Bruce Willis both stars as master burglar Eddie Hawkins and wrote the entire film. The plot combines material based on conspiracy theories, secret societies, and historic mysteries, as well as outlandish \"clockpunk\" technology. The movie did exceptionally well in Japan due to having numerous things in common with Lupin III.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2022-06-18",
-        "last_appearance": "2022-06-18"
+        "status": "Victorious"
     },
     {
-        "submission_id": 856,
+        "id": 856,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1126,12 +954,10 @@ module.exports = [
         "title": "The Postman",
         "description": "Did you know that Kevin Costner was in a different post-apocalyptical movie that bombed twice as hard as Waterworld? Yeah, it's true, it's this movie. In the year 2013 the United States is completely disbanded. Costner is gonna fix it though by delivering mail.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-07-16",
-        "last_appearance": "2022-07-23"
+        "status": "Dead"
     },
     {
-        "submission_id": 857,
+        "id": 857,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1139,12 +965,10 @@ module.exports = [
         "title": "The Adventures of Rocky & Bullwinkle",
         "description": "Classic cartoon characters, much like the rest of us, are in danger of being trapped within the internet. Bad guys from Rocky and Bullwinkle create a television station. Jason Alexander plays Boris and tries his best at doing a Russian accent.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-04-16"
+        "status": "Dead"
     },
     {
-        "submission_id": 858,
+        "id": 858,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1152,12 +976,10 @@ module.exports = [
         "title": "Hard Ticket to Hawaii",
         "description": "A man with a bazooka helps air-freighters against drug smugglers and a snake. Named \"best B movie of all time\" by Paste Magazine in 2014.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-05-08"
+        "status": "Victorious"
     },
     {
-        "submission_id": 859,
+        "id": 859,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1165,12 +987,10 @@ module.exports = [
         "title": "Cabin Boy",
         "description": "A fever dream of a movie that follows an angsty virgin as they head to hawaii.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2021-08-14",
-        "last_appearance": "2021-09-04"
+        "status": "Dead"
     },
     {
-        "submission_id": 860,
+        "id": 860,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1178,12 +998,10 @@ module.exports = [
         "title": "Time Bandits",
         "description": "Terry Gilliam says this movie as the first in his \"Trilogy of Imagination\", claiming that Time Bandits is a child's eye view of the \"craziness of our awkwardly ordered society and the desire to escape it through whatever means possible\". Anyway, history has a bunch of holes in it and 6 dwarves kidnap a kid to do a time heist. Sean Connery, John Cleese, Shelley Duvall, and Ralph Richardson are there too.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-10-09"
+        "status": "Victorious"
     },
     {
-        "submission_id": 861,
+        "id": 861,
         "user_id": "184664496575479809",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1191,12 +1009,10 @@ module.exports = [
         "title": "Chocolate",
         "description": "Remember Chocolat, the French romantic comedy about a chocolate shop?  Yeah this is a Thai kung-fu movie about a girl that likes chocolate.   And Muay Thai.  And beating up her mom's debtors.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2022-05-07",
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 862,
+        "id": 862,
         "user_id": "184664496575479809",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1204,12 +1020,10 @@ module.exports = [
         "title": "Nemesis",
         "description": "What do you get when you combine Albert Pyun, a french kickboxer, a shitload of \"that guy\" actors, and a futuristic dystopia?  If you guessed Cyborg, JCVD is Belgian.  Shame on you.  Seriously though, this movie is considerably more bugfuck insane than Cyborg, and the producers weren't literally bankrupt so there's an effects budget!  Such an effects budget.  Pretty sure they spent more on explosives than any single actor.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-10-08",
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 863,
+        "id": 863,
         "user_id": "184664496575479809",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1217,12 +1031,10 @@ module.exports = [
         "title": "Drive",
         "description": "Mark Dacascos plays a Hong Kong guy who has a superpowered heart that makes him ridiculously good at punching and kicking people. He's trying to defect to the USA. China cares quite a bit actually.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 864,
+        "id": 864,
         "user_id": "184664496575479809",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1230,12 +1042,10 @@ module.exports = [
         "title": "U.S. Seals II: The Ultimate Force",
         "description": "From the director of a bunch of Power Rangers episodes and really good karate movies, US Seals II is what happens when you put action above all else. ESPECIALLY acting. Also Ken from the Street Fighter movie is the villain.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 865,
+        "id": 865,
         "user_id": "184664496575479809",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1243,12 +1053,10 @@ module.exports = [
         "title": "Distortion",
         "description": "Olmec can't help you now.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 866,
+        "id": 866,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1256,12 +1064,10 @@ module.exports = [
         "title": "Silent Hill",
         "description": "spooky fog and a red pryamid thing",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2022-10-22",
-        "last_appearance": "2022-10-22"
+        "status": "Victorious"
     },
     {
-        "submission_id": 867,
+        "id": 867,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1269,12 +1075,10 @@ module.exports = [
         "title": "Hulk",
         "description": "Ang Lee's Hulk a movie hated by the public but love blank check like so lets whatch it",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 868,
+        "id": 868,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1282,12 +1086,10 @@ module.exports = [
         "title": "Zardoz",
         "description": "Lets watch Sean Connery in a red underwear, long ass boots and a double bandaler",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 869,
+        "id": 869,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1295,12 +1097,10 @@ module.exports = [
         "title": "Drive",
         "description": "A transition film/pilot from power ranger zero to power ranger turbo with a child blue ranger for......reasons",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 870,
+        "id": 870,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1308,12 +1108,10 @@ module.exports = [
         "title": "Mighty Morphin Power Rangers: The Movie",
         "description": "an attempted by fox to captilize on power rangers but not use the suits from power rangers also adam is a frog",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 871,
+        "id": 871,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1321,12 +1119,10 @@ module.exports = [
         "title": "Mighty Morphin Power Rangers: The Movie",
         "description": "an attempt by fox to capitalize on the power rangers phinominome....but like not using any of the Zyuranger or 1 Dairanger suit, also adam he is frog",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2022-05-07",
-        "last_appearance": "2022-05-07"
+        "status": "Victorious"
     },
     {
-        "submission_id": 872,
+        "id": 872,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1334,12 +1130,10 @@ module.exports = [
         "title": "Yu-Gi-Oh! The Movie",
         "description": "IT'S TIME TO DUEL, but as a movie",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-16"
+        "status": "Dead"
     },
     {
-        "submission_id": 873,
+        "id": 873,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1347,12 +1141,10 @@ module.exports = [
         "title": "Neon Genesis Evangelion: The End of Evangelion",
         "description": "what if we all became orange juice and ended the world",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 874,
+        "id": 874,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1360,12 +1152,10 @@ module.exports = [
         "title": "Bionicle: Mask of Light",
         "description": "The first and proably best?? Bionical Movie, all I know is that the toa of light is cool and lewa voice is cool",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 875,
+        "id": 875,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1373,12 +1163,10 @@ module.exports = [
         "title": "Digimon: The Movie",
         "description": "What happens when Fox tries to compete with the PokÃ©mon movie they take three OVA that don't connect to each other and focer them to. Also a Angelia Anaconda intro for..reasons",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 876,
+        "id": 876,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1386,12 +1174,10 @@ module.exports = [
         "title": "Ready to Rumble",
         "description": "the WCW movie that lead to david arquette becomeing the WCW champion for reasons",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-05"
+        "status": "Dead"
     },
     {
-        "submission_id": 877,
+        "id": 877,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1399,12 +1185,10 @@ module.exports = [
         "title": "Yakuza: Like a Dragon",
         "description": "A live action adaptation of the first yakuza game directed by Takashi Miike.... Wait holy shit Takashi Miike directed the yakuza movie hey maybe it will be good idk",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-08"
+        "status": "Dead"
     },
     {
-        "submission_id": 878,
+        "id": 878,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1412,12 +1196,10 @@ module.exports = [
         "title": "Ultraman: The Next",
         "description": "Tsuburaya productions first attempt to reboot ultraman for the 2000, part of the Ultra N project, a dieing man imperfectly bonds with a giant of light and becomes ultraman to fight space beasts",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 879,
+        "id": 879,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1425,12 +1207,10 @@ module.exports = [
         "title": "Attack of the Super Monsters",
         "description": "An English dub of the first four episodes  a hybrid ANIME and tokusatsu TV show made by legendary production studio Tsuburaya the creators of Ultraman",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2021-01-30",
-        "last_appearance": "2021-01-30"
+        "status": "Victorious"
     },
     {
-        "submission_id": 880,
+        "id": 880,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1438,12 +1218,10 @@ module.exports = [
         "title": "Godzilla vs. Megalon",
         "description": "Jet Jaguar",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-10-02"
+        "status": "Victorious"
     },
     {
-        "submission_id": 881,
+        "id": 881,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1451,12 +1229,10 @@ module.exports = [
         "title": "Kamen Rider: The First",
         "description": "Toei first attempted to reimagin the 71 kamen rider series in the modern day. Fallowing Hango Takashi as he beacomes a cybord brainwashed by shocker he becomes freed and is determed to stop shocker and there evil cyborgs from brainwashing and controling humanity. (this is a note for Techie only when looking for the movie avoid Tv-Nihon subs though this did get an a officle realues so i don know if the TV-N fansubs are even up as common pratice in toku sub comunity is to remove fansubs if officle eng realues is avalible. TV-N subs arnt great they where kinda the only game in town for a while in toku fansubs but generaly should be avoided if there is anouther option)",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-06-04",
-        "last_appearance": "2022-06-04"
+        "status": "Dead"
     },
     {
-        "submission_id": 882,
+        "id": 882,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1464,12 +1240,10 @@ module.exports = [
         "title": "Battleship",
         "description": "G4 \"you sunk my battleship\"",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 883,
+        "id": 883,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1477,12 +1251,10 @@ module.exports = [
         "title": "Dr. Strange",
         "description": "Just going to copy the discription from shout factory. A modern hospital may seem worlds apart from the days of ancient sorcerers. But for psychiatrist Stephen Strange (Peter Hooten, Orca) and his patient Clea Lake (Eddie Benton, Sledge Hammer!), this is where those worlds collide ... and the nightmare begins! Nothing Stephen Strange learned in medical school could prepare him for an attack by an evil sorceress from the \"fourth dimension,\" Morgan le Fay (Jessica Walter, Arrested Development), a villainess who plans an invasion of unimaginable evil on Earth. Chosen by an ancient guardian of the spirit world to learn the mystic arts to defeat Morgan and safeguard the Earth, Stephen Strange must take the place of the Earth's last sorcerer. Come along for a fantastic adventure into the \"fourth dimension\" with ... Dr. Strange!",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-05-28",
-        "last_appearance": "2022-05-28"
+        "status": "Dead"
     },
     {
-        "submission_id": 884,
+        "id": 884,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1490,12 +1262,10 @@ module.exports = [
         "title": "Mega Monster Battle: Ultra Galaxy Legends The Movie",
         "description": "A movie sequal to the mega monster battle series set in the ultraman universe and the start of the Ultraman Zero saga",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-23"
+        "status": "Dead"
     },
     {
-        "submission_id": 885,
+        "id": 885,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1503,12 +1273,10 @@ module.exports = [
         "title": "Mighty Ducks the Movie: The First Face-Off",
         "description": "The mighty ducks cartoon piolt movie straight to VHS",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 886,
+        "id": 886,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1516,12 +1284,10 @@ module.exports = [
         "title": "The Watch",
         "description": "the movie that was supposed to starts Richard Ayoade big American comedy carrier by putting him with Ben Stiller and Jonah Hill Hill",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 887,
+        "id": 887,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1529,12 +1295,10 @@ module.exports = [
         "title": "Oblivion 2: Backlash",
         "description": "okay so like I found this movie on tubi and the poster makes it looks like the kinda trash for this channel anyway here is there description in an alien-western world, a sheriff, a gambler, and a bounty hunter face off in a showdown over a precious mineral mine and who will rule the galaxy.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 888,
+        "id": 888,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1542,12 +1306,10 @@ module.exports = [
         "title": "Karate-Robo Zaborgar",
         "description": "A movie remaining of a 1970 tokusatsu series of the same name, this movie is alot featuring falling a robot that transformers into a bike, some karate and falling in love with a robot. it is great just trust me",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 889,
+        "id": 889,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1555,12 +1317,10 @@ module.exports = [
         "title": "Ratz",
         "description": "just going to quote the poster here \"Change two rats into guys? whatever\"",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-11-13"
+        "status": "Dead"
     },
     {
-        "submission_id": 890,
+        "id": 890,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1568,12 +1328,10 @@ module.exports = [
         "title": "Biokids",
         "description": "kids eat magical stones, become superheroes and fight the joker in this 1990 Philippines based sentai parody, at least I think it is a parody",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-08-06",
-        "last_appearance": "2022-08-06"
+        "status": "Dead"
     },
     {
-        "submission_id": 891,
+        "id": 891,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1581,12 +1339,10 @@ module.exports = [
         "title": "Kamen Rider ZO",
         "description": "The second in the 90's era rider films a lab is turned into a neo-liforme grasshopper man afther an expreament in a lab and now must protect the scienties son who turned him into kamen rider from evil doers",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-11-12",
-        "last_appearance": "2022-11-12"
+        "status": "Dead"
     },
     {
-        "submission_id": 892,
+        "id": 892,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1594,12 +1350,10 @@ module.exports = [
         "title": "Jodorowsky's Dune",
         "description": "A documentery about Alejandro Jodorowsky vershion of Dune a movie that never got made from a director who had never read Dune",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-22"
+        "status": "Dead"
     },
     {
-        "submission_id": 893,
+        "id": 893,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1607,12 +1361,10 @@ module.exports = [
         "title": "Shin Kamen Rider: Prologue",
         "description": "Hey you know how Kamen Rider is a Grasshopper monster yah but like what if for real",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-08-20",
-        "last_appearance": "2022-09-17"
+        "status": "Dead"
     },
     {
-        "submission_id": 894,
+        "id": 894,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1620,12 +1372,10 @@ module.exports = [
         "title": "Power Rangers",
         "description": "a movie that really captures the spirit of the show and is better than the show as well as Saban's attempt to make Power Rangers into a blockbuster franchise like the MCU and transformers......that ultimately crumpled at the box office causeing saban to sell the brand to hasbro for them to try the same thing later",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": "2022-04-30",
-        "last_appearance": "2022-04-30"
+        "status": "Dead"
     },
     {
-        "submission_id": 895,
+        "id": 895,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1633,12 +1383,10 @@ module.exports = [
         "title": "Solo: A Star Wars Story",
         "description": "Back when Disney had the courage to recast iconic charachters insted of using algorithms and CGI new faces to just end acting alltogether",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-19"
+        "status": "Dead"
     },
     {
-        "submission_id": 896,
+        "id": 896,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1646,12 +1394,10 @@ module.exports = [
         "title": "Chip 'n Dale: Rescue Rangers",
         "description": "Andy Samberg and John Mulaney plat chip and dale in this animated comedy with varioues animation refrences included the cheata girl from the 90's avengers cartoon and ugly sonic from ugly sonic.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-06-11",
-        "last_appearance": "2022-06-11"
+        "status": "Dead"
     },
     {
-        "submission_id": 897,
+        "id": 897,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1659,12 +1405,10 @@ module.exports = [
         "title": "Kamen Rider Heisei Generations: Dr. Pac-Man vs. Ex-Aid & Ghost with Legend Riders",
         "description": "Kamen Riders Ex-aid the video game doctor, and Ghost the ghost fight Pac-man the Pac-man",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-10-08",
-        "last_appearance": "2022-10-08"
+        "status": "Dead"
     },
     {
-        "submission_id": 898,
+        "id": 898,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1672,12 +1416,10 @@ module.exports = [
         "title": "Smallfoot",
         "description": "https://www.youtube.com/watch?v=Xx5YqFKjTCY",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 899,
+        "id": 899,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1685,12 +1427,10 @@ module.exports = [
         "title": "Kamen Rider: Heisei Generations Forever",
         "description": "The best and the last in the Heisei Genrations series of Kamen Rider films which I swear if you fucks vote off the poll week 1",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": "2022-06-25",
-        "last_appearance": "2022-07-02"
+        "status": "Dead"
     },
     {
-        "submission_id": 900,
+        "id": 900,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1698,12 +1438,10 @@ module.exports = [
         "title": "We Can Be Heroes",
         "description": "The Sequal to Sharkboy and Lavagirl, lets watch and enjoy together",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-01-09"
+        "status": "Victorious"
     },
     {
-        "submission_id": 901,
+        "id": 901,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1711,12 +1449,10 @@ module.exports = [
         "title": "A Recipe for Seduction",
         "description": "It's the lifetime KFC movie it comes out on the 13......let us torture  ourselves I guess",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 902,
+        "id": 902,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1724,12 +1460,10 @@ module.exports = [
         "title": "Virus Shark",
         "description": "Gura said this movie is bad I for one trust the shark on bad movie recomdations",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-11-27"
+        "status": "Dead"
     },
     {
-        "submission_id": 903,
+        "id": 903,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1737,12 +1471,10 @@ module.exports = [
         "title": "Kamen Rider 555: Paradise Lost",
         "description": "An alterniant timeline to the series of Kamen rider Faiz (also spelled 555) in which the orphinocs have won and humanity is near extition and it is up to out Hero Takumi Inui to bring hope to humanity This is one of ligiadmitly great kamen rider movies and made me want to watch Faiz....which I havent done yet",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 904,
+        "id": 904,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1750,12 +1482,10 @@ module.exports = [
         "title": "Candy Coated Christmas",
         "description": "A Christmas movie from get this the food network, yes that is right the food network they scripted a whole christmas movie from the IMDB page \"A woman returning home, in this case to Peppermint Hollow. She is befriended by Drummond, the bakery owner, and sweet things ensue.\"",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 905,
+        "id": 905,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1763,12 +1493,10 @@ module.exports = [
         "title": "Beetlejuice: The Musical",
         "description": "lets do some GOOD MUSICALS",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 906,
+        "id": 906,
         "user_id": "225045528759500800",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1776,12 +1504,10 @@ module.exports = [
         "title": "Skyline",
         "description": "That dude from six feet under goes to LA to celebrate Turk's birthday with his wife, Eric's hot cousin. Aliens attack and turn people into zombies and our scrappy partiers have to fight back. There's 3 of these and they keep going harder.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 907,
+        "id": 907,
         "user_id": "225045528759500800",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1789,12 +1515,10 @@ module.exports = [
         "title": "Chaos Walking",
         "description": "Mads Mikkelson, Daisy Ridley and Tom Holland. Only men survive on a planet where they can see each others thoughts and then 1 woman appears. It cost 100 million dollars and sat on a shelf for 4 years just to get dumped during a pandemic",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 908,
+        "id": 908,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1802,12 +1526,10 @@ module.exports = [
         "title": "Final Fantasy VII: Advent Children",
         "description": "Final Fantasy 7: the movie sequel, featuring your favorite FF7 characters!",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-02-19"
+        "status": "Victorious"
     },
     {
-        "submission_id": 909,
+        "id": 909,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1815,12 +1537,10 @@ module.exports = [
         "title": "Who Framed Roger Rabbit",
         "description": "Animated toons meets film noir",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 910,
+        "id": 910,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1828,12 +1548,10 @@ module.exports = [
         "title": "The Running Man",
         "description": "A game show in which prisoners must run to freedom to avoid a brutal death",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-07-03"
+        "status": "Victorious"
     },
     {
-        "submission_id": 911,
+        "id": 911,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1841,12 +1559,10 @@ module.exports = [
         "title": "The Karate Kid",
         "description": "Young kid learns kung fu and wins his confidence",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 912,
+        "id": 912,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1854,12 +1570,10 @@ module.exports = [
         "title": "Boogie Nights",
         "description": "The rise and fall of Dirk Diggler",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-08-07"
+        "status": "Dead"
     },
     {
-        "submission_id": 913,
+        "id": 913,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1867,12 +1581,10 @@ module.exports = [
         "title": "Weekend at Bernie's",
         "description": "Two idiots witness their boss killed at a party. Their job is to keep the party going",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 914,
+        "id": 914,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1880,12 +1592,10 @@ module.exports = [
         "title": "Freejack",
         "description": "Bounty hunters from the future transport a doomed race car driver to New York City in 2009, where his mind will be replaced with that of a dead billionaire.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-10-15",
-        "last_appearance": "2022-11-12"
+        "status": "Dead"
     },
     {
-        "submission_id": 915,
+        "id": 915,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1893,12 +1603,10 @@ module.exports = [
         "title": "Cinema Paradiso",
         "description": "Art House Italian cinema kino",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-09"
+        "status": "Dead"
     },
     {
-        "submission_id": 916,
+        "id": 916,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1906,12 +1614,10 @@ module.exports = [
         "title": "Repo Man",
         "description": "Mighty Ducks Man is a Cyber Punk",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 917,
+        "id": 917,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1919,12 +1625,10 @@ module.exports = [
         "title": "Blankman",
         "description": "Cool black superhero movie",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 918,
+        "id": 918,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1932,12 +1636,10 @@ module.exports = [
         "title": "Loose Cannons",
         "description": "Dan Aykroid and Gene Hackman make awkward comedy buddy-cop film",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 919,
+        "id": 919,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1945,12 +1647,10 @@ module.exports = [
         "title": "Theodore Rex",
         "description": "Whoopi Goldberg tags up with a T-Rex",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 920,
+        "id": 920,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1958,12 +1658,10 @@ module.exports = [
         "title": "MacGruber",
         "description": "Will Arnett shoves a celery stick up his butt",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-08-14"
+        "status": "Dead"
     },
     {
-        "submission_id": 921,
+        "id": 921,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1971,12 +1669,10 @@ module.exports = [
         "title": "Birdemic: Shock and Terror",
         "description": "Angry Birds attack sleepy community",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 922,
+        "id": 922,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1984,12 +1680,10 @@ module.exports = [
         "title": "Collision Course",
         "description": "Jay Leno & Mr. Miyagi do buddy-cop stuff",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 923,
+        "id": 923,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -1997,12 +1691,10 @@ module.exports = [
         "title": "Don Jon",
         "description": "my body, my pad, my ride, my family, my church, my boys, my girls, my porn.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 924,
+        "id": 924,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2010,12 +1702,10 @@ module.exports = [
         "title": "Venom",
         "description": "Tom Hardy turns into a Venomous monster",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-06-05"
+        "status": "Victorious"
     },
     {
-        "submission_id": 925,
+        "id": 925,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2023,12 +1713,10 @@ module.exports = [
         "title": "Godzilla: King of the Monsters",
         "description": "Godzilla fights cool monsters",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-16"
+        "status": "Dead"
     },
     {
-        "submission_id": 926,
+        "id": 926,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2036,12 +1724,10 @@ module.exports = [
         "title": "Mortal Kombat",
         "description": "Reboot of the classic video game franchise",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-08-28"
+        "status": "Dead"
     },
     {
-        "submission_id": 927,
+        "id": 927,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2049,12 +1735,10 @@ module.exports = [
         "title": "Morbius",
         "description": "Jared Leto becomes a vampire, based on the Marvel Comics property",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-05-21",
-        "last_appearance": "2022-06-11"
+        "status": "Victorious"
     },
     {
-        "submission_id": 928,
+        "id": 928,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2062,12 +1746,10 @@ module.exports = [
         "title": "Cinderella",
         "description": "An unwatchable mess - Polygon",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-09-04"
+        "status": "Victorious"
     },
     {
-        "submission_id": 929,
+        "id": 929,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2075,12 +1757,10 @@ module.exports = [
         "title": "From Dusk Till Dawn",
         "description": "Another good Rodriguez's movie. Good music once again",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-04-03"
+        "status": "Victorious"
     },
     {
-        "submission_id": 930,
+        "id": 930,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2088,12 +1768,10 @@ module.exports = [
         "title": "Stalker",
         "description": "Soviet sci-fi at its best, and i know it won't get picked.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 931,
+        "id": 931,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2101,12 +1779,10 @@ module.exports = [
         "title": "Desperado",
         "description": "Robert Rodriguez's big budget remake of his low budget El Mariachi. Great action, great soundtrack.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-03-27"
+        "status": "Victorious"
     },
     {
-        "submission_id": 932,
+        "id": 932,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2114,12 +1790,10 @@ module.exports = [
         "title": "From Dusk Till Dawn 2: Texas Blood Money",
         "description": "Less good direct to video sequel. A gang of bank robbers including Robert Patrick end up against vampires.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-05-07",
-        "last_appearance": "2022-05-21"
+        "status": "Dead"
     },
     {
-        "submission_id": 933,
+        "id": 933,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2127,12 +1801,10 @@ module.exports = [
         "title": "The Love Guru",
         "description": "You had The Cat in the Hat, here is the worse one",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 934,
+        "id": 934,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2140,12 +1812,10 @@ module.exports = [
         "title": "The New Barbarians",
         "description": "Its set in the future year of 2019, and its a Italian Mad Max knock-off",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 935,
+        "id": 935,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2153,12 +1823,10 @@ module.exports = [
         "title": "The Apple",
         "description": "Do the BIM",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 936,
+        "id": 936,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2166,12 +1834,10 @@ module.exports = [
         "title": "Blown Away",
         "description": "Tommy Lee Jones vs Jeff Bridges in a battle of bombs, each more dastardly than the last!",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-08-06",
-        "last_appearance": "2022-08-06"
+        "status": "Dead"
     },
     {
-        "submission_id": 937,
+        "id": 937,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2179,12 +1845,10 @@ module.exports = [
         "title": "Bend It Like Beckham",
         "description": "It's about a girl who gets really into football (soccer) and has the WILDEST burn story ever",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 938,
+        "id": 938,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2192,12 +1856,10 @@ module.exports = [
         "title": "The Mummy",
         "description": "It's the movie that taught a generation what a himbo was",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-14"
+        "status": "Victorious"
     },
     {
-        "submission_id": 939,
+        "id": 939,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2205,12 +1867,10 @@ module.exports = [
         "title": "Contact",
         "description": "Jodie Foster meets some aliens, and films some static.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-26"
+        "status": "Dead"
     },
     {
-        "submission_id": 940,
+        "id": 940,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2218,12 +1878,10 @@ module.exports = [
         "title": "Galaxy Quest",
         "description": "It's Galaxy Quest! By Grabthar's hammer... what a movie!",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-11-06"
+        "status": "Victorious"
     },
     {
-        "submission_id": 941,
+        "id": 941,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2231,12 +1889,10 @@ module.exports = [
         "title": "I, Robot",
         "description": "It's the Will Smith movie, based on the Asimov book - a surprisingly okay movie!",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-09-11"
+        "status": "Dead"
     },
     {
-        "submission_id": 942,
+        "id": 942,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2244,12 +1900,10 @@ module.exports = [
         "title": "Stargate",
         "description": "Jump through a magic circle to space Egypt! And kill god!",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-04-10"
+        "status": "Victorious"
     },
     {
-        "submission_id": 943,
+        "id": 943,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2257,12 +1911,10 @@ module.exports = [
         "title": "Meet the Spartans",
         "description": "Get it!? It's like Meet The Parents, but with Spartans! More like THIS. IS. A GOOD IDEA, right?",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-08-28"
+        "status": "Dead"
     },
     {
-        "submission_id": 944,
+        "id": 944,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2270,12 +1922,10 @@ module.exports = [
         "title": "The Core",
         "description": "The Earth STOPS SPINNING. Time to get in an unobtanium cigar tube and nuke the earth from the inside. With Stanley Tucci!",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-02-13"
+        "status": "Victorious"
     },
     {
-        "submission_id": 945,
+        "id": 945,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2283,12 +1933,10 @@ module.exports = [
         "title": "Evolution",
         "description": "IT'S A GOOD MOVIE. Brought to you by Head and Shoulders.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-12-04"
+        "status": "Victorious"
     },
     {
-        "submission_id": 946,
+        "id": 946,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2296,12 +1944,10 @@ module.exports = [
         "title": "Scooby-Doo",
         "description": "It's the live action Scooby Doo movie. It's Freddie Prinz Jr., Sarah Michelle Gellar, Matthew Lillard, ISLA FISHER!",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 947,
+        "id": 947,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2309,12 +1955,10 @@ module.exports = [
         "title": "The Cable Guy",
         "description": "I honestly know nothing about this film other than it's not Larry, it's Jim Carrey",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-01"
+        "status": "Dead"
     },
     {
-        "submission_id": 948,
+        "id": 948,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2322,12 +1966,10 @@ module.exports = [
         "title": "Ultraviolet",
         "description": "Another Milla Jovovich romp, this game was VIOLENTLY unforgettable. She runs around with a sword for 2 hours.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-01-16"
+        "status": "Victorious"
     },
     {
-        "submission_id": 949,
+        "id": 949,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2335,12 +1977,10 @@ module.exports = [
         "title": "The Last Airbender",
         "description": "It's the live action Avatar. The film so bad, fans have chosen to purge it from their memories",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 950,
+        "id": 950,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2348,12 +1988,10 @@ module.exports = [
         "title": "The One",
         "description": "Jet Li fights clones of himself, and also Jason Statham",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-04-02",
-        "last_appearance": "2022-06-11"
+        "status": "Dead"
     },
     {
-        "submission_id": 951,
+        "id": 951,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2361,12 +1999,10 @@ module.exports = [
         "title": "Sky High",
         "description": "Look, this film is actually good okay, it's got Jeff Bridges as fake-Superman and it's high school sueprheroes!",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-07"
+        "status": "Victorious"
     },
     {
-        "submission_id": 952,
+        "id": 952,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2374,12 +2010,10 @@ module.exports = [
         "title": "Home Alone 4",
         "description": "Who doesn't love Home Alone?",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 953,
+        "id": 953,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2387,12 +2021,10 @@ module.exports = [
         "title": "Thunderbirds",
         "description": "The Thunderbirds live action movie, directed by Jonathan Frakes. Busted did the soundtrack.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-09-17",
-        "last_appearance": "2022-10-08"
+        "status": "Dead"
     },
     {
-        "submission_id": 954,
+        "id": 954,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2400,12 +2032,10 @@ module.exports = [
         "title": "G.I. Joe: The Rise of Cobra",
         "description": "A live action version of everyone's favourite toy series, with Bruce Willis and The Rock!",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-04-17"
+        "status": "Victorious"
     },
     {
-        "submission_id": 955,
+        "id": 955,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2413,12 +2043,10 @@ module.exports = [
         "title": "Gamer",
         "description": "Michael C Hall controls Gerard Butler as a real life game avatar, but things go awry! Ooooo!",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2020-11-21"
+        "status": "Victorious"
     },
     {
-        "submission_id": 956,
+        "id": 956,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2426,12 +2054,10 @@ module.exports = [
         "title": "Independence Day: Resurgence",
         "description": "The hotly awaited sequel! Will Smith is dead!",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-29"
+        "status": "Dead"
     },
     {
-        "submission_id": 957,
+        "id": 957,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2439,12 +2065,10 @@ module.exports = [
         "title": "Dredd",
         "description": "IT'S DREDD.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-12"
+        "status": "Dead"
     },
     {
-        "submission_id": 958,
+        "id": 958,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2452,12 +2076,10 @@ module.exports = [
         "title": "The Chaperone",
         "description": "I found a movie with HHH in. There's a schoolbus on the cover and I think HHH went to prison and now he wants family time.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 959,
+        "id": 959,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2465,12 +2087,10 @@ module.exports = [
         "title": "Jack and Jill",
         "description": "You already know.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 960,
+        "id": 960,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2478,12 +2098,10 @@ module.exports = [
         "title": "Movie 43",
         "description": "I think everyone at some point has HEARD of this movie, where it's just a bunch of random skits, that somehow got a bunch of Hollywood celebs on it. It is not funny. I assume.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-09-18"
+        "status": "Dead"
     },
     {
-        "submission_id": 961,
+        "id": 961,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2491,12 +2109,10 @@ module.exports = [
         "title": "Mortdecai",
         "description": "This is when Johnny Depp stopped trying, Vision plays a butler and Olivia Munn plays an... American nymphomaniac, and... A special guest!",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-12"
+        "status": "Dead"
     },
     {
-        "submission_id": 962,
+        "id": 962,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2504,12 +2120,10 @@ module.exports = [
         "title": "Lucy",
         "description": "It's THAT one, where what if you use 100% of your brain???",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-08-21"
+        "status": "Dead"
     },
     {
-        "submission_id": 963,
+        "id": 963,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2517,12 +2131,10 @@ module.exports = [
         "title": "Paul Blart: Mall Cop 2",
         "description": "A crime against humanity. Kevin James has a singular talent to play a man who at every point you wish a rogue tornado would toss a set of kitchen knives into the chest of. There's a reason the podcast for this is called \"The Worst Idea In The World\". Enjoy!",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-06-18",
-        "last_appearance": "2022-06-18"
+        "status": "Dead"
     },
     {
-        "submission_id": 964,
+        "id": 964,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2530,12 +2142,10 @@ module.exports = [
         "title": "He's All That",
         "description": "It's a TikTok teen doing a remake of She's All That, also a Kardashian appears for some reason? As covered by Danny Gonzalez!",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-06-25",
-        "last_appearance": "2022-06-25"
+        "status": "Dead"
     },
     {
-        "submission_id": 965,
+        "id": 965,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2543,12 +2153,10 @@ module.exports = [
         "title": "Dave Made a Maze",
         "description": "This film I legit liked. A guy gets bored and he makes a cardboard maze in his apartment, and finds, actually it's kind of fun in here and I don't want to come out! So his friends mount a rescue mission!",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-08-07"
+        "status": "Dead"
     },
     {
-        "submission_id": 966,
+        "id": 966,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2556,12 +2164,10 @@ module.exports = [
         "title": "MFKZ",
         "description": "French anime. Heavily inspired by hip hop to the point where the city it's based in is called DMC. And oh it has STYLE",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-26"
+        "status": "Dead"
     },
     {
-        "submission_id": 967,
+        "id": 967,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2569,12 +2175,10 @@ module.exports = [
         "title": "Artemis Fowl",
         "description": "I watched this, waiting for it since I was a child. I had to suffer and I'm petty enough to make you watch a man eat dirt and shit it out IN A KID'S MOVIE",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 968,
+        "id": 968,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2582,12 +2186,10 @@ module.exports = [
         "title": "The Fanatic",
         "description": "John Travlota plays an obsessive fan in one of his, uh, most performances. This film... it made a choice. EVERYONE involved made choices.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-22"
+        "status": "Dead"
     },
     {
-        "submission_id": 969,
+        "id": 969,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2595,12 +2197,10 @@ module.exports = [
         "title": "The Secret: Dare to Dream",
         "description": "Is this movie even out yet? It has to be, right. I remember a trailer for it. But yeah, it's based on the book. And it's apparently AWFUL",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-02-05"
+        "status": "Dead"
     },
     {
-        "submission_id": 970,
+        "id": 970,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2608,12 +2208,10 @@ module.exports = [
         "title": "Hot Fuzz",
         "description": "This is just a perfect movie. I assume everyone here has seen it but it's just great. Edgar Wright cop comedy movie.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": "2022-09-10",
-        "last_appearance": "2022-09-24"
+        "status": "Dead"
     },
     {
-        "submission_id": 971,
+        "id": 971,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2621,12 +2219,10 @@ module.exports = [
         "title": "Hercules in New York",
         "description": "Arnold Schwarzenegger's first movie, he was credited as Arnold Strong. In the original release he was dubbed over because his accent was too thick. There's a bit where he fights what is clearly a man in a bear costume.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-11-20"
+        "status": "Victorious"
     },
     {
-        "submission_id": 972,
+        "id": 972,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2634,12 +2230,10 @@ module.exports = [
         "title": "The Hitchhiker's Guide to the Galaxy",
         "description": "Pretty loose adaptation of the sci fi series - Arthur Dent wakes up to find his home about to be demolished for a bypass. He also finds out earth is about to be demolished for a hyperspace bypass. Hijinks ensue.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-04-09",
-        "last_appearance": "2022-05-28"
+        "status": "Dead"
     },
     {
-        "submission_id": 973,
+        "id": 973,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2647,12 +2241,10 @@ module.exports = [
         "title": "Spy Kids 2: The Island of Lost Dreams",
         "description": "The second spy kids movie, Steve Buscemi is a terrified creator of animals hiding from them. I can't remember what else happened specifically but it does rulem",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2022-07-23",
-        "last_appearance": "2022-08-06"
+        "status": "Victorious"
     },
     {
-        "submission_id": 974,
+        "id": 974,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2660,12 +2252,10 @@ module.exports = [
         "title": "Driven",
         "description": "This is a movie about Sylvester Stallone as an F1 driver - I haven't seen it but it's legendary. He drives past a bus shelter which explodes at one point.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-29"
+        "status": "Dead"
     },
     {
-        "submission_id": 975,
+        "id": 975,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2673,12 +2263,10 @@ module.exports = [
         "title": "Air Bud",
         "description": "It's that movie where a dog plays basketball - do not know more about it than this",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-08-13",
-        "last_appearance": "2022-08-20"
+        "status": "Dead"
     },
     {
-        "submission_id": 976,
+        "id": 976,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2686,12 +2274,10 @@ module.exports = [
         "title": "Moving Target",
         "description": "An Irish Kung Fu movie about Beamish, the IRA and nuclear weapons.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-10-15",
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 977,
+        "id": 977,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2699,12 +2285,10 @@ module.exports = [
         "title": "United Passions",
         "description": "This is definitely *not* a money laundering scheme movie made bu FIFA about the origins of FIFA. This movie grossed $319 in its US opening weekend, showing in 10 cities.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-08"
+        "status": "Victorious"
     },
     {
-        "submission_id": 978,
+        "id": 978,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2712,12 +2296,10 @@ module.exports = [
         "title": "Hitman",
         "description": "Timothy Olyphant only took this role because he had a mortgage to pay. This is actually the better of the two Hitman movies.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-02-20"
+        "status": "Victorious"
     },
     {
-        "submission_id": 979,
+        "id": 979,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2725,12 +2307,10 @@ module.exports = [
         "title": "Speed 2: Cruise Control",
         "description": "The boat that couldn't slow down",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-15"
+        "status": "Victorious"
     },
     {
-        "submission_id": 980,
+        "id": 980,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2738,12 +2318,10 @@ module.exports = [
         "title": "Robin Hood: Prince of Thieves",
         "description": "Alan Rickman stars as the Sheriff of Nottingham trying to maintain order against an American robbing the moneyed class to help the poors. Featuring the hit single by Bryan Adams",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-10-23"
+        "status": "Victorious"
     },
     {
-        "submission_id": 981,
+        "id": 981,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2751,12 +2329,10 @@ module.exports = [
         "title": "Wanted",
         "description": "James McAvoy joins Morgan Freeman's league of assassins who can curve bullets and are given their targets by an ancient loom. Chris Pratt gets hit with a keyboard. Loosely based on the comic miniseries.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-04-02"
+        "status": "Victorious"
     },
     {
-        "submission_id": 982,
+        "id": 982,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2764,12 +2340,10 @@ module.exports = [
         "title": "DOA: Dead or Alive",
         "description": "Based on the hit volleyball game series",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-11-13"
+        "status": "Victorious"
     },
     {
-        "submission_id": 983,
+        "id": 983,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2777,12 +2351,10 @@ module.exports = [
         "title": "Waterworld",
         "description": "Mad Max on the sea. Probably more known for its insane budget and troubled production than the movie itself.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-08-20",
-        "last_appearance": "2022-09-24"
+        "status": "Dead"
     },
     {
-        "submission_id": 984,
+        "id": 984,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2790,12 +2362,10 @@ module.exports = [
         "title": "Mortal Kombat: Annihilation",
         "description": "The first MK is generally regarded as one of the better video game movie adaptations. Its sequel, less so. Basically unfinished as it was supposed to get a second pass for effects, editing, etc, but test screenings were positive enough that the studio released it as is.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-07-30",
-        "last_appearance": "2022-08-06"
+        "status": "Victorious"
     },
     {
-        "submission_id": 985,
+        "id": 985,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2803,12 +2373,10 @@ module.exports = [
         "title": "Toys",
         "description": "Barry Levinson and Robin Williams passion project where a general (Michael Gambon) inherits the whimsical Zevo toy company and tries to use it to make drones. Also with Joan Cusack and LL Cool J.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 986,
+        "id": 986,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2816,12 +2384,10 @@ module.exports = [
         "title": "Extreme Ops",
         "description": "A group of extreme sports athletes filming a commercial in the Alps stumble upon a terrorist plot. Will they save the day? Yes, through the powers of edited stunts and a 00s ass soundtrack.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-10-08",
-        "last_appearance": "2022-10-15"
+        "status": "Dead"
     },
     {
-        "submission_id": 987,
+        "id": 987,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2829,12 +2395,10 @@ module.exports = [
         "title": "Transformers",
         "description": "Look, I maintain that this film is actually good. It's got giant robots punching each other, a giant robot pisses on someone, just all around a great movie.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2021-01-30",
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 988,
+        "id": 988,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2842,12 +2406,10 @@ module.exports = [
         "title": "Gone in Sixty Seconds",
         "description": "Nicolas Cage steals cars, presumably in only 60 seconds.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-09-04"
+        "status": "Dead"
     },
     {
-        "submission_id": 989,
+        "id": 989,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2855,12 +2417,10 @@ module.exports = [
         "title": "The A-Team",
         "description": null,
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 990,
+        "id": 990,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2868,12 +2428,10 @@ module.exports = [
         "title": "Tekken",
         "description": "Get ready for the next battle!",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-09-18"
+        "status": "Victorious"
     },
     {
-        "submission_id": 991,
+        "id": 991,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2881,12 +2439,10 @@ module.exports = [
         "title": "Hot Wheels: World Race",
         "description": "They gotta get the Wheel of Power so they drive fast in HOT WHEEL TM and try to MURDER EACH OTHER.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 992,
+        "id": 992,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2894,12 +2450,10 @@ module.exports = [
         "title": "Assassin's Creed",
         "description": "Preorder your $1200 tickets to watch another video game adaptation that surely will encompass the joys of playing a Ubisoft game, minus the game breaking bugs of course.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-08-21"
+        "status": "Dead"
     },
     {
-        "submission_id": 993,
+        "id": 993,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2907,12 +2461,10 @@ module.exports = [
         "title": "Need for Speed",
         "description": "They Need the Speed? I dunno, never seen it. Hopefully it has that Snoop Dogg remix of Riders on the Storm.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-09-25"
+        "status": "Dead"
     },
     {
-        "submission_id": 994,
+        "id": 994,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2920,12 +2472,10 @@ module.exports = [
         "title": "TEKKEN: A Man Called X",
         "description": "Kazuya is trying to get revenge. On who you ask? No idea.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-12-11"
+        "status": "Dead"
     },
     {
-        "submission_id": 995,
+        "id": 995,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2933,25 +2483,21 @@ module.exports = [
         "title": "AVP: Alien vs. Predator",
         "description": "Xenomorphs and Predators fight in this movie from the director of Resident Evil: Aftermath. Might be an outlier since there's no Milla Jovovich, like a Tim Burton movie without Helena Bonham Carter.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-01-02"
+        "status": "Dead"
     },
     {
-        "submission_id": 996,
+        "id": 996,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
         "time_submitted": "2020-11-14 00:10:00",
         "title": "The Mummy",
-        "description": "(description missing due to missing audio when uploaded)",
+        "description": "(Description missing due to missing audio when uploaded)",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 997,
+        "id": 997,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2959,12 +2505,10 @@ module.exports = [
         "title": "Face/Off",
         "description": "John Woo directs in this action packed movie where John Travolta must stop the evil machinations of Nicholas Cage by going deep undercover. How deep? He takes the face of Cage's character, and Cage does likewise to him. Features doves, scenery chewed to pieces, the second longest runway in movie history, and pure 90s cheese.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": "2022-04-30",
-        "last_appearance": "2022-05-28"
+        "status": "Dead"
     },
     {
-        "submission_id": 998,
+        "id": 998,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2972,12 +2516,10 @@ module.exports = [
         "title": "Dune",
         "description": "The first attempt to bring Dune to the big screen, directed by David Lynch and beset by more problems than there are grains of sand on Arrakis. Unlike the 2021 version, this movie attempts to adapt the whole book in between a little under the running time of Dune 2021 or with an hour and a half more depending on the cut. How will the adaptation go? Which cut will we watch? There's only one way to find out: do what the empire in Dune almost surely doesn't and vote. Featuring Linda Hunt, Kyle MacLachian, Max von Snydow, Sean Young, Patrick Stewart, and an almost entirely naked Sting.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2022-10-08",
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 999,
+        "id": 999,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2985,12 +2527,10 @@ module.exports = [
         "title": "WarGames",
         "description": "A Seattle teen unintentionally hacks into NORAD and sets the world careening towards nuclear annihilation in this 1980s classic. Features hacking battles against an early AI, realistic movie hacking, Matthew Broderick, Ally Sheedy, arcade machines, a general freely chewing the scenery, and an unintended jeep crash.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-04-16"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1000,
+        "id": 1000,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -2998,12 +2538,10 @@ module.exports = [
         "title": "Chicago",
         "description": "Aspiring stage actress Roxie Hart is sent to prison after shooting a man, becoming the center of a massive public murder case involving her husband, performer Velma Kelley, and shady lawyer Billy Flynn that captures the attention of 1924 Chicago. Starring Renee Zellweger as Roxie Hart, Catherine Zeta-Jones as Velma Kelly, and Richard Gere as Billy Flynn. Featuring the songs All That Jazz, Cell Block Tango, and Razzle Dazzle.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-12-18"
+        "status": "Dead"
     },
     {
-        "submission_id": 1001,
+        "id": 1001,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3011,12 +2549,10 @@ module.exports = [
         "title": "Broken Arrow",
         "description": "John Woo directs this John Travolta and Christian Slater action classic about an Air Force pilot who steals two nuclear warheads while on a routine mission, and his former co-pilot who has to stop him with the aid of a US Park Service Ranger. Features doves, shootouts, a train fight, and ridiculous action.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-04-09"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1002,
+        "id": 1002,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3024,12 +2560,10 @@ module.exports = [
         "title": "Daredevil",
         "description": "Ben Affleck stars as Mark Murdock, an attorney that fights crime in the courtroom during the day and pursues criminals during the night as the vigilante Daredevil. One of Marvel's early attempts to make movies out of its heroes, this is an aggressively early 2000s movie and a relic of the pre-MCU but post X-Men superhero era. It also stars Jennifer Garner as Elektra Natachios, Colin Farrell as Bullseye, and Michael Clarke Duncan as Wilson Fisk.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2022-07-30",
-        "last_appearance": "2022-10-01"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1003,
+        "id": 1003,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3037,12 +2571,10 @@ module.exports = [
         "title": "Looney Tunes: Back in Action",
         "description": "Brendan Fraser, Jenna Elfman, and Timothy Dalton join the Looney Tunes crew in this movie to track down a diamond and get into all sorts of antics. A caper may be involved, and there may or may not overt references to James Bond.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-29"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1004,
+        "id": 1004,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3050,12 +2582,10 @@ module.exports = [
         "title": "Casino Royale",
         "description": "In this parody of James Bond movies, Bond must leave retirement to rehabilitate the image of MI6 and battle SMERSH in a variety of plots. The actual plot of card games, baccarat, and Le Chiffre's schemes take up about 15 minutes of the film. David Niven, Peter Sellers, Ursula Andress, Joanna Pettet, Barbara Bouchet, Terence Coop, and Daliah Lavi all play James Bond. Woody Allen plays Jimmy Bond.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-12-11"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1005,
+        "id": 1005,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3063,12 +2593,10 @@ module.exports = [
         "title": "Drumline",
         "description": "One of the few movies bold enough to tackle the immense seriousness and pressure of marching band. After graduating high school, Devon Miles decides to attend Atlanta A&T University in Georgia, a college that takes enormous pride in its marching band. At the school, he quickly finds rivalry and romance between classes and grueling marching band practice, preparing for performances at school sporting events and competitions with other college marching bands. Starring Nick Cannon, Zoe Saldana, Orlando Jones, Leonard Roberts, and Jason Weaver.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-08-27",
-        "last_appearance": "2022-08-27"
+        "status": "Dead"
     },
     {
-        "submission_id": 1006,
+        "id": 1006,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3076,12 +2604,10 @@ module.exports = [
         "title": "Icebreaker",
         "description": "Sean Astin stars in Die Hard at a ski resort, against a villain played by Bruce Campbell with the motivation of someone who needs to pay the rent. Snowmobiles, stolen nuclear material, and several crappy barns round out this action movie.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1007,
+        "id": 1007,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3089,12 +2615,10 @@ module.exports = [
         "title": "Astro Boy",
         "description": "Nicholas Cage plays Dr. Tenma in this movie based on the iconic manga series created by Osamu Tezuka. Freedie Highmore starts as the Astro Boy, who must battle a wide range of threats to Metro City while he and his creator Dr. Tenma are forced to grapple with how those threats, and Astro Boy came into existence. This all-star cast includes Nicholas Cage, Bill Nighty, Eugene Levy, Nathan Lane, Samuel L. Jackson, Charlize Theron, and Donald Sutherland.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-06-11",
-        "last_appearance": "2022-06-18"
+        "status": "Dead"
     },
     {
-        "submission_id": 1008,
+        "id": 1008,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3102,12 +2626,10 @@ module.exports = [
         "title": "Youngblood",
         "description": "I'll be honest, I found this movie by Google searching \"bad hockey movies.\" It's from 1986 and stars Rob Lowe, Patrick Swayze, and an appearance by Keanu Reeves. If this movie does not have a single fight, then it does not count as a hockey movie.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1009,
+        "id": 1009,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3115,12 +2637,10 @@ module.exports = [
         "title": "Glen or Glenda",
         "description": "Ed Wood's first movie",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1010,
+        "id": 1010,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3128,12 +2648,10 @@ module.exports = [
         "title": "The Chaperone",
         "description": "An elderly security guard and several horny teens must fight strange creatures from space who grant your deepest desire, then kill you.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1011,
+        "id": 1011,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3141,12 +2659,10 @@ module.exports = [
         "title": "Beyond the Poseidon Adventure",
         "description": "Sequel to the original Poseidon Adventure, this movie starts Michael Caine and many others seeking to salvage the wreck. Apparently the ship didn't sink after all, who knew?",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1012,
+        "id": 1012,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3154,12 +2670,10 @@ module.exports = [
         "title": "Uninvited",
         "description": "A genetically modified cat escapes from a lab and is brought onto a boat, where it tries to kill the passengers and crew",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1013,
+        "id": 1013,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3167,12 +2681,10 @@ module.exports = [
         "title": "A Good Day to Die Hard",
         "description": "The eternal answer to the question: what is the worst Die Hard movie?",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-01-16"
+        "status": "Dead"
     },
     {
-        "submission_id": 1014,
+        "id": 1014,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3180,12 +2692,10 @@ module.exports = [
         "title": "Samurai Cop",
         "description": "From director Amir Shervan, this movie is about a cop trained in the art of fighting like a samurai. It features car chases, sword fights, bizarre scenes, a less professional police force than Dexter, and a wig all wrapped in this Lethal Weapon rip-off",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-02-27"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1015,
+        "id": 1015,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3193,12 +2703,10 @@ module.exports = [
         "title": "I, Frankenstein",
         "description": "Frankenstein, if the novel had an ancient demon conspiracy and was Aaron Eckhart burning off the last of his Dark Knight cred",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1016,
+        "id": 1016,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3206,12 +2714,10 @@ module.exports = [
         "title": "Terror In Beverly Hills",
         "description": "This movie stars Frank Stallone and Cameron Mitchell on a mission to save the president's daughter. It's like if Resident Evil 4 was made by an alien, had terrorists instead of zombies, and all audio was recorded inside an empty oil drum.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2021-08-07",
-        "last_appearance": "2021-12-04"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1017,
+        "id": 1017,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3219,12 +2725,10 @@ module.exports = [
         "title": "Double Down",
         "description": "Neil Breen returns as not Neil Breen, a highly decorated individual and expert computer hacker operating in Las Vegas to either save the world or destroy evil forces in the world. Broken laptops, denim vests, a car with probably 250,000 miles, and a tuxedo appear.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-01"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1018,
+        "id": 1018,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3232,12 +2736,10 @@ module.exports = [
         "title": "Fast & Furious Presents: Hobbs & Shaw",
         "description": "A movie designed to be watched on a hungover Saturday afternoon on the FX Channel. Oh, and that's the official title.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1019,
+        "id": 1019,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3245,12 +2747,10 @@ module.exports = [
         "title": "JoJo's Bizarre Adventure: Diamond Is Unbreakable â€“ Chapter 1",
         "description": "Look, everyone knows what JoJo's Bizarre Adventure is at this point. This time it's just in live action.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1020,
+        "id": 1020,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3258,12 +2758,10 @@ module.exports = [
         "title": "Monster Hunter",
         "description": "Milla Jovovich hunts monsters with swords, possibly a gun in the desert. Does this movie ask \"who's the real monster: the monsters or humans?\" Possibly. Paul W. S. Anderson of Resident Evil (films) infamy directs.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-09-25"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1021,
+        "id": 1021,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3271,12 +2769,10 @@ module.exports = [
         "title": "Sonic the Hedgehog 2",
         "description": "Sonic returns in this sequel to the highest grossing movie of 2020, Sonic the Hedgehog. His quiet life in Green Hills is interrupted by a friendly two tailed fox arriving into town, and his arch nemesis Eggman returning from that weird mushroom planet. Except, Eggman has an unexpected ally: Knuckles the Echidna. Can Sonic safe the day? Will James Marsden be in most of this movie? Will there be more Zillow product placement? Stars James Marsden, Ben Schwartz, Jim Carrey, Colleen O'Shaughnessey, and Idris Elba.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-11-12",
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1022,
+        "id": 1022,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3284,12 +2780,10 @@ module.exports = [
         "title": "Hellboy",
         "description": "A demon fights the forces of his evil with his big stone fist. And a big gun.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2021-08-07",
-        "last_appearance": "2021-08-14"
+        "status": "Dead"
     },
     {
-        "submission_id": 1023,
+        "id": 1023,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3297,12 +2791,10 @@ module.exports = [
         "title": "Lost in Space",
         "description": "Danger Will Robinson! A family head into space but in a shocking twist, get lost. Ft Matt LeBlanc in some cool armour",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2021-11-20",
-        "last_appearance": "2022-01-22"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1024,
+        "id": 1024,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3310,12 +2802,10 @@ module.exports = [
         "title": "Deadly Prey",
         "description": "An unkillable beefcake runs shirtless through a forest for 90 minutes slaughtering Every. Single. Person. he comes across.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2022-07-02",
-        "last_appearance": "2022-07-09"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1025,
+        "id": 1025,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3323,12 +2813,10 @@ module.exports = [
         "title": "The League of Extraordinary Gentlemen",
         "description": "Some of your favourite Victorian literary characters team up to defeat the forces of evil. Like the Avengers but with Sean Connery getting a big payday.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-05-28",
-        "last_appearance": "2022-05-28"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1026,
+        "id": 1026,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3336,12 +2824,10 @@ module.exports = [
         "title": "Anaconda",
         "description": "Big snek. Featuring the latest entry in our exploration of bizarre Jon Voight performances",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2022-07-16",
-        "last_appearance": "2022-07-30"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1027,
+        "id": 1027,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3349,12 +2835,10 @@ module.exports = [
         "title": "Death Becomes Her",
         "description": "What if you could live forever? Meryl Streep and Goldie Hawn find out immortality may not be everything it cracked up to be. Also starring Bruce Willis while he still cared.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2022-10-08",
-        "last_appearance": "2022-10-15"
+        "status": "Dead"
     },
     {
-        "submission_id": 1028,
+        "id": 1028,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3362,12 +2846,10 @@ module.exports = [
         "title": "Judge Dredd",
         "description": "I AM THE LAW!",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-05-22",
-        "last_appearance": "2021-06-05"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1029,
+        "id": 1029,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3375,12 +2857,10 @@ module.exports = [
         "title": "Last Action Hero",
         "description": "Step into the movies with a magic golden ticket which transports a teenage boy into his favourite action series - starring Arnold Schwarzenegger",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": "2021-05-15",
-        "last_appearance": "2021-05-15"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1030,
+        "id": 1030,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3388,12 +2868,10 @@ module.exports = [
         "title": "Congo",
         "description": "Return to monke with an adventure through Africa ft evil apes",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-03-12",
-        "last_appearance": "2022-03-19"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1031,
+        "id": 1031,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3401,12 +2879,10 @@ module.exports = [
         "title": "American Psycho II: All American Girl",
         "description": "If you're expecting Christian Bale, you'll be disappointed. Mila Kunis tries to murder her way into being an FBI agent. Ft. William Shatner",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-08-06",
-        "last_appearance": "2022-09-03"
+        "status": "Dead"
     },
     {
-        "submission_id": 1032,
+        "id": 1032,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3414,12 +2890,10 @@ module.exports = [
         "title": "Cats & Dogs",
         "description": "This should be called Cats vs Dogs, then it'd be all there in the title. An elite group of dog agents work to stop a cat from ruling the world.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2021-08-21",
-        "last_appearance": "2021-11-13"
+        "status": "Dead"
     },
     {
-        "submission_id": 1033,
+        "id": 1033,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3427,12 +2901,10 @@ module.exports = [
         "title": "Suburban Commando",
         "description": "Hulk Hogan attempts to act as an intergalactic warrior who becomes stranded on Earth. Hilarity ensues.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-01-29",
-        "last_appearance": "2022-02-19"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1034,
+        "id": 1034,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3440,12 +2912,10 @@ module.exports = [
         "title": "Masters of the Universe",
         "description": "See your He-Man toys come to life as Dolph Lundgren battles Frank Langella's Skeletor (who's having the time of his life) for the fate of Eternia.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": "2021-04-10",
-        "last_appearance": "2021-04-24"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1035,
+        "id": 1035,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3453,12 +2923,10 @@ module.exports = [
         "title": "The Shaggy D.A.",
         "description": "A man sees his campaign to become District Attorney run into problems when he transforms into a dog. Hilarity ensues, probably.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-03-26",
-        "last_appearance": "2022-05-07"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1036,
+        "id": 1036,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3466,12 +2934,10 @@ module.exports = [
         "title": "Furry Vengeance",
         "description": "Brendan Fraser has his life ruined by vengeful animals. Does not feature any actual furries (that I know of)",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-09-17",
-        "last_appearance": "2022-10-01"
+        "status": "Dead"
     },
     {
-        "submission_id": 1037,
+        "id": 1037,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3479,12 +2945,10 @@ module.exports = [
         "title": "Blade: Trinity",
         "description": "Wesley Snipes takes on Dracula with Jessica Biel and Ryan Reynolds as back up. Features the acting debut of the star of The Chaperone, Triple H.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2021-03-13",
-        "last_appearance": "2021-04-03"
+        "status": "Dead"
     },
     {
-        "submission_id": 1038,
+        "id": 1038,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3492,12 +2956,10 @@ module.exports = [
         "title": "True Lies",
         "description": "Arnold Schwarzenegger juggles fighting international terrorists with misusing the resources of a spy agency to spy on his wife. Featuring Jamie Lee Curtis and Eliza Dushku",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": "2021-06-19",
-        "last_appearance": "2021-07-31"
+        "status": "Dead"
     },
     {
-        "submission_id": 1039,
+        "id": 1039,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3505,12 +2967,10 @@ module.exports = [
         "title": "Atlas Shrugged: Part I",
         "description": "Who is John Galt? Who cares? See Ayn Rand's wildest libertarian fantasies brought to life in a movie about trains and how unbridled capitalism is actually really good.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-11-12",
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1040,
+        "id": 1040,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3518,12 +2978,10 @@ module.exports = [
         "title": "God's Not Dead 2",
         "description": "God is once again not dead as Christianity gets its day in court. Hopefully featuring the second coming of Kevin Sorbo.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-06-04",
-        "last_appearance": "2022-06-25"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1041,
+        "id": 1041,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3531,12 +2989,10 @@ module.exports = [
         "title": "Contract to Kill",
         "description": "A sleepy Steven Seagal fights terrorists and cartel members in totally-not-Romania while keeping all his clothes on for a love scene.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-02-26",
-        "last_appearance": "2022-03-05"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1042,
+        "id": 1042,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3544,12 +3000,10 @@ module.exports = [
         "title": "Speed Kills",
         "description": "John Travolta stars as a mobbed up drug running speedboat racer in what might as well be a spiritual sequel to Gotti.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1043,
+        "id": 1043,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3557,12 +3011,10 @@ module.exports = [
         "title": "Chocolat",
         "description": "Alfred Molina's (Spider-Man 2) Comte de Reynaud feels the heat as the northern wind attracts an unknown foe from beyond... it's got chocolate and judi dench as not a cat, what more could you ask for?",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-26"
+        "status": "Dead"
     },
     {
-        "submission_id": 1044,
+        "id": 1044,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3570,12 +3022,10 @@ module.exports = [
         "title": "Dark City",
         "description": "About a poorly lit city in which you'll find an amnesiac Rufus Sewell and Kiefer Sutherland doing... something. Additionally, it's got matrixy vibes and is a neat mystery film.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-11-06"
+        "status": "Dead"
     },
     {
-        "submission_id": 1045,
+        "id": 1045,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3583,12 +3033,10 @@ module.exports = [
         "title": "Sky Captain and the World of Tomorrow",
         "description": "They resurrected Laurence Olivier from a 15 year dirt nap for this wholly undeserving cgi bloomfest",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-07-23",
-        "last_appearance": "2022-07-23"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1046,
+        "id": 1046,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3596,12 +3044,10 @@ module.exports = [
         "title": "The Spirit",
         "description": "It's black and white, it's Frank Miller, it's bad.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-08-13",
-        "last_appearance": "2022-08-13"
+        "status": "Dead"
     },
     {
-        "submission_id": 1047,
+        "id": 1047,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3609,12 +3055,10 @@ module.exports = [
         "title": "King Ralph",
         "description": "I think we had bits of this movie accidentally recorded on a tape and it had a joke about spotted dick.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-06-25",
-        "last_appearance": "2022-07-02"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1048,
+        "id": 1048,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3622,12 +3066,10 @@ module.exports = [
         "title": "Queen of the Damned",
         "description": "One of Aaliyah's few feature film performances, featuring non-glittery vampires and very good music",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2022-08-20",
-        "last_appearance": "2022-08-20"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1049,
+        "id": 1049,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3635,12 +3077,10 @@ module.exports = [
         "title": "The Show",
         "description": "Noire-ish Modern day fantasy, featuring alan moore with a lot of make-up.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-09-25"
+        "status": "Dead"
     },
     {
-        "submission_id": 1050,
+        "id": 1050,
         "user_id": "777397145703284816",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3648,12 +3088,10 @@ module.exports = [
         "title": "Killer Sofa",
         "description": "The procurers saw Rubber and desperately wanted to capitalize on the cult classic inanimate object killer trope",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-12-11"
+        "status": "Dead"
     },
     {
-        "submission_id": 1051,
+        "id": 1051,
         "user_id": "90168914071289856",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3661,12 +3099,10 @@ module.exports = [
         "title": "Street Fighter",
         "description": "It's like Mortal Kombat, except it's an entirely different cast of characters. Also not gorey. Also also: Raul Julia as ... BISON.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-03-06"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1052,
+        "id": 1052,
         "user_id": "90168914071289856",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3674,12 +3110,10 @@ module.exports = [
         "title": "Guyver: Dark Hero",
         "description": "It's like Guyver, but the second one! And supposedly much better. Also, it has David Hayter as The Guyver. Guyver? GUYVER? GUUUUUUY-VEEEEEER!",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1053,
+        "id": 1053,
         "user_id": "90168914071289856",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3687,12 +3121,10 @@ module.exports = [
         "title": "The Guyver",
         "description": "It's basically like Sailor Moon, but instead of magical girl transformations you got cyborg and mutant alien monster transformations. This live action adaptation is pretty dang faithful to the anime â€“ lots of violence, and Iâ€™m pretty sure The Guyver does the chest thing. Plus: it has Mark Hamill! I haven't seen this movie in about to two decades, so itâ€™s probably a whole lot worse than Iâ€™m remembering. Yes, I saw this when I was around 13, and yes it gave young 90168914071289856 some nightmares.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2021-01-30",
-        "last_appearance": "2021-02-27"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1054,
+        "id": 1054,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3700,12 +3132,10 @@ module.exports = [
         "title": "Tron",
         "description": "Man gets sucked into computer, must fight his way out.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-02"
+        "status": "Dead"
     },
     {
-        "submission_id": 1055,
+        "id": 1055,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3713,12 +3143,10 @@ module.exports = [
         "title": "Cool as Ice",
         "description": "Vanilla Ice arrives in a small town and meets Kathy, an honor student. Meanwhile, Kathy's father is found by the corrupt police officers he escaped from years ago.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1056,
+        "id": 1056,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3726,12 +3154,10 @@ module.exports = [
         "title": "Hard Target",
         "description": "John Woo's US directorial debut has Jean-Claude Van Damme playing a Cajun man who takes on a gang of thugs in New Orleans. Wilfred Brimley plays a moonshiner. JCVD sports a glorious mullet and punches a snake. It's got everything!",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1057,
+        "id": 1057,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3739,12 +3165,10 @@ module.exports = [
         "title": "Final Fantasy: The Spirits Within",
         "description": "In 2065, Earth is ravaged by Phantoms which consume the Gaia spirit of living beings. A group of scientists tries to find a solution.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-05-22"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1058,
+        "id": 1058,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3752,12 +3176,10 @@ module.exports = [
         "title": "Space Jam",
         "description": "Michael Jordan teams up with the Looney Tunes to save Earth from aliens.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-09-11"
+        "status": "Dead"
     },
     {
-        "submission_id": 1059,
+        "id": 1059,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3765,12 +3187,10 @@ module.exports = [
         "title": "Flash Gordon",
         "description": "Based on the 1936 Serial, Flash travels to the Planet Mongo to fight aliens and save Earth. Soundtrack by Queen!",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2022-09-10",
-        "last_appearance": "2022-09-10"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1060,
+        "id": 1060,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3778,12 +3198,10 @@ module.exports = [
         "title": "Cliffhanger",
         "description": "Sylvester Stallone and John Lithgow square off in the Colorado Rockies to find 3 boxes containing 100 million dollars. Who will surviveâ€½",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": "2022-05-28",
-        "last_appearance": "2022-07-16"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1061,
+        "id": 1061,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3791,12 +3209,10 @@ module.exports = [
         "title": "The Adventures of Ford Fairlane",
         "description": "Andrew Dice Clay plays a \"Rock 'n' Roll Detective\" and endeavors to take down shady record executive Wayne Newton. Despite this white hot star power, the film won worst picture at the Razzies. OH!",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1062,
+        "id": 1062,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3804,12 +3220,10 @@ module.exports = [
         "title": "On Deadly Ground",
         "description": "Steven Seagal's only directorial effort, this environmental action film stars Seagal as \"Forrest Taft,\" a fireman who takes on an evil oil company CEO, played by Micheal Caine. All the Seagal staples are here: Punching? Check. Shooting? Check. Shameless cultural appropriation? Check. Co-staring Dr. Cox from Scrubs and an actual Bear.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1063,
+        "id": 1063,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3817,12 +3231,10 @@ module.exports = [
         "title": "Stop! Or My Mom Will Shoot",
         "description": "A buddy cop movie about a detective and his elderly mother. On the short list of Sylvester Stallone's most regretted acting roles.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-04-09",
-        "last_appearance": "2022-05-21"
+        "status": "Dead"
     },
     {
-        "submission_id": 1064,
+        "id": 1064,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3830,12 +3242,10 @@ module.exports = [
         "title": "Maximum Overdrive",
         "description": "Machines start coming to life and killing people! Stephen King's directoral debut and swan song.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1065,
+        "id": 1065,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3843,12 +3253,10 @@ module.exports = [
         "title": "The Last Airbender",
         "description": "M. Night Shyamalan's adaptation of the beloved nickelodeon show is widely considered one of the worst films of all time. Features a young Dev Patel.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-09-24",
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1066,
+        "id": 1066,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3856,12 +3264,10 @@ module.exports = [
         "title": "Going Overboard",
         "description": "In 2654, an interstellar war rages between the Terran Confederation and the cat-like Kilrathi Empire. Based on the video game series of the same name.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-22"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1067,
+        "id": 1067,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3869,12 +3275,10 @@ module.exports = [
         "title": "The Replacements",
         "description": "Professional football coach Gene Hackman gives failed quarterback Keanu Reeves a chance at redemption.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-03-19"
+        "status": "Dead"
     },
     {
-        "submission_id": 1068,
+        "id": 1068,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3882,12 +3286,10 @@ module.exports = [
         "title": "Excalibur",
         "description": "A world of wizards, kings, warriors, queens, swords, sorcery, and desire. King Arthur, basically.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-08-28"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1069,
+        "id": 1069,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3895,12 +3297,10 @@ module.exports = [
         "title": "The Last Starfighter",
         "description": "Arcade game is revealed to be alien military recruitment tool.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-12-04"
+        "status": "Dead"
     },
     {
-        "submission_id": 1070,
+        "id": 1070,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3908,12 +3308,10 @@ module.exports = [
         "title": "Ishtar",
         "description": "THREE TWO THREE FOUR FOUR TWO THREE AND",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1071,
+        "id": 1071,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3921,12 +3319,10 @@ module.exports = [
         "title": "Dragonball Evolution",
         "description": "Martial artist and high school senior Goku must save the world from the evil Lord Piccolo!",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-07-24"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1072,
+        "id": 1072,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3934,12 +3330,10 @@ module.exports = [
         "title": "Mr. Baseball",
         "description": "Tom Selleck plays a New York Yankee traded to a Japanese baseball team weeks before opening day. Sports drama and cultural difference humor ensues!",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1073,
+        "id": 1073,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3947,12 +3341,10 @@ module.exports = [
         "title": "Avatar",
         "description": "The highest grossing film of all time is about a marine transforming into a catboy to save the planet from an evil mech suit army.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": "2022-06-04",
-        "last_appearance": "2022-06-04"
+        "status": "Dead"
     },
     {
-        "submission_id": 1074,
+        "id": 1074,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3960,12 +3352,10 @@ module.exports = [
         "title": "TRON: Legacy",
         "description": "In 1989, Kevin Flynn disappears. 20 years later his son Sam goes looking for him and gets stuck in the computer world. Daft Punk is there!",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-03-26"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1075,
+        "id": 1075,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3973,12 +3363,10 @@ module.exports = [
         "title": "Geppetto",
         "description": "The classic story of Pinocchio is brought to life by the musical talents of Julia Louis-Dreyfus and Drew Carey.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-09-18"
+        "status": "Dead"
     },
     {
-        "submission_id": 1076,
+        "id": 1076,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3986,12 +3374,10 @@ module.exports = [
         "title": "The January Man",
         "description": "Harvey Keitel brings his brother Kevin Kline out of retirement to solve the murder of a Manhattan socialite.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2021-10-09"
+        "status": "Dead"
     },
     {
-        "submission_id": 1077,
+        "id": 1077,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -3999,12 +3385,10 @@ module.exports = [
         "title": "Real Steel",
         "description": "Hugh Jackman tries to bond with his estranged son through the shared experience of future robot boxing.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-03-26"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1078,
+        "id": 1078,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4012,12 +3396,10 @@ module.exports = [
         "title": "The Luck of the Irish",
         "description": "Kyle needs to find his gold luck charm in order to break the spell cast on him by the evil leprechaun Seamus before the big game.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-15"
+        "status": "Dead"
     },
     {
-        "submission_id": 1079,
+        "id": 1079,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4025,12 +3407,10 @@ module.exports = [
         "title": "Message from Space",
         "description": "An embattled planet sends an S.O.S. message and an intergalactic team comes to its rescue.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-01-08"
+        "status": "Dead"
     },
     {
-        "submission_id": 1080,
+        "id": 1080,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4038,12 +3418,10 @@ module.exports = [
         "title": "Message from Space",
         "description": "Released in 1978 and DEFINITELY NOT created to ride the coattails of Star Wars. A banquet of bizarre costumes and practical effects. Staring Sonny Chiba.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1081,
+        "id": 1081,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4051,12 +3429,10 @@ module.exports = [
         "title": "Tammy and the T-Rex",
         "description": "A young Paul Walker gets his brain gets transplanted into a T-Rex robot by an evil scientist. What follows is extensive puppet dinosaur vengeance and maybe true love.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": "2022-06-11",
-        "last_appearance": "2022-08-27"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1082,
+        "id": 1082,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4064,12 +3440,10 @@ module.exports = [
         "title": "Florida Straits",
         "description": "Raul Julia, imprisoned for years following the Bay of Pigs Invasion, convinces two men to help him sneak back into Cuba in search of his lost gold and lost love.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": "2022-04-02"
+        "status": "Dead"
     },
     {
-        "submission_id": 1083,
+        "id": 1083,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4077,12 +3451,10 @@ module.exports = [
         "title": "Ready Player One",
         "description": "The hunt is on to find the Easter Egg within OASIS. Whoever finds it first wins a vast fortune and control over the virtual world.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2021-10-02"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1084,
+        "id": 1084,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4090,12 +3462,10 @@ module.exports = [
         "title": "Sonic the Hedgehog",
         "description": "Anthropomorphic blue hedgehog teams up with local sheriff to defeat the United States Department of Defense.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": "2022-01-01"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1283,
+        "id": 1283,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4103,12 +3473,10 @@ module.exports = [
         "title": "Blackbird",
         "description": "A desperately shallow vanity piece / spy ‘thriller’ written, directed and starring the ‘Lord of the Dance’, Michael Flatley. The performances are awful, the dialogue is cringeworthy, it’s cheap looking, stupid, mercilessly drawn out and boring. Inept, soulless and absolutely fascinating from head to toe.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1284,
+        "id": 1284,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4116,12 +3484,10 @@ module.exports = [
         "title": "Alien",
         "description": "if you are going into space i think that you should leave your cat at home, he does not need the stress",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": "2022-11-12",
-        "last_appearance": "2022-11-12"
+        "status": "Victorious"
     },
     {
-        "submission_id": 1285,
+        "id": 1285,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4129,12 +3495,10 @@ module.exports = [
         "title": "Cool World",
         "description": "Last time I watched this I was a kid and all I really remember, I think, is that having sex with cartoons is a no-no. Pretty sure that holds up in reality too.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1286,
+        "id": 1286,
         "user_id": "366494171696988160",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4142,12 +3506,10 @@ module.exports = [
         "title": "They/Them",
         "description": "What if our movie had pronouns?",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-11-19",
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1287,
+        "id": 1287,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4155,12 +3517,10 @@ module.exports = [
         "title": "The Master of Disguise",
         "description": "If you love Dana Carvey's impressions then boy do I have the movie for you!",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1288,
+        "id": 1288,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4168,12 +3528,10 @@ module.exports = [
         "title": "The Island of Dr. Moreau",
         "description": "A mad science romp in which people become animals. Or animals become people maybe? Journey to Marlon Brando's island to experience one of the most troubled movie productions of all time.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1289,
+        "id": 1289,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4181,12 +3539,10 @@ module.exports = [
         "title": "Power Rangers Super Megaforce: The Legendary Battle",
         "description": "One of the worst pieces of television I have ever had the \"pleasure\" of watching despite it being a final to two 20-episode seasons of two different thrown together sentais and a celebration of the at that point 25 years of power rangers trust me when I say you don't need context it won't make sense even with it. it is just an hour of pure pain the perfect special for this server. ",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1290,
+        "id": 1290,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4194,12 +3550,10 @@ module.exports = [
         "title": "Warlords of the 21st Century",
         "description": "New Zealand's take on Mad Max features a bleak post-apocalypse, a consequence of the canonical \"Oil Wars.\" No building is safe from being driven through. Also released under the (far superior) title \"Battletruck.\"",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1291,
+        "id": 1291,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4207,12 +3561,10 @@ module.exports = [
         "title": "The Avengers",
         "description": "There's not a Captain America or Iron Man in sight as Ralph Fiennes and Uma Thurman battle to thwart Sean Connery's plans to rule the world through weather control. A terribly executed adaptation of the cult 60s British spy series, featuring an evil society of teddy bears, a swarm of robotic bees and more one liners than you can shake an umbrella at.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1292,
+        "id": 1292,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4220,12 +3572,10 @@ module.exports = [
         "title": "Taffin",
         "description": "A just missed out on Bond Pierce Brosnan IS Mark Taffin - sulking and pouting around an absolute shit hole 80’s Ireland village, driving his red Mustang convertible, living in his mums barn, wearing lots of different jackets with the collars popped and his lustrous mane billowing in the Irish breeze, taking on half the cast of Father Ted in various bar fights and stand offs.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1293,
+        "id": 1293,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4233,12 +3583,10 @@ module.exports = [
         "title": "House",
         "description": "It makes no sense and the special effects are terrible but it's sort of adorable in how insane it is. Features animated cats, severed fingers playing piano and kung fu.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1294,
+        "id": 1294,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4246,12 +3594,10 @@ module.exports = [
         "title": "Doctor Who",
         "description": "A backdoor pilot between Universal and the BBC to try and revive Doctor Who as an American-produced and lead TV show and considering this is Paul McGaan's only on-tv appearance as the doctor you can probably guess how that went",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": "2022-11-19",
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1295,
+        "id": 1295,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4259,12 +3605,10 @@ module.exports = [
         "title": "The Seventh Curse",
         "description": "This is one of the best movies I have ever seen. Want to watch a skeleton do martial arts? What about a xenomorph fighting a demon baby? What about Chow Yun Fat killing demons with an RPG? What about... you get the idea.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1296,
+        "id": 1296,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4272,12 +3616,10 @@ module.exports = [
         "title": "Aliens",
         "description": "Did the math, and I do believe, on a purely technical level, \"Get away from her you bitch!\" does in fact pass the Bechdel test.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": "2022-11-19",
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1297,
+        "id": 1297,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4285,12 +3627,10 @@ module.exports = [
         "title": "Howard the Duck",
         "description": "Budget, $37 million. Box office, $38 million. This made back it's production budget, but not that and the marketing budgets, making it a Flop. In spite of this, until the start of modern Marvel movies (Blade and X-Men) this was the highest-grossing Marvel film property.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1298,
+        "id": 1298,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4298,12 +3638,10 @@ module.exports = [
         "title": "Alien³",
         "description": "More sequels should kill the character you spent the entire last movie trying to protect during the opening credits. Let's see a Christopher Robin 2 where Winnie The Pooh gets eaten by a dog.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1299,
+        "id": 1299,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4311,12 +3649,10 @@ module.exports = [
         "title": "Gooby",
         "description": "In Gooby, a mentally destroyed young boy suffers from Asshole Business Dad and Asshole Business Mom disease. He also happens to be a deranged lunatic child with whiny little jerk disease. His mind creates a giant, nightmarish orange beast that may help him deal with a dangerous move and the \"imaginary\" mind aliens that plan to take down his family. ",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1300,
+        "id": 1300,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4324,12 +3660,10 @@ module.exports = [
         "title": "Willow",
         "description": "Willow is the story of a stage magician who tries to become an actual wizard. He sucks at being a real wizard, but his stage magic is pretty good. Val Kilmer is here as well. This movie pulled in $167 million on a $35 million budget. It was considered a financial failure by George Lucas.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1301,
+        "id": 1301,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4337,12 +3671,10 @@ module.exports = [
         "title": "Bon Cop Bad Cop",
         "description": "So I watched this on a four hour flight from Kelowna to Toronto. This is the Canadian version of that miniseries where Stannis Baratheon and Fleur from Harry Potter have to work together to solve a murder of a guy found exactly in the middle of the Channel Tunnel. But for Ontario and Quebec. Apparently this is like the highest grossing movie of all time for Canada?",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1302,
+        "id": 1302,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4350,12 +3682,10 @@ module.exports = [
         "title": "Fantasy Football",
         "description": "Daughter finds a magical copy of Madden 23 that lets her control her dad who happens to be a running back for the Atlanta Falcons IN REAL LIFE proving that for the falcons to win the super bowl the falcons do in fact need to cheat and to have a GAMER on there side ",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1303,
+        "id": 1303,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4363,12 +3693,10 @@ module.exports = [
         "title": "Dracula 2000",
         "description": "2000 draculas at once, amazing...",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1304,
+        "id": 1304,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4376,12 +3704,10 @@ module.exports = [
         "title": "Sideways",
         "description": "IN SEARCH OF WINE. IN SEARCH OF WOMEN. IN SEARCH OF THEMSELVES.\n\nTwo middle-aged men embark on a spiritual journey through Californian wine country. One is an unpublished novelist suffering from depression, and the other is only days away from walking down the aisle. ",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1305,
+        "id": 1305,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4389,12 +3715,10 @@ module.exports = [
         "title": "The Apple",
         "description": "Resurrected for another try.  Biblical allegory in musical form in the future year of 1994. Do the Bim.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1306,
+        "id": 1306,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4402,12 +3726,10 @@ module.exports = [
         "title": "Top Secret!",
         "description": "Funny movie, lots of laughs to be had.",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1307,
+        "id": 1307,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4415,12 +3737,10 @@ module.exports = [
         "title": "Holly and the Hot Chocolate",
         "description": "QVC’s best man David Venerable starts in this film about Hot Chocolate and the true meaning of Christmas ",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1308,
+        "id": 1308,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4428,12 +3748,10 @@ module.exports = [
         "title": "Innocent Blood",
         "description": "What if a mob movie had vampires?",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1309,
+        "id": 1309,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4441,12 +3759,10 @@ module.exports = [
         "title": "Love Actually",
         "description": "An ensemble cast of british stars come together to produce an embarrasing yet endearing anthology.",
         "rating": 5,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1310,
+        "id": 1310,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4454,12 +3770,10 @@ module.exports = [
         "title": "Deck the Halls",
         "description": "What do you think Matthew Broderick feels worse about? Killing that mother and daughter in his 1987 vehicle collision? Or starring in Deck The Halls? A family christmas comedy that contains a \"Who's Your Daddy?\" incest joke and an on-going cross-dressing gag. ",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1311,
+        "id": 1311,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4467,12 +3781,10 @@ module.exports = [
         "title": "A Christmas Prince",
         "description": "\n\nMe: I SWEAR TO GOD IF SHES WEARING HER GODDAMN CONVERSE UNDERNEATH HER BALLGOWN\n\nHer: *wearing her goddamn converse underneath her ballgown*",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1312,
+        "id": 1312,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4480,12 +3792,10 @@ module.exports = [
         "title": "Saving Christmas",
         "description": "We love racial stereotypes and Santa smacking dudes to dubstep.\nThis makes God's Not Dead look like a masterpiece.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1313,
+        "id": 1313,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4493,12 +3803,10 @@ module.exports = [
         "title": "Christmas Icetastrophe",
         "description": "You know how the movie The Day After Tomorrow is always laughed at because people are able to outrun the freezing? Well this movie has that happen in three different chases! And ice shards striking people in the neck and people turning to ice and cracking apart and pillars of ice forming right when helicopters are flying by. It's all so ridiculous. BUT THAT'S NOT THE BEST PART. People survive freezing because they are holding a lantern or a flare. Really. Surrounded by freezing cold and they hold it off with a flare. And they throw dynamite at the wall of snow/ice. And all of this is played seriously. ",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1314,
+        "id": 1314,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4506,12 +3814,10 @@ module.exports = [
         "title": "Christmas with a Capital C",
         "description": "Kino with a capital K.\nI used to believe in the separation of church and state but not any more. As long as the state sponsored religion is Christianity. And not any weird offshoots, either. It's gotta be the only Christianity that counts, namely the version that I believe in.\nAlso stars one of the Baldwin Brothers!",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1315,
+        "id": 1315,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4519,12 +3825,10 @@ module.exports = [
         "title": "The Christmas Shoes",
         "description": "Why did the shoes look like that?? They couldn’t have found a normal pair of shoes?? Those shoes were not God-honoring they were fugly! Let the mom have the hep b heart! Loved it when Rob Lowe listed off examples of miracles such as the laughing child, car trouble, pair of shoes, pot roast, etc. Based on the hit song.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1316,
+        "id": 1316,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4532,12 +3836,10 @@ module.exports = [
         "title": "Reindeer Games",
         "description": "Top 5 Reasons To Watch Reindeer Games:\n5. One of the dumbest, most convoluted 'twist' endings imaginable.\n4. Isaac Hayes' most inexplicable film role. It's baffling.\n3. Charlize Theron\n2. \"I want some fuckin hAAt chAAklAAt... and some pecan fuckin pie.\"\n1. Dennis Farina's inexplicable false teeth.\nA truly breathtaking mess of a motion picture.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1317,
+        "id": 1317,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4545,12 +3847,10 @@ module.exports = [
         "title": "In China They Eat Dogs",
         "description": "Bank robberies, prison breaks, pyrotechnics, car stunts. Its basically Danish Kopps.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1318,
+        "id": 1318,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4558,12 +3858,10 @@ module.exports = [
         "title": "Santa with Muscles",
         "description": "An amnesiac Hulk Hogan is convinced he's Santa Claus and must save an orphanage from an evil scientist who wants to take it over in order to *checks notes*... get at the magical crystals underneath it? I guess that's a thing. Featuring the acting debut of Mila Kunis whose career somehow survived this film.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1319,
+        "id": 1319,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4571,12 +3869,10 @@ module.exports = [
         "title": "Holiday in Handcuffs",
         "description": "\"A ne er-do-well thirty-something attempts to appease her family by kidnapping herself an attractive boyfriend for the family Christmas.\" There is no way in hell that this was written by a sane person. Completely bonkers and goddamn insufferable. Definitely a \"seeing is believing\" with this one. Viewer beware, hot, painful Christmas garbage ahead.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1320,
+        "id": 1320,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4584,12 +3880,10 @@ module.exports = [
         "title": "Invasion U.S.A.",
         "description": "Chuck Norris plays a retired CIA agent called into action to defend America from being overthrown by communist guerillas. The Centerpiece scene has \"Matt Hunter\" defending a shopping mall filled with Christmas decorations and terrified shoppers. Can he win the war on Christmas?",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Christmas"
     },
     {
-        "submission_id": 1321,
+        "id": 1321,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4597,12 +3891,10 @@ module.exports = [
         "title": "Silent Night, Deadly Night Part 2",
         "description": "The first hour, a clip show of the original film followed by a couple of routine kills, is fairly worthless in most respects. However, Feeman's untrained, unfiltered, unhinged performance is the linchpin that keeps it interesting, and as soon as Ricky begins dating Jennifer, the whole thing comes to life and morphs into a Midnight Movie dream for any trash goblin.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1322,
+        "id": 1322,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4610,12 +3902,10 @@ module.exports = [
         "title": "The Sweeper",
         "description": "A loose cannon cop is recruited by a secret cabal to impose justice through murder. Featuring some ridiculously over the top action sequences and the world's longest car chase on a pier. It's not surprising the stunt coordinator went on to work on the Fast and Furious series.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1323,
+        "id": 1323,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4623,12 +3913,10 @@ module.exports = [
         "title": "Nukie",
         "description": "Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie! Nukie!",
         "rating": 5,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1324,
+        "id": 1324,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4636,12 +3924,10 @@ module.exports = [
         "title": "Alien Resurrection",
         "description": "The Sigourney Weaver Alien movies collectively take place over 237 years but she’s only conscious for like 5 weeks. Ripley’s having an awful month.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1325,
+        "id": 1325,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4649,12 +3935,10 @@ module.exports = [
         "title": "Flatland: The Film",
         "description": "A weird movie based on a very existential book from the late 19th century, It's classified as \"Mathematical Fiction\" for you math nerds out there. It's also in 2D!",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1326,
+        "id": 1326,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4662,12 +3946,10 @@ module.exports = [
         "title": "Avenging Angel",
         "description": "Former teenage sex worker Molly has left her street life behind with the help of Lieutenant Andrews. She now attends university, pursuing her dream to become an attorney. But when she learns that Andrews was shot during a failed observation by brutal gangsters, she returns downtown to take revenge.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1327,
+        "id": 1327,
         "user_id": "170335269134794752",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4675,12 +3957,10 @@ module.exports = [
         "title": "Scott Pilgrim vs. the World",
         "description": "This movie, while flawed, really, *really* goes for it when it comes to adapting a graphic novel to film. Some incredible scenes and acting. Also awkward and flounders a bit. A rollercoaster of a film.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1328,
+        "id": 1328,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4688,12 +3968,10 @@ module.exports = [
         "title": "Atlas Shrugged: Part II",
         "description": "Remember all those actors from Part 1 you loved? Well they're all gone. The creeping tendrils of government control continue to spread as more stuff involving magic metal, implausible power sources and train adjacent politics occur. You might even get to meet John Galt!",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1329,
+        "id": 1329,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4701,12 +3979,10 @@ module.exports = [
         "title": "Spawn",
         "description": "Todd McFarlane's masterpiece brought to life with the help of PS1 level CGI. John Leguizamo steals the show as a demonic clown.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1330,
+        "id": 1330,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4714,12 +3990,10 @@ module.exports = [
         "title": "Prometheus",
         "description": "if i landed on a mysterious alien planet with a gigantic skull fortress i’d simply refuse to leave the ship",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1331,
+        "id": 1331,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4727,12 +4001,10 @@ module.exports = [
         "title": "Constantine",
         "description": "Keanu Reeves is the coolest dude fighting the Devil",
         "rating": 0,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1332,
+        "id": 1332,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4740,12 +4012,10 @@ module.exports = [
         "title": "The Abyss",
         "description": "Ed Harris loses his wedding ring and things go so very wrong.",
         "rating": 0,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1333,
+        "id": 1333,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4753,12 +4023,10 @@ module.exports = [
         "title": "The Ark",
         "description": "Noah's Ark but with a lot of sexy animals. So... The Bible but for Furries! Has a Censored and Uncensored version too!!!",
         "rating": 0,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1334,
+        "id": 1334,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4766,12 +4034,10 @@ module.exports = [
         "title": "Final Destination 3",
         "description": "BREAKING: actress mary elizabeth winstead has been recently hospitalized due to a major injury on her back. TMZ has confirmed that the injury was in fact caused by carrying the weight of the entire final destination franchise.\n\n",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1335,
+        "id": 1335,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4779,12 +4045,10 @@ module.exports = [
         "title": "Alien: Covenant",
         "description": "It's much more of an Alien movie (gross monster hunts people around spaceship!) but Prometheus fans, don't worry! There's plenty of robots playing the flute and reciting poetry too.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1336,
+        "id": 1336,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4792,12 +4056,10 @@ module.exports = [
         "title": "Live and Let Die",
         "description": "Pretty racist and has some bad comedy with Sheriff Pepper but this has some of the best villain performances of any Bond film that really elevate it. Yaphet Kottois that perfect genial monster who is always having fun at others misery and has one of the best mask reveals of any movie. Geoffrey Holder as Samedi is so much with so little. Very clearly a racist caricature that is made so memorable but his performance and his look. ",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1337,
+        "id": 1337,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4805,12 +4067,10 @@ module.exports = [
         "title": "Underworld",
         "description": "A movie about Vampires & Werewolves not getting along for centuries and eventually starting a war with a pale white girl being the main character saving the day? Wait......so this isn't Twilight? It's truly amazing how often they say \"lycans\" in this.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1338,
+        "id": 1338,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4818,12 +4078,10 @@ module.exports = [
         "title": "Air Force One",
         "description": "Standard protocol in the event of overwhelming attack is to evacuate the president to a safe location. Most presidents follow the standard protocol. This one fights back. Die Hard on Air Force One, Harrison Ford vs Gary Oldman.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1339,
+        "id": 1339,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4831,12 +4089,10 @@ module.exports = [
         "title": "28 Weeks Later",
         "description": "28 weeks after the Rage outbreak, the undead are gone along with Danny Boyle and everyone from the last movie. As NATO leads the first effort to resettle the devastated island, they encounter something unexpected that threatens the entire world: a succession of people seemingly trying to win a betting pool of who can fuck up the most.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1340,
+        "id": 1340,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4844,12 +4100,10 @@ module.exports = [
         "title": "Firestarter",
         "description": "Hey remember the original? What if they did it again, but with Zac Efron and the dad from That 70s Show?",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1341,
+        "id": 1341,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4857,12 +4111,10 @@ module.exports = [
         "title": "Cell",
         "description": "You be on that damn phone! Sammy J, and John Cusack are here to help people after a phone signal makes people go coo coo for Coco Puffs",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1342,
+        "id": 1342,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4870,12 +4122,10 @@ module.exports = [
         "title": "The Dark Tower",
         "description": "A movie based on a great book series that had the WORST marketing campaign I've seen in a long time. Makes me embarassed to be called Gunslinger.",
         "rating": 2,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1343,
+        "id": 1343,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4883,12 +4133,10 @@ module.exports = [
         "title": "Cube",
         "description": "It's a maze, and it's cubes, and it's traps! Oooooooo!",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1344,
+        "id": 1344,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4896,12 +4144,10 @@ module.exports = [
         "title": "Escape Room",
         "description": "Remember the lawyer lady from Daredevil? She's in an Escape Room now, where what if the only escape is deeaaathhh oooooooo",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1345,
+        "id": 1345,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4909,12 +4155,10 @@ module.exports = [
         "title": "Ninja Assassin",
         "description": "Ninja Assassin isn't concerned with things like \"Acting\" or \"Themes\", not when it has ninjas throwing shuriken like automatic weaponry and liquid swords.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1346,
+        "id": 1346,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4922,12 +4166,10 @@ module.exports = [
         "title": "Legion",
         "description": "God abandons humanity and sends his army led by Gabriel to bring on the apocalypse. Only Michael and some people in a diner can save us now.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1347,
+        "id": 1347,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4935,12 +4177,10 @@ module.exports = [
         "title": "The Man with the Golden Gun",
         "description": "Bond keeps the world safe from solar power and the demonic, three-nippled hit man holding the reigns of \"clean\" energy. It's a disgrace that an updated Sheriff J.W. Pepper never made it into the Craig films.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1348,
+        "id": 1348,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4948,12 +4188,10 @@ module.exports = [
         "title": "The Number 23",
         "description": "In one of his more serious roles, Jim Carrey reads a book that oddly seems based on his life, and as he tries to unravel the mystery discovers that all numbers lead to 23.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1349,
+        "id": 1349,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4961,12 +4199,10 @@ module.exports = [
         "title": "Becker - Kungen av Tingsryd",
         "description": "They tried their hardest to make the godfather set in a small swedish town and failed MISERABLY",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1350,
+        "id": 1350,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4974,12 +4210,10 @@ module.exports = [
         "title": "Zero Tolerance",
         "description": "Johan is a two-fisted Gothenburg cop who finds himself in a shoot-out with jewel robbers. After the smoke has cleared, one robber, shot by his accomplice, and an innocent bystander, are dead. \n\nPart 1 of the swedish proto-jason bourne trilogy about Johan Falk.",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1351,
+        "id": 1351,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -4987,12 +4221,10 @@ module.exports = [
         "title": "Executive Protection",
         "description": "After causing a commotion with his last assignment, Falk has been given a desk job, which hardly agrees with his personality, and he ends up accepting an offer from an old friend to buy into a private investigation agency.\n\nPart 2 of swedish proto-jason bourne trilogy",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1352,
+        "id": 1352,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5000,12 +4232,10 @@ module.exports = [
         "title": "The Third Wave",
         "description": "Johan Falk hasn't been working for over a year since he resigned from the police. Most of all he wants to move out to the countryside, but fate has a different thought.\n\nPart 3 of the swedish proto-jason bourne trilogy\n",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1353,
+        "id": 1353,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5013,12 +4243,10 @@ module.exports = [
         "title": "Underworld: Evolution",
         "description": "Where the first one felt mostly bereft of inventive action sequences, this thing is bursting at the seams with them. It also amps up the horror side of the equation as well, with a metric ton of delightful gore and brutal kills. And, there's plenty of monster on monster action this time around. ",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1354,
+        "id": 1354,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5026,12 +4254,10 @@ module.exports = [
         "title": "The Spy Who Loved Me",
         "description": "Aggressively silly and ridiculously entertaining. positively packed with superb big-budget location photography, then state-of-the-art special effects, and practical stunts (helicopter vs. Lotus Esprit being a highlight). and then there's Ken Adam's truly outstanding tanker/fortress set, according to myth lit by Kubrick himself.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1355,
+        "id": 1355,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5039,12 +4265,10 @@ module.exports = [
         "title": "Conan the Barbarian",
         "description": "Jason Momoa steps into Arnie's shoes in an underwhelming revenge focused reboot of this classic sword and sorcery series.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1356,
+        "id": 1356,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5052,12 +4276,10 @@ module.exports = [
         "title": "Moonraker",
         "description": "James Bond has SEX on the MOON",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1357,
+        "id": 1357,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5065,12 +4287,10 @@ module.exports = [
         "title": "Atlas Shrugged: Part III",
         "description": "Atlas Shrugged Part III returns to finally answer the question \"Who Is John Galt?\" as the world economy collapses and the world begins to end for yet another sets of actors and actresses for the characters. Look, we know what this is.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1358,
+        "id": 1358,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5078,12 +4298,10 @@ module.exports = [
         "title": "Dreamcatcher",
         "description": "Brought to you by the power of Stephen King's oxy habit and Morgan Freeman's eyebrows. Four friends take their annual hunting trip in the woods but find the future of the planet at stake. And yes, of course it's set in Maine.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1359,
+        "id": 1359,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5091,12 +4309,10 @@ module.exports = [
         "title": "For Your Eyes Only",
         "description": "What does it say about Roger Moore's other Bond movies, that this one, where he punches out a hockey team in full pads, fights a man in a robotic scuba suit at the bottom of the ocean, and gets into ski chase with a motorcycle on a bobsled track, is considered his \"serious\" one?",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1360,
+        "id": 1360,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5104,12 +4320,10 @@ module.exports = [
         "title": "Fist of the North Star",
         "description": "The first season of Fist of the North Star is remade into a motion picture, which doesn't explain much of Kenshiro's journey but does include lots of him making people's heads explode by punching them.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1361,
+        "id": 1361,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5117,12 +4331,10 @@ module.exports = [
         "title": "Sinbad: Legend of the Seven Seas",
         "description": "The *other* animation flop",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1362,
+        "id": 1362,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5130,12 +4342,10 @@ module.exports = [
         "title": "The Road to El Dorado",
         "description": "It's tough to be a flop",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1363,
+        "id": 1363,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5143,12 +4353,10 @@ module.exports = [
         "title": "Justice League x RWBY: Super Heroes & Huntsmen, Part One",
         "description": "In this continued warner media crossover hell scape characters from the DC universe somehow get transported into the world of the \"hit\" Rooster teeth animated series RWBY also their teenagers for some reason. will this be any good probably not which is why I am submitting it ",
         "rating": 0,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1364,
+        "id": 1364,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5156,12 +4364,10 @@ module.exports = [
         "title": "Teenage Mutant Ninja Turtles",
         "description": "The Michale Bay produced live-action TMNT movie where the shredder was nearly William Fichtner and apparently a military man. also, Johhny Knoxville is Leo, how bad can it be\n",
         "rating": 0,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1365,
+        "id": 1365,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5169,12 +4375,10 @@ module.exports = [
         "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
         "description": "The Sequal to the Michale Bay produced TMNT movie, this time it has BeeBop and rocksteady, also Krang, and Arrow man as Casey Jones, so this movie somehow features two wrestlers ",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1366,
+        "id": 1366,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5182,38 +4386,32 @@ module.exports = [
         "title": "Blood Debts",
         "description": "Is this movie worth watching for 90 minutes just to get to the ending? Probably not.\n\nIs the ending good? It's the most memorable thing you will see in weeks.",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1367,
+        "id": 1367,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
         "time_submitted": "2023-04-04 22:33:15",
         "title": "Forbidden Planet",
-        "description": "Early science fiction! Matte paintings! Robby the Robot! Young Leslie Nielsen! THE FIRST FILM TO HAVE A FULLY ELECTRONIC rating!",
+        "description": "Early science fiction! Matte paintings! Robby the Robot! Young Leslie Nielsen! THE FIRST FILM TO HAVE A FULLY ELECTRONIC SCORE!",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1368,
+        "id": 1368,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
         "time_submitted": "2023-04-05 17:22:22",
-        "title": "Final rating",
+        "title": "Final Score",
         "description": "Taken / Die Hard set entirely in a stadium during a soccer match. Dave Bautista stars. ",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1369,
+        "id": 1369,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5221,12 +4419,10 @@ module.exports = [
         "title": "Tiger on the Beat",
         "description": "Hong Kong Action Cinema Buddy Cop movie featuring Chow Yun-Fat (Crouching Tiger) and Conan Lee (Lethal Weapon 4) in an absolutely batshit movie attempting to replicate the vibes of the original Lethal Weapon.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1370,
+        "id": 1370,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5234,12 +4430,10 @@ module.exports = [
         "title": "Mortal Engines",
         "description": "I've only seen a little bit of this movie but it was dire. Apparently they take the plot of the book and really do a bad job of representing the content. Also the Minions are in it. No I'm not kidding.",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1371,
+        "id": 1371,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5247,12 +4441,10 @@ module.exports = [
         "title": "Octopussy",
         "description": "Easily one of the most confusing bombs in movie history. Directed by John Glen.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1372,
+        "id": 1372,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5260,12 +4452,10 @@ module.exports = [
         "title": "God's Not Dead: A Light in Darkness",
         "description": "Time to check back in on our favourite series chronicling the oppression of Christians in America. Fresh out of prison, Pastor Dave suffers another setback when his church is set to be closed by the evil forces of atheist academia. Then it nearly burns down. Or maybe it's the other way round. Either way, God is still very much not dead.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1373,
+        "id": 1373,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5273,12 +4463,10 @@ module.exports = [
         "title": "Star Wars: The Clone Wars",
         "description": "Asoka is getting a series on Disney+ so let's see where she started in the 3D clone wars movie that was just the pilot but in a movie theater (even though that Asoka series is more a sequel to rebels but whatever)",
         "rating": 0,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1374,
+        "id": 1374,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5286,12 +4474,10 @@ module.exports = [
         "title": "Spy Hard",
         "description": "The Naked Gun version of James Bond / Mission Impossible / True Lies. Lots of parody & satire that felt funnier when I was a teenager. Some of it's still pretty good! Surprise appearance from wrestling doctorate holder Dr. Joyce Brothers. Also there are dinosaurs.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Active"
     },
     {
-        "submission_id": 1375,
+        "id": 1375,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5299,12 +4485,10 @@ module.exports = [
         "title": "Falling Down",
         "description": "Michael Douglas is having a real fucking bad day.",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1376,
+        "id": 1376,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5312,12 +4496,10 @@ module.exports = [
         "title": "The Game",
         "description": "Michael Douglas is having another real fucking bad day. Or is he?",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1377,
+        "id": 1377,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5325,12 +4507,10 @@ module.exports = [
         "title": "Redline",
         "description": "Anime movie about the most dangerous and popular race in the galaxy. HIGH INTENSITY RACING ANIME. Soundtrack by the guy who wrote the Pepsiman theme tune, so you know it fucking rocks.",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Active"
     },
     {
-        "submission_id": 1378,
+        "id": 1378,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5338,12 +4518,10 @@ module.exports = [
         "title": "Sleepy Hollow",
         "description": "Tim Burton takes an actor known for his appearance and speech pattern and does away with both.",
         "rating": 3,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1379,
+        "id": 1379,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5351,12 +4529,10 @@ module.exports = [
         "title": "A View to a Kill",
         "description": "Roger Moore was thawed from cryosleep a week prior to the June '84 start of principal photography.\n\"The best Bond yet.\" - Griffin Newman",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1380,
+        "id": 1380,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5364,12 +4540,10 @@ module.exports = [
         "title": "The Losers",
         "description": "An all star cast plays a disgraced US black ops team as they seek revenge against the man who betrayed them. Dumb fun featuring Idris Elba, Zoe Saldana, Jeffrey Dean Morgan and Chris Evans as the hunkiest nerd ever to exist.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1381,
+        "id": 1381,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5377,12 +4551,10 @@ module.exports = [
         "title": "Geostorm",
         "description": "Satellites around the world can control the weather, what can go wrong? ",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1382,
+        "id": 1382,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5390,12 +4562,10 @@ module.exports = [
         "title": "Rhinestone",
         "description": "Dolly Parton stars as a country singer who attempts to make a country music superstar out of a New York cabbie played by Sylvester Stallone. It can't be as bad as it sounds, right???",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Active"
     },
     {
-        "submission_id": 1383,
+        "id": 1383,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5403,12 +4573,10 @@ module.exports = [
         "title": "The Man Who Saved the World",
         "description": "Two space cadets crash-land on a desert planet, where an evil wizard seeks the ultimate power to take over the world. Although the movie borrows some background footage from Star Wars, the plot is mostly unrelated.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1384,
+        "id": 1384,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5416,12 +4584,10 @@ module.exports = [
         "title": "Digimon: The Movie",
         "description": "Take 3 different Digimon short films, and combine them with an interconnected storyline that sorta works and a very good early 2000s dub and you have the Digimon movie, also don't forget the Digi-rap ",
         "rating": 4,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1385,
+        "id": 1385,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5429,12 +4595,10 @@ module.exports = [
         "title": "Ballistic: Ecks vs. Sever",
         "description": "We're off to a bad start when the title is a lie - Ecks and Sever team up to defeat a common foe rather than take each other on. Bad, but it's full of explosions.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1386,
+        "id": 1386,
         "user_id": "105334967675953152",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5442,12 +4606,10 @@ module.exports = [
         "title": "Tomorrowland",
         "description": "A bad movie with jetpacks is a good jetpack movie. Also the Eiffel Tower was there.",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1387,
+        "id": 1387,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5455,12 +4617,10 @@ module.exports = [
         "title": "Rogue One: A Star Wars Story",
         "description": "the first half of this movie is 3 stars but the last half hour is about 8 stars so jot that down",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1388,
+        "id": 1388,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5468,12 +4628,10 @@ module.exports = [
         "title": "Hearts in Atlantis",
         "description": "A Dark Tower-adjacent Stephen King-mystery starring Anthony Hopkins based on the short story \"Low men in yellow coats\" from the collection \"Hearts In Atlantis\"",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1389,
+        "id": 1389,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5481,12 +4639,10 @@ module.exports = [
         "title": "Knights of the Zodiac",
         "description": "A live-action adaptation of the classic anime series Saint Seiya that had screenings pulled mere hours before its primer in the US. Seiya becomes the pegasus knight one of many knights who are destined to protect the reincarnation of the Greek goddess Athena from evil. beloved in Latin America but nearly known here saint seiya is a series that should be watched, this movie well who knows lets see ",
         "rating": 0,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1390,
+        "id": 1390,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5494,12 +4650,10 @@ module.exports = [
         "title": "Deathsport",
         "description": "In a post apocalyptic future, criminals fight for their freedom on dirt bikes, I'm sorry, on DEATH MACHINES. A weird blending of a Mad Max style future with bits ripped off from Star Wars. Featuring David Carradine in a loincloth, dropkicking a door and shouting “I am my only master!\".",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1391,
+        "id": 1391,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5507,12 +4661,10 @@ module.exports = [
         "title": "Star Wars",
         "description": "An elegant movie for a more civilized age.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1392,
+        "id": 1392,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5520,12 +4672,10 @@ module.exports = [
         "title": "Outland",
         "description": "Blends the dirty, lived-in blue collar sci-fi detail of Alien and a conspiracy noir/morality play western with the lonely space sheriff investigating the brutal exploitation of mining workers. Features strong anti-capital subtext, gorgeously detailed used future sets and miniatures, long, mute dialogue scenes with text-based computer interfaces, all the stuff that made Alien such a huge smash.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1393,
+        "id": 1393,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5533,12 +4683,10 @@ module.exports = [
         "title": "The Empire Strikes Back",
         "description": "The only Star Wars movie to fully explore the ramifications of Yoda's ketamine addiction and that's why it's the best one. This movie is 40 years old, I’ve watched it (and the other original Star Wars) a million times, and I literally never noticed until today that C-3PO has one silver leg. \nhan and leia: luke we need you to help fight the empire.\nluke: im off doing hot girl shit",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1394,
+        "id": 1394,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5546,12 +4694,10 @@ module.exports = [
         "title": "The Three Musketeers",
         "description": "It's one for all and all for one as Paul WS Anderson takes some time out from directing the Resident Evil series to step into the pages of this classic novel. It's not great, but the villains are played by Mads Mikkelsen and Christoph Waltz and most of the rest of the cast are pretty solid names.",
         "rating": 1,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1395,
+        "id": 1395,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5559,12 +4705,10 @@ module.exports = [
         "title": "Popeye",
         "description": "Popeye is a super-strong, spinach-scarfing sailor man who's searching for his father. During a storm that wrecks his ship, Popeye washes ashore and winds up rooming at the Oyl household, where he meets Olive. Before he can win her heart, he must first contend with Olive's fiancé, Bluto. Also ended up inspiring the Video Game Donkey Kong!",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1396,
+        "id": 1396,
         "user_id": "149086255001501696",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5572,12 +4716,10 @@ module.exports = [
         "title": "Iron Sky",
         "description": "In the last moments of World War II, a secret Nazi space program evaded destruction by fleeing to the Dark Side of the Moon. During 70 years of utter secrecy, the Nazis construct a gigantic space fortress with a massive armada of flying saucers.",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1397,
+        "id": 1397,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5585,12 +4727,10 @@ module.exports = [
         "title": "Dead Heat",
         "description": "In memory of Treat Williams; straight-laced cop Roger Mortis becomes an undead law enforcer who must hunt his killers before his body starts to decompose. Also features Vincent Price and about seven thousand people from 90s Star Trek.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1398,
+        "id": 1398,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5598,12 +4738,10 @@ module.exports = [
         "title": "Return of the Jedi",
         "description": "Salacious B. Crumb is finally here.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1399,
+        "id": 1399,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5611,12 +4749,10 @@ module.exports = [
         "title": "The Phantom",
         "description": "Billy Zane plays everyone's favourite(?) pulp comic strip hero in a ridiculous looking purple bodysuit as he fights to stop an evil villain played by Treat Williams (RIP) from obtaining three ancient skulls which will grant him incredible power. Cheesy, campy fun.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1400,
+        "id": 1400,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5624,12 +4760,10 @@ module.exports = [
         "title": "Krull",
         "description": "Glaives! Liam Neeson! Tigers! Cyclops Men! Weird fantasy sci-fi mashup that is super cheesy but kind of great.",
         "rating": 3,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1401,
+        "id": 1401,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5637,12 +4771,10 @@ module.exports = [
         "title": "Sphere",
         "description": "What if we found a big gold alien sphere in a spaceship underwater? And also Sammy J was there, and he hated squids?",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1402,
+        "id": 1402,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5650,12 +4782,10 @@ module.exports = [
         "title": "The Tuxedo",
         "description": "What if a tuxedo could teach you kung fu??",
         "rating": 2,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1403,
+        "id": 1403,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5663,12 +4793,10 @@ module.exports = [
         "title": "Short Circuit",
         "description": "The 5 is alive!!!",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1404,
+        "id": 1404,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5676,12 +4804,10 @@ module.exports = [
         "title": "Escape from New York",
         "description": "Call him Snake. And check out his sweet watch he gets, I think, it's been a while. But he has an eyepatch! That's cool!",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1405,
+        "id": 1405,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5689,12 +4815,10 @@ module.exports = [
         "title": "Thir13en Ghosts",
         "description": "Tony Shaloub vs Ghosts, who will win?? Also it has a glass ghost maze and we all love them!",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1406,
+        "id": 1406,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5702,12 +4826,10 @@ module.exports = [
         "title": "Ghosts of Mars - Gunslinger",
         "description": "If you can name two things about this movie, you get a dollar, I bet you can't name two things about this movie!",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1407,
+        "id": 1407,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5715,12 +4837,10 @@ module.exports = [
         "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
         "description": "\"You'd best start believin' in movie servers, Miss Turner... You're in one!\"",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1408,
+        "id": 1408,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5728,12 +4848,10 @@ module.exports = [
         "title": "You Don't Mess with the Zohan",
         "description": "Dont Mess with the Zohan or: Adam Sandler attempts to solve the Israel/Palestine conflict through the fine inspiring art of harrassment and hairdressing\n\n",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1409,
+        "id": 1409,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5741,12 +4859,10 @@ module.exports = [
         "title": "Click",
         "description": "the premise is that capitalism makes balancing work and home life impossible and that to get ahead, you have to put your brain on auto-pilot and neglect your own happiness, damn\n\nbasically it’s a wonderful life 2 once the initial happy madison production type antics stop\n\n",
         "rating": 3,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1410,
+        "id": 1410,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5754,12 +4870,10 @@ module.exports = [
         "title": "Drive Angry",
         "description": "Drive Angry is like buying pre-distressed buttrock t-shirts at Target to go with your pre-distressed jeans also purchased at Target to wear to your big night out at Chili's to get hella wasted and order too many appetizers which you hope not to lose prematurely in the Chili's bathroom.\n\n",
         "rating": 4,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1411,
+        "id": 1411,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5767,12 +4881,10 @@ module.exports = [
         "title": "Warrior of the Lost World",
         "description": "What if Italy made Mad Max, also starring Donald Pleasance.",
         "rating": 1,
-        "status": "Dead",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1412,
+        "id": 1412,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5780,12 +4892,10 @@ module.exports = [
         "title": "When the Raven Flies",
         "description": "Basically Viking Yojimbo",
         "rating": 4,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1413,
+        "id": 1413,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5793,12 +4903,10 @@ module.exports = [
         "title": "The Flash",
         "description": "bad movie, bad movie, bad cameos, perfect for this server hell",
         "rating": 2,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1414,
+        "id": 1414,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5806,12 +4914,10 @@ module.exports = [
         "title": "Pirates of the Caribbean: Dead Man's Chest",
         "description": "In one scene a guy’s head gets knocked off and turns into a hermit crab and scuttles away and that alone earns two stars",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1415,
+        "id": 1415,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5819,12 +4925,10 @@ module.exports = [
         "title": "The Guest",
         "description": "The main guy from Legion is a soldier on the run who makes friends with a family and helps hem out... But is there something more??",
         "rating": 4,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1416,
+        "id": 1416,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5832,12 +4936,10 @@ module.exports = [
         "title": "Riki-Oh: The Story of Ricky",
         "description": "Another insane gore fest from the director of The Seventh Curse. This time following the story of Ricki-Oh, a young man with superhuman strength who is sent to prison and uses his abilities to overcome the corrupt guards and inmates.",
         "rating": 4,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1417,
+        "id": 1417,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5845,12 +4947,10 @@ module.exports = [
         "title": "The World's End",
         "description": "Server drinking game, also what if you're all blue bloods",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1418,
+        "id": 1418,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5858,12 +4958,10 @@ module.exports = [
         "title": "Pirates of the Caribbean: At World's End",
         "description": "will and elizabeth getting married in the middle of a battle... wow... maybe some straight lives do matter",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1419,
+        "id": 1419,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5871,12 +4969,10 @@ module.exports = [
         "title": "The Swarm",
         "description": "Killer bees make their appearance on your 1970s disaster movie bingo card as they threaten to wipe Texas off the map. A shouty Michael Caine heads an A-list cast in this B(ee)-grade at best movie.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1420,
+        "id": 1420,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5884,12 +4980,10 @@ module.exports = [
         "title": "Rising Sun",
         "description": "Sean Connery and Wesley Snipes team up to solve a murder, taking them deep into Japanese Corporate intrigue. The only film where you can hear Sean Connery talk about \"The Senpai-Kōhai relationship.\"",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1421,
+        "id": 1421,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5897,12 +4991,10 @@ module.exports = [
         "title": "The Midnight Meat Train",
         "description": "Submitted for OGMandias. Adapted from a Clive Barker short story, about a photographer who pursues a serial killer as he stalks commuters on light night trains, brutally murdering them.",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1422,
+        "id": 1422,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5910,12 +5002,10 @@ module.exports = [
         "title": "The Glimmer Man",
         "description": "One of Steven Seagal's last hurrahs before falling into straight to video hell, a tonal mess of genres crammed together into an entertaining ride. A lot of windows are broken and several people learn why credit cards aren't to be messed with.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1423,
+        "id": 1423,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5923,12 +5013,10 @@ module.exports = [
         "title": "Pirates of the Caribbean: On Stranger Tides",
         "description": "Adjusted for inflation this is the third most expensive movie ever made. It... doesn't feel like it.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1424,
+        "id": 1424,
         "user_id": "281566221437108226",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5936,12 +5024,10 @@ module.exports = [
         "title": "Attack the Block",
         "description": "Aliens crash on a council estate and only The Doctor and Finn from Star Wars can stop them, as well as THE YOUTHS\n",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1425,
+        "id": 1425,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5949,12 +5035,10 @@ module.exports = [
         "title": "Doom",
         "description": "The best video game movie ever made. Contains Karl Urban and Rosamund Pike. Cannot remember what happens but it's good fun.",
         "rating": 1,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1426,
+        "id": 1426,
         "user_id": "105856894719016960",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5962,12 +5046,10 @@ module.exports = [
         "title": "Gone in Sixty Seconds",
         "description": "Nic Cage's crew must steal 50 cars in one night for Christopher Eccleston, a mob boss obsessed with wood furniture.  Predates \"The Fast and the Furious\" by a year and actually had a sense of humor. Great 2000s EDM soundtrack.",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1427,
+        "id": 1427,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5975,12 +5057,10 @@ module.exports = [
         "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
         "description": "I am transfixed by the heroic laziness of Johnny Depp's performance in this unforgivably bad movie",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1428,
+        "id": 1428,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -5988,12 +5068,10 @@ module.exports = [
         "title": "The Shadow",
         "description": "A mediocre hero origin story with Alec Baldwin and some orientalism. Basically a precursor to Batman?",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1429,
+        "id": 1429,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6001,12 +5079,10 @@ module.exports = [
         "title": "Loose Cannons",
         "description": "A veteran detective teams up with a brilliant but troubled new partner who suffers from a zany form of dissociative identity disorder where he takes on the personalities of pop culture characters. Together they investigate a series of crimes with a motive so insane I can't do it justice in text. The Gene Hackman and Dan Aykroyd buddy cop comedy you never wanted.",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1430,
+        "id": 1430,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6014,12 +5090,10 @@ module.exports = [
         "title": "Beowulf",
         "description": "Anglo-Saxon epic poetry is given a sci fi/fantasy twist through a Mortal Kombat lens. Christopher Lambert plays the titular hero as he backflips a bunch to a 90s techno/industrial soundtrack.",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Active"
     },
     {
-        "submission_id": 1431,
+        "id": 1431,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6027,12 +5101,10 @@ module.exports = [
         "title": "Fist of the North Star",
         "description": "Remember when we watched Fist of the North Star and had a good time? Well what if it was live action and had less exploding heads?",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Active"
     },
     {
-        "submission_id": 1432,
+        "id": 1432,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6040,12 +5112,10 @@ module.exports = [
         "title": "Enemy of the State",
         "description": "Tony Scott directed, Jerry Bruckheimer produced late 90’s espionage thriller about the NSA and Big Brother.",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1433,
+        "id": 1433,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6053,12 +5123,10 @@ module.exports = [
         "title": "Crimson Tide",
         "description": "Denzel Washington and Gene Hackman match wits and test tempers in a tense thriller involving a US Nuclear submarine.",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1434,
+        "id": 1434,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6066,12 +5134,10 @@ module.exports = [
         "title": "Man on Fire",
         "description": "This is basically Max Payne by way of Tony Scott. ",
         "rating": 5,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1435,
+        "id": 1435,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6079,12 +5145,10 @@ module.exports = [
         "title": "Eagle Eye",
         "description": "‘Big Brother is watching you’ film starring Shia LeBeouf & Michelle Monaghan. There’s a big glass covered AI eye at the end and it looks kinda dumb.",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1436,
+        "id": 1436,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6092,12 +5156,10 @@ module.exports = [
         "title": "The X Files",
         "description": "Agents Dana and Scully make a movie about aliens",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1437,
+        "id": 1437,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6105,12 +5167,10 @@ module.exports = [
         "title": "Godzilla: King of the Monsters",
         "description": "Godzilla is back! Also starting Millie Bobby Brown as the cool girl that has a connection to the beast.",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1438,
+        "id": 1438,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6118,12 +5178,10 @@ module.exports = [
         "title": "1984",
         "description": "Big Brother is watching us ",
         "rating": 5,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1439,
+        "id": 1439,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6131,12 +5189,10 @@ module.exports = [
         "title": "Dick Tracy",
         "description": "A 90s era callback to gangster and gumshoe films of the 30’ and 40’; Based on a comic series created by Chester Gould.",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Active"
     },
     {
-        "submission_id": 1440,
+        "id": 1440,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6144,12 +5200,10 @@ module.exports = [
         "title": "The Green Hornet",
         "description": "A modern film adaptation of a 1930s comic serial about a rich heir son a newspaper magnate and his loyal mechanic friend turning into vigilantes",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1441,
+        "id": 1441,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6157,12 +5211,10 @@ module.exports = [
         "title": "Superman",
         "description": "now I am not claiming to be an expert but I am not entirely sure if that's how the earth's orbit works",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1442,
+        "id": 1442,
         "user_id": "451569305063260170",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6170,12 +5222,10 @@ module.exports = [
         "title": "Batman",
         "description": "\"But wait! It happened at sea... See? C for Catwoman!\"",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1443,
+        "id": 1443,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6183,12 +5233,10 @@ module.exports = [
         "title": "Hell Comes to Frogtown",
         "description": "Don’t you sometimes feel like the most fertile man on the planet walking around in a chastity belt escorted by hot combat nurses who want to fuck you but can’t because you must rescue a group of sex slaves from horny frog people to repopulate earth?\n\n",
         "rating": 3,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1444,
+        "id": 1444,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6196,12 +5244,10 @@ module.exports = [
         "title": "Golgo 13: The Professional",
         "description": "Golgo 13 is like a Japanese James Bond in that he sleeps with every woman he meets, often graphically, and then they die. But the animation in this is so good, not to mention the nascent CGI which is terrible and amazing at the same time.",
         "rating": 4,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1445,
+        "id": 1445,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6209,12 +5255,10 @@ module.exports = [
         "title": "Samurai Cop",
         "description": "He speaks fluent japanese!",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1446,
+        "id": 1446,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6222,12 +5266,10 @@ module.exports = [
         "title": "Superman II",
         "description": "We interrupt this program for an urgent message from the President of the United States.\n\"In the name of the other leaders of the world, I hereby abdicate all control over this planet to General Zod.\"",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1447,
+        "id": 1447,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6235,12 +5277,10 @@ module.exports = [
         "title": "Killer Klowns from Outer Space",
         "description": "Exactly what the title says. Campy horror with with clown themed kills and practical effects. Don't eat the cotton candy!",
         "rating": 1,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1448,
+        "id": 1448,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6248,12 +5288,10 @@ module.exports = [
         "title": "Ravenous",
         "description": "The classic combo of cannibalism and the Old West with a bit of comedy and an unsettling soundtrack",
         "rating": 3,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1449,
+        "id": 1449,
         "user_id": "92489107472646144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6261,12 +5299,10 @@ module.exports = [
         "title": "The Car",
         "description": "Duel meets Jaws in this horror movie about a small town terrorized by an evil car. Does James Brolin have what it takes to save the day?",
         "rating": 1,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1450,
+        "id": 1450,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6274,12 +5310,10 @@ module.exports = [
         "title": "Re-Animator",
         "description": "Talking heads! Zombie cats! Jeffrey Combs! This movie has everything.",
         "rating": 5,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1451,
+        "id": 1451,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6287,12 +5321,10 @@ module.exports = [
         "title": "An American Werewolf in London",
         "description": "Come for some of the best practical effects ever seen in a movie, stay for the comedy.",
         "rating": 5,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1452,
+        "id": 1452,
         "user_id": "156892273223794688",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6300,12 +5332,10 @@ module.exports = [
         "title": "A Girl Walks Home Alone at Night",
         "description": "What would a movie about an Iranian vampire who enjoys skateboarding look like, you ask? Well, this.",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1453,
+        "id": 1453,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6313,12 +5343,10 @@ module.exports = [
         "title": "Daleks' Invasion Earth: 2150 A.D.",
         "description": "Everyone's favourite regular human grandpa time traveller goes to future after going against the daleks to now going against his greatest foe: the daleks! ACAB except Bernard Cribbins in this film.",
         "rating": 3,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1454,
+        "id": 1454,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6326,12 +5354,10 @@ module.exports = [
         "title": "Transformers: Dark of the Moon",
         "description": "The finale of the trilogy that has no real continuity, the last half of this film is a visual feast. All explosions all the time, a death toll that has to be at least four figures as the transformers cause a 9/11 level event every other scene. Both autobots and decepticons are shooting POWs in the back of the head, exploding in a shower of robot blood as they beg for mercy.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1455,
+        "id": 1455,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6339,12 +5365,10 @@ module.exports = [
         "title": "Superman III",
         "description": "Richard Pryor: The Movie featuring Superman. Featuring that robot scene that scarred everyone as a child.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1456,
+        "id": 1456,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6352,12 +5376,10 @@ module.exports = [
         "title": "Pinocchio",
         "description": "I only just found out this movie exists. Roberto Benigni, a 50-year old man at the time of filming, directs and stars as the real boy in this adaptation. By the sounds of things the original Italian is mid, the English dub is awful - featuring the talents of John Cleese, Kevin James, Topher Grace and Cheech Marin.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1457,
+        "id": 1457,
         "user_id": "289062490841808896",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6365,12 +5387,10 @@ module.exports = [
         "title": "Tales from the Crypt: Demon Knight",
         "description": "Billy Zane hams it up as a demon in what may be his best performance. Can William Saddler, CCH Pounder, and Thomas Hayden Church keep the mysterious mcguffin safe? Contains your usual Tales from the Crypt staples: gory effects, gratuitous nudity, and of course, Cryptkeeper puns.",
         "rating": 3,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1458,
+        "id": 1458,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6378,12 +5398,10 @@ module.exports = [
         "title": "Attack on Titan",
         "description": "the first of two live-action attack on titan movies, made during attack on titans peak in popularity, aka season 1, and featers things the show would never do, like SEX ",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1459,
+        "id": 1459,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6391,12 +5409,10 @@ module.exports = [
         "title": "Frankenstein Unbound",
         "description": "It's Frankenstein but with time travel and lasers and stuff.  The last directing hurrah of Roger Corman so you know it'll be good.",
         "rating": 1,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1460,
+        "id": 1460,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6404,12 +5420,10 @@ module.exports = [
         "title": "Lifeforce",
         "description": "Our quest to apparently watch every vampire film ever made continues with this tale of VAMPIRES FROM SPACE wreaking havoc in London.",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1461,
+        "id": 1461,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6417,12 +5431,10 @@ module.exports = [
         "title": "Nightbreed",
         "description": "Practically bursting at the seams with visual imagination and ideas but you can almost see the studio holding Barker back at every point and I just wish we could see what his big gay brain truly could have made if he had been allowed to make the film he wanted. Cronenberg is having way too much fun in this.",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1462,
+        "id": 1462,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6430,12 +5442,10 @@ module.exports = [
         "title": "TerrorVision",
         "description": "No wonder this kid's fucked up. His folks are swingers who decorate their house with lime green and hot pink lighting, lechy statues and pop art interpretations of Magritte's Rape; his Grampa is a conspiracy-spouting war enthusiast with a bomb shelter in the basement and his sister looks like a dayglo Madonna and dates a Ted 'Theodore' Logan prototype rocking a W.A.S.P. shirt. All things considered, Sherman's surprisingly grounded and well equipped to deal with a huge alien blob monster coming through the TV to create sloppy havoc.",
         "rating": 3,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1463,
+        "id": 1463,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6443,12 +5453,10 @@ module.exports = [
         "title": "Scanners",
         "description": "it's the one with the headsplode gif",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1464,
+        "id": 1464,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6456,12 +5464,10 @@ module.exports = [
         "title": "The Bye Bye Man",
         "description": "The only thing someone should've said \"Bye Bye\" to was the person who presented the studio with this script.",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1465,
+        "id": 1465,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6469,12 +5475,10 @@ module.exports = [
         "title": "eXistenZ",
         "description": "jennifer jason leigh crying a single tear over a nasty cronenberg umbilical cord gamecube is more convincing than some actor’s best performances",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1466,
+        "id": 1466,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6482,12 +5486,10 @@ module.exports = [
         "title": "Silent Hill: Revelation 3D",
         "description": "Given that Game of Thrones finale exists this isn't even the most embarassing thing Kit Harington appeared in.",
         "rating": 2,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1467,
+        "id": 1467,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6495,12 +5497,10 @@ module.exports = [
         "title": "Hellraiser",
         "description": "it is said that the combination for the lament configuration can be seen in son of the mask",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1468,
+        "id": 1468,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6508,12 +5508,10 @@ module.exports = [
         "title": "Castle Freak",
         "description": "Castle Freak asks the important questions, such as: what if there was a castle? And in that castle, there was a freak?",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1469,
+        "id": 1469,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6521,12 +5519,10 @@ module.exports = [
         "title": "Ghosts of Mars - Techie",
         "description": "Frames within frames within frames. Carpenter's weirdest film: thrash metal invocations via pulpy space-horror/Hawks revisionism. This was apparently written as a second Escape From New York sequel, with Ice Cube in the role meant to be Snake Plissken.",
         "rating": 4,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1470,
+        "id": 1470,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6534,12 +5530,10 @@ module.exports = [
         "title": "Jason X",
         "description": "There's a beautiful joke in the middle where a guy gets stabbed and says “it’ll take more than a stab to kill me” and then gets stabbed a second time and goes “that’ll do it” and dies.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1471,
+        "id": 1471,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6547,12 +5541,10 @@ module.exports = [
         "title": "Hellraiser - 2022",
         "description": "they made a new one",
         "rating": 3,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1472,
+        "id": 1472,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6560,12 +5552,10 @@ module.exports = [
         "title": "Dracula 3D - Techie",
         "description": "Dario Argento enters the digital age by making the worst possible argument for it. Feels like some hazy concoction of Hammer studios and SNES Castlevania—filled with glowing candles, open bosoms, beastly freaks, and theremin tinged soundwaves.\n",
         "rating": 1,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1473,
+        "id": 1473,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6573,12 +5563,10 @@ module.exports = [
         "title": "Dracula 3D - Vapsy",
         "description": "\"Feels like some hazy concoction of Hammer studios and SNES Castlevania—filled with glowing candles, open bosoms, beastly freaks, and theremin tinged soundwaves.\"",
         "rating": 1,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1474,
+        "id": 1474,
         "user_id": "75967502122754048",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6586,12 +5574,10 @@ module.exports = [
         "title": "Dracula II: Ascension",
         "description": "should have been called dra2la",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1475,
+        "id": 1475,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6599,12 +5585,10 @@ module.exports = [
         "title": "The Pope's Exorcist",
         "description": "Kind of like an mcu movie but russell crowe is iron man and the pope is nick fury. The image of Russell Crowe riding a tiny vespa is burnt in my memory forever.",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1476,
+        "id": 1476,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6612,12 +5596,10 @@ module.exports = [
         "title": "Spookies",
         "description": "As soon as the farting dirt monsters appeared, I knew I was watching something special.",
         "rating": 3,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1477,
+        "id": 1477,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6625,12 +5607,10 @@ module.exports = [
         "title": "Birdemic: Shock and Terror",
         "description": "If you're wondering what that buzzing noise is, it's the sound of Alfred Hitchcock spinning in his grave at 100,000,000 RPM.",
         "rating": 1,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1478,
+        "id": 1478,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6638,12 +5618,10 @@ module.exports = [
         "title": "Dr. Giggles",
         "description": "The is one doctor you don't want to make a house calll. A killer doctor escapes from an asylum in search of revenge. Murder occurs and every possible doctor joke you can of think is uttered.",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1479,
+        "id": 1479,
         "user_id": "114839445051670530",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6651,12 +5629,10 @@ module.exports = [
         "title": "The Toxic Avenger",
         "description": "Incredibly shlocky horror movie from Troma Entertainment (the masters of shlock). Low budget, horny and trashy as hell.",
         "rating": 4,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1480,
+        "id": 1480,
         "user_id": "696709465969262633",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6664,12 +5640,10 @@ module.exports = [
         "title": "The Saint",
         "description": "Val Kilmer is Simon Templar, master of disguise and international thief in this adaptation of a 60s TV show which originally starred Roger Moore. Not sure who exactly was asking for this, but The Avengers was successfully adapted into a film, right???",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1481,
+        "id": 1481,
         "user_id": "204598673152278529",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6677,12 +5651,10 @@ module.exports = [
         "title": "Saw II",
         "description": "The peak of early-aughts horror. Sped up footage set to butt-rock. Budget marky mark as a shitty cop. A child with indomitable plot armor. The infamous needle pit. What more is there to say?",
         "rating": 2,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1482,
+        "id": 1482,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6690,12 +5662,10 @@ module.exports = [
         "title": "Mars Attacks!",
         "description": "Tim Burton directs this satire of 1950s low-budget invasion films with a stacked whos-who cast",
         "rating": 3,
-        "status": "Horror",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Horror"
     },
     {
-        "submission_id": 1483,
+        "id": 1483,
         "user_id": "204598673152278529",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6703,12 +5673,10 @@ module.exports = [
         "title": "After Hours",
         "description": "Scorsese's wackiest film! A hilarious nightmare trip through 80s New York City. Serves as a cautionary tale for being horny.",
         "rating": 5,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1484,
+        "id": 1484,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6716,12 +5684,10 @@ module.exports = [
         "title": "The Omega Code",
         "description": "Imagine a shittier Nostradamus end of days movie with crappy acting & command and conquer style cutscenes. That is this film. ",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1485,
+        "id": 1485,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6729,12 +5695,10 @@ module.exports = [
         "title": "Megiddo: The Omega Code 2",
         "description": "Absolutely awful end of days sequel to the smashing annd controversial end of days film The Omega Code.",
         "rating": 1,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1486,
+        "id": 1486,
         "user_id": "246050240782663681",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6742,12 +5706,10 @@ module.exports = [
         "title": "Supergirl",
         "description": "Stars Faye Dunaway as a witch and Peter O'Toole as a Space Wizard, canon to the Reeve's Sups but barely ever mentioned.",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1487,
+        "id": 1487,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6755,12 +5717,10 @@ module.exports = [
         "title": "Superman IV: The Quest for Peace",
         "description": "why have subsequent Superman films not addressed his power to rebuild walls by looking at them. The first movie to ever forget to have a vfx budget",
         "rating": 1,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1488,
+        "id": 1488,
         "user_id": "186868443742470144",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6768,12 +5728,10 @@ module.exports = [
         "title": "Space Cop Gavan The Movie",
         "description": "the sequel movie/reboot to the original Space Sheriff Gavan series part of the metal heroes series along with blue swat, ",
         "rating": 5,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Queued"
     },
     {
-        "submission_id": 1489,
+        "id": 1489,
         "user_id": "1",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6781,12 +5739,10 @@ module.exports = [
         "title": "Superman Returns",
         "description": "Two hours and a half of Superman being a cute boy scout, saving people and being a symbol of hope and goodness.",
         "rating": 3,
-        "status": "Victorious",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
     },
     {
-        "submission_id": 1490,
+        "id": 1490,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6794,12 +5750,10 @@ module.exports = [
         "title": "PAW Patrol: The Mighty Movie",
         "description": "Paw Patrol features an ensemble voice cast including Mckenna Grace (voicing Skye), Taraji P. Henson, Marsai Martin, Christian Convery (voicing Chase), Kim Kardashian, Chris Rock, Lil Rel Howery, Serena Williams, North West, Saint West, James Marsden, Kristen Bell, and introducing Finn Lee-Epp in his film debut as Ryder.",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1491,
+        "id": 1491,
         "user_id": "284739741365305345",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6807,12 +5761,10 @@ module.exports = [
         "title": "Clockstoppers",
         "description": "I haven't seen this but have it on good authority that it's 2/5. Directed by Jonathan Frakes about a kid who can stop time. I would love to watch this but not alone. Features the musical talents of Blink-182, Smash Mouth and Nickleback, apparently?",
         "rating": 2,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1492,
+        "id": 1492,
         "user_id": "1016673283367764029",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6820,12 +5772,10 @@ module.exports = [
         "title": "New York Ninja",
         "description": "A quote from Letterboxd \"Men will literally become the New York Ninja instead of going to therapy\"",
         "rating": 0,
-        "status": "Queued",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Dead"
     },
     {
-        "submission_id": 1493,
+        "id": 1493,
         "user_id": "165618755353706496",
         "server_id": "746772975621242970",
         "tag_id": null,
@@ -6833,8 +5783,688 @@ module.exports = [
         "title": "The Evil Dead",
         "description": "The dead speak!",
         "rating": 4,
-        "status": "Active",
-        "first_appearance": null,
-        "last_appearance": null
+        "status": "Victorious"
+    },
+    {
+        "id": 1494,
+        "user_id": "281566221437108226",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-11-29 12:37:51",
+        "title": "Silent Night",
+        "description": "A 77-year old John Woo is BACK! With the space man himself starring! He's gotta defend himself, so it won't just be a Silent Night, but a Hole-y Night.\n",
+        "rating": 3,
+        "status": "Christmas"
+    },
+    {
+        "id": 1495,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-08 21:25:06",
+        "title": "Evil Dead II",
+        "description": "SWALLOW THIS",
+        "rating": 5,
+        "status": "Victorious"
+    },
+    {
+        "id": 1496,
+        "user_id": "1016673283367764029",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-13 18:07:29",
+        "title": "The Muppet Movie",
+        "description": "The motion feature debut of Kermit the Frog, Miss Piggy, Fozzy Bear, Gonzo and all of the beloved Muppets characters created by Jim Henson. This live-action musical dramedy has a little bit of everything.",
+        "rating": 5,
+        "status": "Queued"
+    },
+    {
+        "id": 1497,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-15 17:00:23",
+        "title": "Army of Darkness",
+        "description": "movies are so much better when they have claymation skeletons in them",
+        "rating": 5,
+        "status": "Victorious"
+    },
+    {
+        "id": 1498,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 16:48:16",
+        "title": "Jingle All the Way",
+        "description": "Ta-Ta, Turbo Man",
+        "rating": 1,
+        "status": "Christmas"
+    },
+    {
+        "id": 1499,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 16:50:27",
+        "title": "Love Actually - Vapsyvox",
+        "description": "i can't get the weird deleted parkour scene out of my mind",
+        "rating": 3,
+        "status": "Christmas"
+    },
+    {
+        "id": 1500,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 16:52:19",
+        "title": "Home Alone 3",
+        "description": "yet another kids' movie with a secret military-grade microchip in a toy",
+        "rating": 1,
+        "status": "Christmas"
+    },
+    {
+        "id": 1501,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 16:54:11",
+        "title": "Christmas with the Kranks",
+        "description": "the idea you wouldn't want to exchange",
+        "rating": 1,
+        "status": "Christmas"
+    },
+    {
+        "id": 1502,
+        "user_id": "1016673283367764029",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 16:55:04",
+        "title": "Scrooged - Pizza",
+        "description": "",
+        "rating": 3,
+        "status": "Christmas"
+    },
+    {
+        "id": 1503,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:00:26",
+        "title": "Eight Crazy Nights",
+        "description": "probably shouldn't be seen with human eyes",
+        "rating": 1,
+        "status": "Christmas"
+    },
+    {
+        "id": 1504,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:04:20",
+        "title": "Trading Places",
+        "description": "",
+        "rating": 4,
+        "status": "Christmas"
+    },
+    {
+        "id": 1505,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:07:05",
+        "title": "Scrooged - Vapsyvox",
+        "description": "",
+        "rating": 3,
+        "status": "Christmas"
+    },
+    {
+        "id": 1506,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:08:15",
+        "title": "Santa with Muscles - Vapsyvox",
+        "description": "I wonder if he is one of the muscle santas who shows up in jingle all the way",
+        "rating": 1,
+        "status": "Christmas"
+    },
+    {
+        "id": 1507,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:08:31",
+        "title": "Unaccompanied Minors",
+        "description": "Five kids get stranded in an airport at Christmas time. That's it. That's the joke.",
+        "rating": 2,
+        "status": "Christmas"
+    },
+    {
+        "id": 1508,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:14:05",
+        "title": "Christmas in Wonderland",
+        "description": "Patrick Swayze takes his kids to the mall to go Christmas shopping only to find themselves battling counterfeiters. Featuring Tim Curry as a Scottish detective... despite the movie being set in Canada?",
+        "rating": 2,
+        "status": "Christmas"
+    },
+    {
+        "id": 1509,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:18:34",
+        "title": "Santa's Slay",
+        "description": "Santa is actually evil and goes on a killing spree. And he's played by pro wrestler Bill Goldberg which is a benchmark of where we're at quality wise with this one.",
+        "rating": 2,
+        "status": "Christmas"
+    },
+    {
+        "id": 1510,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:24:03",
+        "title": "Alien Xmas",
+        "description": "alein",
+        "rating": 0,
+        "status": "Christmas"
+    },
+    {
+        "id": 1511,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:24:45",
+        "title": "A Karate Christmas Miracle",
+        "description": "From the producers of A Wrestling Christmas Miracle, a boy believes that if he earns a black belt by Christmas Day his father, who went missing one year earlier, will return. Also his father is probably dead, so I dunno how that's going to work. Eric Roberts is in, so it's surely a work of high art.",
+        "rating": 2,
+        "status": "Christmas"
+    },
+    {
+        "id": 1512,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:29:53",
+        "title": "Last Ounce of Courage",
+        "description": "A small town mayor fights back against the \"War on Christmas\". If God's Not Dead was a Christmas movie, it'd be this.",
+        "rating": 2,
+        "status": "Christmas"
+    },
+    {
+        "id": 1513,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:38:26",
+        "title": "Rudolph the Red-Nosed Reindeer & the Island of Misfit Toys",
+        "description": "i'm sure it'll live up to the original",
+        "rating": 2,
+        "status": "Christmas"
+    },
+    {
+        "id": 1514,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:41:31",
+        "title": "Die Hard",
+        "description": "yay, let's all feed into the \"die hard is a christmas movie\"-discourse",
+        "rating": 4,
+        "status": "Christmas"
+    },
+    {
+        "id": 1515,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 17:45:49",
+        "title": "Kiss Kiss Bang Bang",
+        "description": "Allegedly a christmas film. Though i think that if we look up the definition for christmas film, we'll find something else entirely.",
+        "rating": 4,
+        "status": "Christmas"
+    },
+    {
+        "id": 1516,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-22 20:53:41",
+        "title": "Violent Night",
+        "description": "What if Die Hard was a Christmas Movie? David Harbour brings the Zaddy Energy to Santa, and John Leguizamo is a fun bad guy.",
+        "rating": 4,
+        "status": "Christmas"
+    },
+    {
+        "id": 1517,
+        "user_id": "156892273223794688",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2023-12-30 22:24:19",
+        "title": "The Muppet Christmas Carol",
+        "description": "Improves on Charles Dickens by removing the anti-semitism and adding Gonzo as a narrator",
+        "rating": 5,
+        "status": "Christmas"
+    },
+    {
+        "id": 1518,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-12 21:39:03",
+        "title": "The Thing",
+        "description": "Among Us: The Movie",
+        "rating": 5,
+        "status": "Victorious"
+    },
+    {
+        "id": 1519,
+        "user_id": "204598673152278529",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-13 21:01:36",
+        "title": "Brotherhood of the Wolf",
+        "description": "Fighting werewolves in the French countryside using martial arts! The primary inspiration for Bloodborne.",
+        "rating": 3,
+        "status": "Dead"
+    },
+    {
+        "id": 1520,
+        "user_id": "156892273223794688",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-17 00:06:09",
+        "title": "Tiger Cage II",
+        "description": "Yuen Woo-Ping (who directed most of Jackie Chan's early stuff and worked on The Matrix) directs Donnie Yen in a great, cheesy martial arts film. It has nothing to do with Tiger Cage 1 either, so that's a bonus.",
+        "rating": 4,
+        "status": "Dead"
+    },
+    {
+        "id": 1521,
+        "user_id": "281566221437108226",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-17 14:51:31",
+        "title": "Charlie's Angels",
+        "description": "This movie was an unforgiveable disaster. They made a rizzless Charlie's Angels.",
+        "rating": 1,
+        "status": "Dead"
+    },
+    {
+        "id": 1522,
+        "user_id": "281566221437108226",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-17 14:52:33",
+        "title": "Charlie's Angels",
+        "description": "This movie is the campiest goodness, and you get a fun little Sam Rockwell boogie!",
+        "rating": 4,
+        "status": "Queued"
+    },
+    {
+        "id": 1523,
+        "user_id": "281566221437108226",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-17 15:57:30",
+        "title": "A Knight's Tale",
+        "description": "Knights, and Queen. The Joker jousts!",
+        "rating": 5,
+        "status": "Queued"
+    },
+    {
+        "id": 1524,
+        "user_id": "105856894719016960",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-21 17:17:03",
+        "title": "Konrad",
+        "description": "Konrad is a perfect child, made in a factory, but has been sent to the wrong family. This was the first result when I was trying to find KonradBM's youtube channel, so as far as I'm concerned it's a documentary about his childhood and we should all watch it. ",
+        "rating": 2,
+        "status": "Dead"
+    },
+    {
+        "id": 1525,
+        "user_id": "114839445051670530",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-26 19:35:40",
+        "title": "Empire Queen: The Golden Age of Magic",
+        "description": "Everything about the trailer to this movie screams porn parody, yet its not? \n\n\"A new feature length, fantasy adventure film, inspired by the “SHINE ON ME” and “LIGHT SPEED” music videos.\"",
+        "rating": 1,
+        "status": "Queued"
+    },
+    {
+        "id": 1526,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-26 22:51:54",
+        "title": "Prince of Darkness",
+        "description": "On the Scream Factory blu release it is mentioned that John Carpenter first met Alice Cooper at Wrestlemania III. ",
+        "rating": 4,
+        "status": "Victorious"
+    },
+    {
+        "id": 1527,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-28 17:21:41",
+        "title": "Green Lantern",
+        "description": "Remember Ryan Reynold's *other* big superhero role? A beloved property gets done dirty in an overly CGI-ed mess which you just know is going to look great on Discord.",
+        "rating": 2,
+        "status": "Queued"
+    },
+    {
+        "id": 1528,
+        "user_id": "281566221437108226",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-01-31 16:27:47",
+        "title": "Chicken Run: Dawn of the Nugget",
+        "description": "I gotta say, this feels like a really convoluted way to make chicken nuggets.",
+        "rating": 3,
+        "status": "Queued"
+    },
+    {
+        "id": 1529,
+        "user_id": "289062490841808896",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-02 13:31:48",
+        "title": "Captain Ron",
+        "description": "After escaping NY, Snake Plissken becomes a sea captain and takes Martin Short and family on a sailing adventure.",
+        "rating": 3,
+        "status": "Queued"
+    },
+    {
+        "id": 1530,
+        "user_id": "289062490841808896",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-09 10:58:37",
+        "title": "Prince of Persia: The Sands of Time",
+        "description": "Not content with the success of Pirates, Disney attempts a new adventure franchise starring our favorite parkouring, time  rewinding Persian Prince (played by Jake Gyllenhaal)",
+        "rating": 3,
+        "status": "Active"
+    },
+    {
+        "id": 1531,
+        "user_id": "1",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-09 19:54:33",
+        "title": "In the Mouth of Madness",
+        "description": "John Carpenter fuses lurking Lovecraftian madness with Stephen King psychological terror, resulting in this New England nightmare tentacle jam",
+        "rating": 5,
+        "status": "Victorious"
+    },
+    {
+        "id": 1532,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-11 11:03:54",
+        "title": "Holmes & Watson",
+        "description": "It's just as well Arthur Conan Doyle isn't alive to see this. A comedic take on everyone's favourite fictional detective.",
+        "rating": 2,
+        "status": "Queued"
+    },
+    {
+        "id": 1533,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-11 11:07:57",
+        "title": "Old",
+        "description": "After all the jokes and memes during the pandemic, maybe it's finally time to visit the beach that makes you old?",
+        "rating": 3,
+        "status": "Queued"
+    },
+    {
+        "id": 1534,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-11 11:19:20",
+        "title": "Jonah Hex",
+        "description": "The comic book movies craze of the 2010s sees a more obscure DC hero make his way to the big screen. Despite having an incredible cast (plus Megan Fox), it's somehow still bad.",
+        "rating": 2,
+        "status": "Dead"
+    },
+    {
+        "id": 1535,
+        "user_id": "186868443742470144",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-15 00:22:12",
+        "title": "Madame Web",
+        "description": "The verge called this movie a throwback to bad comic book movies, and its somehow reviewing just slightly above morbius I think we should watch it ",
+        "rating": 0,
+        "status": "Active"
+    },
+    {
+        "id": 1536,
+        "user_id": "1016673283367764029",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-15 10:34:42",
+        "title": "The Black Hole",
+        "description": "It’s Star Trek-like but done by Disney? Also, we got a talking robut and Ernest Borgnine",
+        "rating": 3,
+        "status": "Queued"
+    },
+    {
+        "id": 1537,
+        "user_id": "1",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-16 19:40:23",
+        "title": "Predator",
+        "description": "Whoever had the idea to mash-up slasher movies with roided out action movies deserves a Nobel prize",
+        "rating": 4,
+        "status": "Victorious"
+    },
+    {
+        "id": 1538,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-16 19:41:55",
+        "title": "Killer Bean Forever",
+        "description": "When things go bad in Beantown, top assassin Killer Bean is called to clean-up the mess. Detective Cromwell finds himself in the middle between Killer Bean and mob boss Cappuccino. Just one of those awful animated movies we used to know and love. Bad animation, cliches, stereotypes, accents, the lot.",
+        "rating": 1,
+        "status": "Victorious"
+    },
+    {
+        "id": 1539,
+        "user_id": "289062490841808896",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-23 15:58:54",
+        "title": "Darkman",
+        "description": "Sam Raimi couldn't get the rights to The Shadow or Batman so he made his own pulp hero. It'll melt your face off.",
+        "rating": 4,
+        "status": "Queued"
+    },
+    {
+        "id": 1540,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-23 20:58:32",
+        "title": "Predator 2",
+        "description": "So I go in for my physical, right? And the doctor says “I need a semen, stool, and urine sample.” I say “Gee, Doc, I’m in a big hurry. Can I just leave my underwear?” - Bill Paxton",
+        "rating": 3,
+        "status": "Victorious"
+    },
+    {
+        "id": 1541,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-23 21:05:00",
+        "title": "Priest",
+        "description": "Paul Bettany, Karl Urban, Lily Collins, and Maggie Q star in a sci-fi dieselpunk post apocolyptic western, set in a walled city surrounded by vampires and run by a theocracy with groups of warrior priests.",
+        "rating": 1,
+        "status": "Victorious"
+    },
+    {
+        "id": 1542,
+        "user_id": "696709465969262633",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-02-29 19:38:29",
+        "title": "Cade: The Tortured Crossing",
+        "description": "The wait is finally over, we have new Neil Breen to watch! A maybe sequel to Twisted Pair apparently shot entirely on green screen, so I guess he's no longer welcome at that community college in Vegas.",
+        "rating": 2,
+        "status": "Queued"
+    },
+    {
+        "id": 1543,
+        "user_id": "75967502122754048",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-08 00:08:21",
+        "title": "Ghost Ship",
+        "description": "",
+        "rating": 3,
+        "status": "Queued"
+    },
+    {
+        "id": 1544,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-08 21:00:28",
+        "title": "Predators",
+        "description": "Maybe the real predators were the friends we made along the way. Fun Fact: For every academy award won by one of the actors in this film a predator dies.",
+        "rating": 3,
+        "status": "Victorious"
+    },
+    {
+        "id": 1545,
+        "user_id": "105334967675953152",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-15 14:14:22",
+        "title": "Tarzan",
+        "description": "What if the story of Tarzan was depicted with some \"added flair\" and created entirely using the second-worst CGI you've ever laid eyes on? I consider the worst CGI to be Wolf Tracer's Dinosaur Island, so this is marginally better than that.\n\nOfficially licensed by the estate of Edgar Rice Burroughs.",
+        "rating": 0,
+        "status": "Queued"
+    },
+    {
+        "id": 1546,
+        "user_id": "246050240782663681",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-15 14:28:02",
+        "title": "Once Upon a Time in Mexico",
+        "description": "The follow up to Desperado 8 years later. Not as good as that one, but still some fun to be had. ",
+        "rating": 3,
+        "status": "Queued"
+    },
+    {
+        "id": 1547,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-15 20:02:06",
+        "title": "The Predator",
+        "description": "Maybe it's not as bad as everyone who's seen it remembers?",
+        "rating": 2,
+        "status": "Victorious"
+    },
+    {
+        "id": 1548,
+        "user_id": "156892273223794688",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-16 00:30:07",
+        "title": "Rebel Moon - Part One: A Child of Fire",
+        "description": "This is probably terrible but it's Seven Samurai in space made by a director whose instincts are normally awful, so it'll also be long and boring! Perfect for this server.",
+        "rating": 2,
+        "status": "Queued"
+    },
+    {
+        "id": 1549,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-22 19:09:42",
+        "title": "Prey",
+        "description": "Congratulations to the Predator franchise for finally having its second good movie",
+        "rating": 4,
+        "status": "Victorious"
+    },
+    {
+        "id": 1550,
+        "user_id": "451569305063260170",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-23 06:14:50",
+        "title": "Murder at 1600",
+        "description": "When someone is found murdered in the White House, you call Wesley Snipes to find the truth.",
+        "rating": 0,
+        "status": "Active"
+    },
+    {
+        "id": 1551,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-03-29 21:09:49",
+        "title": "X-Men: First Class",
+        "description": "Erik has done nothing wrong in his entire life. The cuba beach scene is the most heartbreaking breakup scene in the history of cinema.",
+        "rating": 4,
+        "status": "Victorious"
+    },
+    {
+        "id": 1552,
+        "user_id": "204598673152278529",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-04-03 21:12:36",
+        "title": "A Cure for Wellness",
+        "description": "Gore Verbinski uses his post-Pirates blank check to fuel this wonderful trash fire. A weirdo gothic medical horror with as much beautiful cinematography as confounding plot. What if you were full of worms?",
+        "rating": 1,
+        "status": "Active"
+    },
+    {
+        "id": 1553,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-04-12 15:45:09",
+        "title": "Star Trek: The Motion Picture",
+        "description": "The biggest blank check in Trek movie history",
+        "rating": 3,
+        "status": "Active"
+    },
+    {
+        "id": 1554,
+        "user_id": "165618755353706496",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-04-12 15:46:34",
+        "title": "X-Men: Days of Future Past",
+        "description": "it's so funny that erik believes for even one second that president richard nixon would heroically sacrifice his own life to save others",
+        "rating": 4,
+        "status": "Active"
+    },
+    {
+        "id": 1555,
+        "user_id": "149086255001501696",
+        "server_id": "746772975621242970",
+        "tag_id": null,
+        "time_submitted": "2024-04-21 22:48:22",
+        "title": "The Lawnmower Man",
+        "description": "A man is turned into a genius through the application of magical computer science.",
+        "rating": 1,
+        "status": "Queued"
     }
 ];
