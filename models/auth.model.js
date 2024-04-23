@@ -44,7 +44,7 @@ exports.signInUser = async (body) => {
                 const userGuilds = discordUserGuildsResponse.data;
 
                 // Store the user info in database
-                const userResponse = await client.query(`INSERT INTO users(user_id, username, display_name, avatar, banner, banner_color)
+                const userResponse = await client.query(`INSERT INTO users(id, username, display_name, avatar, banner, banner_color)
                                                          VALUES ($1, $2, $3, $4, $5, $6)
                                                          ON CONFLICT ON CONSTRAINT users_pkey
                                                              DO UPDATE SET username     = $2,
@@ -58,7 +58,7 @@ exports.signInUser = async (body) => {
                 for (const userGuild of userGuilds) {
                     // Add server if the user owns it
                     if (userGuild.owner) {
-                        await client.query(`INSERT INTO servers(server_id, server_name, visibility, avatar, owner_id)
+                        await client.query(`INSERT INTO servers(id, server_name, visibility, avatar, owner_id)
                                             VALUES ($1, $2, $3, $4, $5)
                                             ON CONFLICT ON CONSTRAINT servers_pkey
                                                 DO UPDATE SET server_name = $2,
@@ -74,7 +74,7 @@ exports.signInUser = async (body) => {
                         // If the server exists, add the user to it
                         const serverResults = await client.query(`SELECT *
                                                                   FROM servers
-                                                                  WHERE server_id = $1;`,
+                                                                  WHERE id = $1;`,
                             [userGuild.id]);
                         if (serverResults.rows.length > 0) {
                             await client.query(`INSERT INTO server_users(user_id, server_id, access_level)
@@ -112,7 +112,7 @@ exports.refreshCurrentUser = async (body) => {
         const decoded = jwt.verify(refreshToken, process.env.JWT_KEY);
         const userResponse = await client.query(`SELECT *
                                                  FROM users
-                                                 WHERE user_id = $1;`, [decoded.user_id]);
+                                                 WHERE id = $1;`, [decoded.id]);
         return generateReturnObject(userResponse.rows[0]);
     } catch {
         return Promise.reject({status: 401, msg: "Unauthorised"});
@@ -127,7 +127,7 @@ const generateReturnObject = (user) => {
             username: user.username,
             displayName: user.display_name
         }),
-        refreshToken: generateToken({id: user.user_id}, "7d")
+        refreshToken: generateToken({id: user.id}, "7d")
     };
     const tokenExpiration = Date.now() + 60 * 60 * 1000;
     const refreshExpiration = Date.now() + 7 * 24 * 60 * 60 * 1000;

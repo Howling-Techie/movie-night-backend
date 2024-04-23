@@ -1,4 +1,9 @@
-const {selectSubmissions, selectSubmission, selectSubmissionEvents} = require("../models/submissions.model");
+const {
+    selectSubmissions,
+    selectSubmission,
+    selectSubmissionEvents,
+    selectSubmissionStatuses
+} = require("../models/submissions.model");
 
 exports.getSubmissions = (req, res, next) => {
     selectSubmissions(req.query)
@@ -24,6 +29,17 @@ exports.getSubmission = (req, res, next) => {
     selectSubmission(req.params)
         .then((submission) => {
             res.status(200).send({submission});
+        })
+        .catch((error) => {
+            next(error);
+        });
+};
+
+exports.getSubmissionStatuses = (req, res, next) => {
+    console.log("Getting statuses")
+    selectSubmissionStatuses()
+        .then((statuses) => {
+            res.status(200).send({statuses});
         })
         .catch((error) => {
             next(error);

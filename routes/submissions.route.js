@@ -1,9 +1,14 @@
-const {getSubmissionEvents, getSubmission, getSubmissions} = require("../controllers/submissions.controller");
+const {
+    getSubmissionEvents,
+    getSubmission,
+    getSubmissions,
+    getSubmissionStatuses
+} = require("../controllers/submissions.controller");
 const submissionsRouter = require("express").Router();
 
 submissionsRouter
-    .route("/")
-    .get(getSubmissions);
+    .route("/statuses")
+    .get(getSubmissionStatuses);
 
 submissionsRouter
     .route("/:submission_id")
@@ -12,5 +17,9 @@ submissionsRouter
 submissionsRouter
     .route("/:submission_id/events")
     .get(getSubmissionEvents);
+
+submissionsRouter
+    .route("/")
+    .get(getSubmissions);
 
 module.exports = submissionsRouter;
