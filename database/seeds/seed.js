@@ -42,7 +42,7 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS users
         (
-            user_id      VARCHAR(255) PRIMARY KEY,
+            id           VARCHAR(255) PRIMARY KEY,
             username     VARCHAR(255) NOT NULL,
             display_name VARCHAR(255),
             avatar       VARCHAR(255),
@@ -56,11 +56,11 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS servers
         (
-            server_id   VARCHAR(255) PRIMARY KEY,
+            id          VARCHAR(255) PRIMARY KEY,
             server_name VARCHAR(255)      NOT NULL,
             visibility  INTEGER DEFAULT 0 NOT NULL,
             avatar      VARCHAR(255),
-            owner_id    VARCHAR(255) REFERENCES users (user_id)
+            owner_id    VARCHAR(255) REFERENCES users (id)
         );
     `);
 
@@ -68,9 +68,9 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS server_users
         (
-            user_id      VARCHAR(255) REFERENCES users (user_id)     NOT NULL,
-            server_id    VARCHAR(255) REFERENCES servers (server_id) NOT NULL,
-            access_level INTEGER DEFAULT 1                           NOT NULL,
+            user_id      VARCHAR(255) REFERENCES users (id)   NOT NULL,
+            server_id    VARCHAR(255) REFERENCES servers (id) NOT NULL,
+            access_level INTEGER DEFAULT 1                    NOT NULL,
             PRIMARY KEY (user_id, server_id)
         );
     `);
@@ -79,9 +79,9 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS tags
         (
-            tag_id      SERIAL PRIMARY KEY,
-            server_id   VARCHAR(255) REFERENCES servers (server_id) NOT NULL,
-            name        VARCHAR(255)                                NOT NULL,
+            id          SERIAL PRIMARY KEY,
+            server_id   VARCHAR(255) REFERENCES servers (id) NOT NULL,
+            name        VARCHAR(255)                         NOT NULL,
             description TEXT,
             icon        VARCHAR(255)
         );
@@ -91,18 +91,18 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS events
         (
-            event_id            SERIAL PRIMARY KEY,
-            server_id           VARCHAR(255) REFERENCES servers (server_id) NOT NULL,
-            created_by          VARCHAR(255) REFERENCES users (user_id)     NOT NULL,
-            visibility          INTEGER     DEFAULT 0                       NOT NULL,
+            id                  SERIAL PRIMARY KEY,
+            server_id           VARCHAR(255) REFERENCES servers (id)  NOT NULL,
+            created_by          VARCHAR(255) REFERENCES users (id)    NOT NULL,
+            visibility          INTEGER     DEFAULT 0                 NOT NULL,
             start_time          TIMESTAMPTZ,
             voting_open_time    TIMESTAMPTZ,
             voting_closing_time TIMESTAMPTZ,
-            time_created        TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP       NOT NULL,
-            title               VARCHAR(255)                                NOT NULL,
+            time_created        TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP NOT NULL,
+            title               VARCHAR(255)                          NOT NULL,
             description         TEXT,
-            tag_id              INTEGER REFERENCES tags (tag_id),
-            points_available    INTEGER     DEFAULT 0                       NOT NULL
+            tag_id              INTEGER REFERENCES tags (id),
+            points_available    INTEGER     DEFAULT 0                 NOT NULL
         );
     `);
 
@@ -110,7 +110,7 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS movies
         (
-            movie_id       SERIAL PRIMARY KEY,
+            id             SERIAL PRIMARY KEY,
             title          VARCHAR(255)      NOT NULL,
             release_date   DATE,
             duration       INTEGER,
@@ -127,9 +127,9 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS genres
         (
-            genre_id SERIAL PRIMARY KEY,
-            name     VARCHAR(255) NOT NULL,
-            icon     VARCHAR(255)
+            id   SERIAL PRIMARY KEY,
+            name VARCHAR(255) NOT NULL,
+            icon VARCHAR(255)
         );
     `);
 
@@ -137,8 +137,8 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS movie_genres
         (
-            movie_id INTEGER REFERENCES movies (movie_id) NOT NULL,
-            genre_id INTEGER REFERENCES genres (genre_id) NOT NULL,
+            movie_id INTEGER REFERENCES movies (id) NOT NULL,
+            genre_id INTEGER REFERENCES genres (id) NOT NULL,
             PRIMARY KEY (movie_id, genre_id)
         );
     `);
@@ -147,14 +147,14 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS submissions
         (
-            submission_id    SERIAL PRIMARY KEY,
-            user_id          VARCHAR(255) REFERENCES users (user_id)     NOT NULL,
-            server_id        VARCHAR(255) REFERENCES servers (server_id) NOT NULL,
-            tag_id           INTEGER REFERENCES tags (tag_id),
-            time_submitted   TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP       NOT NULL,
-            title            VARCHAR(255)                                NOT NULL,
+            id               SERIAL PRIMARY KEY,
+            user_id          VARCHAR(255) REFERENCES users (id)    NOT NULL,
+            server_id        VARCHAR(255) REFERENCES servers (id)  NOT NULL,
+            tag_id           INTEGER REFERENCES tags (id),
+            time_submitted   TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP NOT NULL,
+            title            VARCHAR(255)                          NOT NULL,
             description      TEXT,
-            rating           INTEGER     DEFAULT 0                       NOT NULL,
+            rating           INTEGER     DEFAULT 0                 NOT NULL,
             status           VARCHAR(255),
             first_appearance DATE,
             last_appearance  DATE
@@ -165,8 +165,8 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS submission_movies
         (
-            movie_id      INTEGER REFERENCES movies (movie_id)           NOT NULL,
-            submission_id INTEGER REFERENCES submissions (submission_id) NOT NULL,
+            movie_id      INTEGER REFERENCES movies (id)      NOT NULL,
+            submission_id INTEGER REFERENCES submissions (id) NOT NULL,
             image         VARCHAR(255),
             poster        VARCHAR(255),
             PRIMARY KEY (movie_id, submission_id)
@@ -177,11 +177,11 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS event_entries
         (
-            entry_id      SERIAL PRIMARY KEY,
-            event_id      INTEGER REFERENCES events (event_id)           NOT NULL,
-            submission_id INTEGER REFERENCES submissions (submission_id) NOT NULL,
-            score         DECIMAL DEFAULT 0                              NOT NULL,
-            status        INTEGER DEFAULT 0                              NOT NULL
+            id            SERIAL PRIMARY KEY,
+            event_id      INTEGER REFERENCES events (id)      NOT NULL,
+            submission_id INTEGER REFERENCES submissions (id) NOT NULL,
+            score         DECIMAL DEFAULT 0                   NOT NULL,
+            status        INTEGER DEFAULT 0                   NOT NULL
         );
     `);
 
@@ -189,11 +189,11 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS votes
         (
-            vote_id        SERIAL PRIMARY KEY,
-            user_id        VARCHAR(255) REFERENCES users (user_id) NOT NULL,
-            event_id       INTEGER REFERENCES events (event_id)    NOT NULL,
-            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP   NOT NULL,
-            split_vote     BOOLEAN     DEFAULT FALSE               NOT NULL
+            id             SERIAL PRIMARY KEY,
+            user_id        VARCHAR(255) REFERENCES users (id)    NOT NULL,
+            event_id       INTEGER REFERENCES events (id)        NOT NULL,
+            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP NOT NULL,
+            split_vote     BOOLEAN     DEFAULT FALSE             NOT NULL
         );
     `);
 
@@ -201,8 +201,8 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS entry_votes
         (
-            entry_id INTEGER REFERENCES event_entries (entry_id) NOT NULL,
-            vote_id  INTEGER REFERENCES votes (vote_id)          NOT NULL,
+            entry_id INTEGER REFERENCES event_entries (id) NOT NULL,
+            vote_id  INTEGER REFERENCES votes (id)         NOT NULL,
             points   DECIMAL DEFAULT NULL,
             PRIMARY KEY (entry_id, vote_id)
         );
@@ -212,10 +212,10 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS reviews
         (
-            review_id      SERIAL PRIMARY KEY,
-            user_id        VARCHAR(255) REFERENCES users (user_id) NOT NULL,
-            movie_id       INTEGER REFERENCES movies (movie_id)    NOT NULL,
-            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP   NOT NULL,
+            id             SERIAL PRIMARY KEY,
+            user_id        VARCHAR(255) REFERENCES users (id)    NOT NULL,
+            movie_id       INTEGER REFERENCES movies (id)        NOT NULL,
+            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP NOT NULL,
             rating         INTEGER,
             comment        TEXT
         );
@@ -225,9 +225,9 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS comments
         (
-            comment_id     SERIAL PRIMARY KEY,
-            user_id        VARCHAR(255) REFERENCES users (user_id) NOT NULL,
-            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP   NOT NULL,
+            id             SERIAL PRIMARY KEY,
+            user_id        VARCHAR(255) REFERENCES users (id)    NOT NULL,
+            time_submitted TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP NOT NULL,
             comment        TEXT
         );
     `);
@@ -236,8 +236,8 @@ async function createTables() {
     await client.query(`
         CREATE TABLE IF NOT EXISTS event_comments
         (
-            event_id   INTEGER REFERENCES events (event_id),
-            comment_id INTEGER REFERENCES comments (comment_id),
+            event_id   INTEGER REFERENCES events (id),
+            comment_id INTEGER REFERENCES comments (id),
             PRIMARY KEY (event_id, comment_id)
         );
     `);
@@ -259,24 +259,24 @@ async function insertData(data) {
     await insertDataIntoTable("votes", data.votes);
     await insertDataIntoTable("entry_votes", data.entryVotes);
 
-    //Update first and last appearance based on the latest event_date for each submission_id
-    await client.query(`
-        UPDATE submissions s
-        SET first_appearance = ee.min_event_date
-        FROM (SELECT submission_id, MIN(e.start_time) AS min_event_date
-              FROM event_entries
-                       LEFT JOIN events e on e.event_id = event_entries.event_id
-              GROUP BY submission_id) ee
-        WHERE s.submission_id = ee.submission_id;
-
-        UPDATE submissions s
-        SET last_appearance = ee.max_event_date
-        FROM (SELECT submission_id, MAX(e.start_time) AS max_event_date
-              FROM event_entries
-                       LEFT JOIN events e on e.event_id = event_entries.event_id
-              GROUP BY submission_id) ee
-        WHERE s.submission_id = ee.submission_id;
-    `);
+    // //Update first and last appearance based on the latest event_date for each submission_id
+    // await client.query(`
+    //     UPDATE submissions s
+    //     SET first_appearance = ee.min_event_date
+    //     FROM (SELECT submission_id, MIN(e.start_time) AS min_event_date
+    //           FROM event_entries
+    //                    LEFT JOIN events e on e.event_id = event_entries.event_id
+    //           GROUP BY submission_id) ee
+    //     WHERE s.submission_id = ee.submission_id;
+    //
+    //     UPDATE submissions s
+    //     SET last_appearance = ee.max_event_date
+    //     FROM (SELECT submission_id, MAX(e.start_time) AS max_event_date
+    //           FROM event_entries
+    //                    LEFT JOIN events e on e.event_id = event_entries.event_id
+    //           GROUP BY submission_id) ee
+    //     WHERE s.submission_id = ee.submission_id;
+    // `);
 }
 
 async function insertDataIntoTable(tableName, dataArray) {
