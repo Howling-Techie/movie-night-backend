@@ -10,7 +10,7 @@ exports.signInUser = async (body) => {
             const data = new URLSearchParams();
             data.append("grant_type", "authorization_code");
             data.append("code", code);
-            data.append("redirect_uri", "http://localhost:5173/auth/discord/callback");
+            data.append("redirect_uri", "http://localhost:5101/auth/discord/callback");
 
             const headers = {
                 "Content-Type": "application/x-www-form-urlencoded",
