@@ -10,11 +10,11 @@ exports.selectEvent = async (params, headers) => {
 
     const eventResult = await client.query(`SELECT *
                                             FROM events
-                                            WHERE event_id = $1`, [event_id]);
+                                            WHERE id = $1`, [event_id]);
     const event = eventResult.rows[0];
     const serverResult = await client.query(`SELECT *
                                              FROM servers
-                                             WHERE server_id = $1`, [event.server_id]);
+                                             WHERE id = $1`, [event.server_id]);
     event.server = serverResult.rows[0];
     return event;
 };
@@ -27,12 +27,12 @@ exports.selectEvents = async (queries, headers) => {
             const user_id = decoded.user_id;
             const results = await client.query(`SELECT e.*
                                                 FROM events e
-                                                         LEFT JOIN servers s ON e.server_id = s.server_id
-                                                         LEFT JOIN server_users su ON su.server_id = s.server_id AND su.user_id = $1
+                                                         LEFT JOIN servers s ON e.server_id = s.id
+                                                         LEFT JOIN server_users su ON su.server_id = s.id AND su.user_id = $1
                                                 WHERE (
-                                                              (e.visibility = 0 AND s.visibility = 0)
+                                                          (e.visibility = 0 AND s.visibility = 0)
                                                               OR
-                                                              (su.user_id = $1 AND e.visibility <= su.access_level)
+                                                          (su.user_id = $1 AND e.visibility <= su.access_level)
                                                           );`, [user_id]);
             return results.rows;
         } catch {
@@ -41,14 +41,14 @@ exports.selectEvents = async (queries, headers) => {
     } else {
         const eventResults = await client.query(`SELECT e.*
                                                  FROM events e
-                                                          LEFT JOIN servers s ON e.server_id = s.server_id
+                                                          LEFT JOIN servers s ON e.server_id = s.id
                                                  WHERE e.visibility = 0
                                                    AND s.visibility = 0`);
         const events = eventResults.rows;
         for (const event of events) {
             const serverResult = await client.query(`SELECT *
                                                      FROM servers
-                                                     WHERE server_id = $1`, [event.server_id]);
+                                                     WHERE id = $1`, [event.server_id]);
             event.server = serverResult.rows[0];
         }
         return events;
@@ -69,28 +69,28 @@ exports.selectEventEntries = async (params, headers) => {
     for (const entry of entries) {
         const submissionResult = await client.query(`SELECT *
                                                      FROM submissions
-                                                     WHERE submission_id = $1`, [entry.submission_id]);
+                                                     WHERE id = $1`, [entry.submission_id]);
         const submission = submissionResult.rows[0];
         const userResult = await client.query(`SELECT *
                                                FROM users u
-                                               WHERE u.user_id = $1`, [submission.user_id]);
+                                               WHERE u.id = $1`, [submission.user_id]);
         submission.user = userResult.rows[0];
         const serverResult = await client.query(`SELECT *
                                                  FROM servers s
-                                                 WHERE s.server_id = $1`, [submission.server_id]);
+                                                 WHERE s.id = $1`, [submission.server_id]);
         submission.server = serverResult.rows[0];
         const movieResults = await client.query(`SELECT sm.movie_id, sm.image, sm.poster
                                                  FROM submission_movies sm
-                                                 WHERE sm.submission_id = $1`, [submission.submission_id]);
+                                                 WHERE sm.submission_id = $1`, [submission.id]);
         submission.movies = movieResults.rows;
         for (const movie of submission.movies) {
             const movieResult = await client.query(`SELECT m.*
                                                     FROM movies m
-                                                    WHERE m.movie_id = $1`, [movie.movie_id]);
+                                                    WHERE m.id = $1`, [movie.movie_id]);
             const genreResult = await client.query(`SELECT g.name
                                                     FROM movie_genres mg
-                                                             LEFT JOIN genres g on g.genre_id = mg.genre_id
-                                                    WHERE mg.movie_id = $1`, [movie.movie_id]);
+                                                             LEFT JOIN genres g on g.id = mg.genre_id
+                                                    WHERE mg.movie_id = $1`, [movie.id]);
             movie.movie_info = movieResult.rows[0];
             movie.movie_info.genres = genreResult.rows;
         }
@@ -104,6 +104,14 @@ exports.selectEventVotes = async (params, headers) => {
     const token = headers["authorization"];
     await checkEventIsAccessible(event_id, token);
 
+    // Get points available for event
+    const eventResult = await client.query(`
+        SELECT *
+        FROM events
+        WHERE id = $1;
+    `, [event_id]);
+    const maxPoints = eventResult.rows[0].points_available;
+
     // Fetch votes for the given event_id
     const voteResults = await client.query(`
         SELECT *
@@ -114,12 +122,11 @@ exports.selectEventVotes = async (params, headers) => {
 
     // Fetch vote_values for each vote_id
     for (const vote of votes) {
-
         const voteValuesResult = await client.query(`
             SELECT *
             FROM entry_votes
             WHERE vote_id = $1;
-        `, [vote.vote_id]);
+        `, [vote.id]);
         vote.votes = voteValuesResult.rows.map(entryVote => {
             return {...entryVote, points: +entryVote.points};
         });
@@ -136,22 +143,22 @@ exports.selectEventVotes = async (params, headers) => {
     for (const entry of entries) {
         const submissionResult = await client.query(`SELECT *
                                                      FROM submissions
-                                                     WHERE submission_id = $1`, [entry.submission_id]);
+                                                     WHERE id = $1`, [entry.submission_id]);
         entry.submission = submissionResult.rows[0];
         //Match up votes to entries
         entry.votes = [];
         entry.score = 0;
         for (const vote of votes) {
-            if (vote.votes.some(voteVote => voteVote.entry_id === entry.entry_id)) {
+            if (vote.votes.some(voteVote => voteVote.entry_id === entry.id)) {
                 const userResult = await client.query(`SELECT *
                                                        FROM users
-                                                       WHERE user_id = $1`, [vote.user_id]);
+                                                       WHERE id = $1`, [vote.user_id]);
                 const user = userResult.rows[0];
                 entry.votes.push({
                     user,
-                    points: vote.votes.find(voteVote => voteVote.entry_id === entry.entry_id).points
+                    points: vote.votes.find(voteVote => voteVote.entry_id === entry.id).points
                 });
-                entry.score += vote.votes.find(voteVote => voteVote.entry_id === entry.entry_id).points;
+                entry.score += vote.votes.find(voteVote => voteVote.entry_id === entry.id).points;
             }
         }
     }
@@ -180,7 +187,7 @@ const checkEventIsAccessible = async (event_id, token) => {
     if (Number.isNaN(event_id)) {
         return Promise.reject({status: 400, msg: "Invalid event_id datatype"});
     }
-    if (!(await checkIfExists("events", "event_id", +event_id))) {
+    if (!(await checkIfExists("events", "id", +event_id))) {
         return Promise.reject({status: 404, msg: "Event not found"});
     }
     if (token) {
@@ -197,7 +204,7 @@ const checkEventIsAccessible = async (event_id, token) => {
     } else {
         const eventResults = await client.query(`SELECT *
                                                  FROM events
-                                                 WHERE event_id = $1`, [event_id]);
+                                                 WHERE id = $1`, [event_id]);
         const event = eventResults.rows[0];
         if (event.visibility !== 0) {
             return Promise.reject({status: 401, msg: "Unauthorised"});

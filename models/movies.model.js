@@ -1,7 +1,6 @@
 const client = require("../database/connection");
-const {MovieDb} = require("moviedb-promise");
+const axios = require("axios");
 
-const moviedb = new MovieDb(process.env.TMDB_KEY);
 // SELECT
 exports.selectMovie = async (params) => {
     const {movie_id} = params;
@@ -13,7 +12,7 @@ exports.selectMovie = async (params) => {
     }
     const results = await client.query(`SELECT *
                                         FROM movies
-                                        WHERE movie_id = $1`, [movie_id]);
+                                        WHERE id = $1`, [movie_id]);
 
     if (results.rows.length === 0) {
         return Promise.reject({status: 404, msg: "Movie not found"});
@@ -31,7 +30,7 @@ exports.selectMovieSubmissions = async (params) => {
     }
     const submissionResults = await client.query(`SELECT s.*
                                                   FROM submissions s
-                                                           INNER JOIN submission_movies sm on s.submission_id = sm.submission_id
+                                                           INNER JOIN submission_movies sm on s.id = sm.submission_id
                                                   WHERE sm.movie_id = $1`, [movie_id]);
     if (submissionResults.rows.length === 0) {
         return Promise.reject({status: 404, msg: "Movie not found"});
@@ -40,7 +39,7 @@ exports.selectMovieSubmissions = async (params) => {
     for (const submission of submissions) {
         const userResult = await client.query(`SELECT *
                                                FROM users u
-                                               WHERE u.user_id = $1`, [submission.user_id]);
+                                               WHERE u.id = $1`, [submission.user_id]);
         submission.user = userResult.rows[0];
     }
     return submissions;
@@ -64,13 +63,22 @@ exports.selectMovies = async (queries) => {
 };
 
 exports.searchMovies = async (queries, headers) => {
-    const {searchTerm, year = null} = queries;
-    const params = {};
-    params.query = searchTerm;
-    if (year !== null) {
-        params.year = year;
-    }
-    return await moviedb.searchMovie(params);
+    const genreTable = await client.query(`SELECT *
+                                           FROM genres`);
+    const genres = genreTable.rows;
+    const {searchTerm, year} = queries;
+    const results = await axios.get(`https://api.themoviedb.org/3/search/movie?query=${searchTerm}${year ? `&year=${year}` : ""}&api_key=${process.env.TMDB_KEY}`);
+    const movies = results.data.results;
+    const movieData = movies.map(movie => ({
+        imdb_id: movie.id,
+        title: movie.title,
+        release_date: movie.release_date,
+        description: movie.overview,
+        poster: movie.poster_path,
+        image: movie.backdrop_path,
+        genres: movie.genre_ids.map(id => genres.find(genre => genre.genre_id === id))
+    }));
+    return movieData;
 };
 
 // DELETE

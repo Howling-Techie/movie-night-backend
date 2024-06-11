@@ -2,14 +2,13 @@ const express = require("express")
     , app = express();
 const apiRouter = require("./routes/api.router");
 const bodyParser = require("body-parser");
-
 const cors = require("cors");
 require("dotenv").config();
 
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use("/api", apiRouter);
+app.use(process.env.PATH_URL +  "/api", apiRouter);
 
 
 // Start the server
@@ -18,7 +17,7 @@ app.listen(PORT, function (err) {
     if (err) {
         return console.log(err);
     }
-    console.log(`Listening at http://localhost:${PORT}/`);
+    console.log(`Listening at http://localhost:${PORT}` + "/api");
 });
 
 module.exports = app;
