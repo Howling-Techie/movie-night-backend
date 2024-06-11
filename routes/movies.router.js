@@ -7,15 +7,15 @@ moviesRouter
     .get(getMovies);
 
 moviesRouter
+    .route("/search")
+    .get(searchMovies);
+
+moviesRouter
     .route("/:movie_id")
     .get(getMovie);
 
 moviesRouter
     .route("/:movie_id/submissions")
     .get(getMovieSubmissions);
-
-moviesRouter
-    .route("/search")
-    .get(searchMovies);
 
 module.exports = moviesRouter;
