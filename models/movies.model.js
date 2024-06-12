@@ -69,8 +69,8 @@ exports.searchMovies = async (queries, headers) => {
     const {searchTerm, year} = queries;
     const results = await axios.get(`https://api.themoviedb.org/3/search/movie?query=${searchTerm}${year ? `&year=${year}` : ""}&api_key=${process.env.TMDB_KEY}`);
     const movies = results.data.results;
-    const movieData = movies.map(movie => ({
-        imdb_id: movie.id,
+    return movies.map(movie => ({
+        id: movie.id,
         title: movie.title,
         release_date: movie.release_date,
         description: movie.overview,
@@ -78,7 +78,29 @@ exports.searchMovies = async (queries, headers) => {
         image: movie.backdrop_path,
         genres: movie.genre_ids.map(id => genres.find(genre => genre.genre_id === id))
     }));
-    return movieData;
+};
+
+exports.selectMovieImagesById = async (params, headers) => {
+    const {movie_id} = params;
+    if (!movie_id) {
+        return Promise.reject({status: 400, msg: "Movie ID not provided"});
+    }
+    if (Number.isNaN(+movie_id)) {
+        return Promise.reject({status: 400, msg: "Invalid movie_id datatype"});
+    }
+    const options = {
+        method: "GET",
+        url: `https://api.themoviedb.org/3/movie/${movie_id}/images`,
+        headers: {
+            accept: "application/json",
+            Authorization: `Bearer ${process.env.TMDB_AUTH}`
+        }
+    };
+    const results = await axios
+        .request(options);
+    const images = results.data;
+    return {images: images.backdrops.map(b => b.file_path), posters: images.posters.map(p => p.file_path)};
+
 };
 
 // DELETE

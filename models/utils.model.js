@@ -40,14 +40,14 @@ exports.canUserAccessEvent = async (event_id, user_id) => {
     const result = await client.query(
         `SELECT e.*
          FROM events e
-                  LEFT JOIN servers s ON e.server_id = s.server_id
-                  LEFT JOIN server_users su ON su.server_id = s.server_id AND su.user_id = $1
+                  LEFT JOIN servers s ON e.server_id = s.id
+                  LEFT JOIN server_users su ON su.server_id = s.id AND su.user_id = $1
          WHERE (
-                 (e.visibility = 0 AND s.visibility = 0)
+             (e.visibility = 0 AND s.visibility = 0)
                  OR
-                 (su.user_id = $1 AND e.visibility <= su.access_level)
+             (su.user_id = $1 AND e.visibility <= su.access_level)
              )
-           AND e.event_id = $2`,
+           AND e.id = $2`,
         [user_id, event_id]
     );
     // If a row is returned, they have access
@@ -59,13 +59,13 @@ exports.canUserAccessServer = async (server_id, user_id) => {
     const result = await client.query(
         `SELECT s.*
          FROM servers s
-                  LEFT JOIN server_users su ON su.server_id = s.server_id AND su.user_id = $1
+                  LEFT JOIN server_users su ON su.server_id = s.id AND su.user_id = $1
          WHERE (
-                 (s.visibility = 0)
+             (s.visibility = 0)
                  OR
-                 (su.user_id = $1 AND s.visibility <= su.access_level)
+             (su.user_id = $1 AND s.visibility <= su.access_level)
              )
-           AND s.server_id = $2`,
+           AND s.id = $2`,
         [user_id, server_id]
     );
     // If a row is returned, they have access

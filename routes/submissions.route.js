@@ -3,13 +3,14 @@ const {
     getSubmission,
     getSubmissions,
     getSubmissionStatuses,
-    getSubmissionUsers
+    getSubmissionUsers, postSubmission
 } = require("../controllers/submissions.controller");
 const submissionsRouter = require("express").Router();
 
 submissionsRouter
     .route("/")
-    .get(getSubmissions);
+    .get(getSubmissions)
+    .post(postSubmission);
 
 submissionsRouter
     .route("/statuses")

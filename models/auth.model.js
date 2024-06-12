@@ -56,27 +56,40 @@ exports.signInUser = async (body) => {
 
                 // Add server info for users
                 for (const userGuild of userGuilds) {
-                    // Add server if the user owns it
-                    if (userGuild.owner) {
-                        await client.query(`INSERT INTO servers(id, server_name, visibility, avatar, owner_id)
-                                            VALUES ($1, $2, $3, $4, $5)
-                                            ON CONFLICT ON CONSTRAINT servers_pkey
-                                                DO UPDATE SET server_name = $2,
-                                                              avatar      = $4;`,
-                            [userGuild.id, userGuild.name, 0, userGuild.icon, discordUser.id]);
-
-                        await client.query(`INSERT INTO server_users(user_id, server_id, access_level)
-                                            VALUES ($1, $2, $3)
-                                            ON CONFLICT ON CONSTRAINT server_users_pkey
-                                                DO UPDATE SET access_level = $3;`,
-                            [discordUser.id, userGuild.id, 2]);
-                    } else {
-                        // If the server exists, add the user to it
-                        const serverResults = await client.query(`SELECT *
-                                                                  FROM servers
-                                                                  WHERE id = $1;`,
-                            [userGuild.id]);
-                        if (serverResults.rows.length > 0) {
+                    // // Add server if the user owns it
+                    // if (userGuild.owner) {
+                    //     await client.query(`INSERT INTO servers(id, server_name, visibility, avatar, owner_id)
+                    //                         VALUES ($1, $2, $3, $4, $5)
+                    //                         ON CONFLICT ON CONSTRAINT servers_pkey
+                    //                             DO UPDATE SET server_name = $2,
+                    //                                           avatar      = $4;`,
+                    //         [userGuild.id, userGuild.name, 0, userGuild.icon, discordUser.id]);
+                    //
+                    //     await client.query(`INSERT INTO server_users(user_id, server_id, access_level)
+                    //                         VALUES ($1, $2, $3)
+                    //                         ON CONFLICT ON CONSTRAINT server_users_pkey
+                    //                             DO UPDATE SET access_level = $3;`,
+                    //         [discordUser.id, userGuild.id, 2]);
+                    // } else {
+                    // If the server exists, add the user to it
+                    const serverResults = await client.query(`SELECT *
+                                                              FROM servers
+                                                              WHERE id = $1;`,
+                        [userGuild.id]);
+                    if (serverResults.rows.length > 0) {
+                        if (userGuild.owner) {
+                            // await client.query(`INSERT INTO servers(id, server_name, visibility, avatar, owner_id)
+                            //                     VALUES ($1, $2, $3, $4, $5)
+                            //                     ON CONFLICT ON CONSTRAINT servers_pkey
+                            //                         DO UPDATE SET server_name = $2,
+                            //                                       avatar      = $4;`,
+                            //     [userGuild.id, userGuild.name, 0, userGuild.icon, discordUser.id]);
+                            await client.query(`INSERT INTO server_users(user_id, server_id, access_level)
+                                                VALUES ($1, $2, $3)
+                                                ON CONFLICT ON CONSTRAINT server_users_pkey
+                                                    DO UPDATE SET access_level = $3;`,
+                                [discordUser.id, userGuild.id, 2]);
+                        } else {
                             await client.query(`INSERT INTO server_users(user_id, server_id, access_level)
                                                 VALUES ($1, $2, $3)
                                                 ON CONFLICT ON CONSTRAINT server_users_pkey
@@ -103,13 +116,13 @@ exports.signInUser = async (body) => {
 };
 
 exports.refreshCurrentUser = async (body) => {
-    const {refreshToken} = body;
+    const {refresh_token} = body;
 
-    if (!refreshToken) {
+    if (!refresh_token) {
         return Promise.reject({status: 400, msg: "Missing refresh token"});
     }
     try {
-        const decoded = jwt.verify(refreshToken, process.env.JWT_KEY);
+        const decoded = jwt.verify(refresh_token, process.env.JWT_KEY);
         const userResponse = await client.query(`SELECT *
                                                  FROM users
                                                  WHERE id = $1;`, [decoded.id]);
@@ -122,12 +135,12 @@ exports.refreshCurrentUser = async (body) => {
 const generateReturnObject = (user) => {
     const response = {...user};
     response.tokens = {
-        accessToken: generateToken({
+        access_token: generateToken({
             id: user.user_id,
             username: user.username,
             displayName: user.display_name
         }),
-        refreshToken: generateToken({id: user.id}, "7d")
+        refresh_token: generateToken({id: user.id}, "7d")
     };
     const tokenExpiration = Date.now() + 60 * 60 * 1000;
     const refreshExpiration = Date.now() + 7 * 24 * 60 * 60 * 1000;

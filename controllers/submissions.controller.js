@@ -3,7 +3,7 @@ const {
     selectSubmission,
     selectSubmissionEvents,
     selectSubmissionUsers,
-    selectSubmissionStatuses
+    selectSubmissionStatuses, insertSubmission
 } = require("../models/submissions.model");
 
 exports.getSubmissions = (req, res, next) => {
@@ -48,6 +48,17 @@ exports.getSubmissionEvents = (req, res, next) => {
 
 exports.getSubmission = (req, res, next) => {
     selectSubmission(req.params)
+        .then((submission) => {
+            res.status(200).send({submission});
+        })
+        .catch((error) => {
+            next(error);
+        });
+};
+
+
+exports.postSubmission = (req, res, next) => {
+    insertSubmission(req.body, req.headers)
         .then((submission) => {
             res.status(200).send({submission});
         })

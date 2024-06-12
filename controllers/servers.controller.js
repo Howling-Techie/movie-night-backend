@@ -3,7 +3,7 @@ const {
     selectServer,
     selectServerUsers,
     selectServerEvents,
-    selectServerSubmissions
+    selectServerSubmissions, selectServerTags
 } = require("../models/servers.model");
 
 exports.getServers = (req, res, next) => {
@@ -41,6 +41,16 @@ exports.getServerEvents = (req, res, next) => {
     selectServerEvents(req.params, req.query, req.headers)
         .then((events) => {
             res.status(200).send({events});
+        })
+        .catch((error) => {
+            next(error);
+        });
+};
+
+exports.getServerTags = (req, res, next) => {
+    selectServerTags(req.params, req.headers)
+        .then((tags) => {
+            res.status(200).send({tags});
         })
         .catch((error) => {
             next(error);
