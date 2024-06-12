@@ -1,4 +1,10 @@
-const {selectMovies, selectMovie, searchMovies, selectMovieSubmissions} = require("../models/movies.model");
+const {
+    selectMovies,
+    selectMovie,
+    searchMovies,
+    selectMovieSubmissions,
+    selectMovieImagesById
+} = require("../models/movies.model");
 
 exports.getMovies = (req, res, next) => {
     selectMovies(req.query)
@@ -24,6 +30,16 @@ exports.getMovie = (req, res, next) => {
     selectMovie(req.params)
         .then((movie) => {
             res.status(200).send({movie});
+        })
+        .catch((error) => {
+            next(error);
+        });
+};
+
+exports.getMovieImagesById = (req, res, next) => {
+    selectMovieImagesById(req.params)
+        .then((images) => {
+            res.status(200).send({images});
         })
         .catch((error) => {
             next(error);

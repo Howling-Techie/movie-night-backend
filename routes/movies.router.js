@@ -1,4 +1,10 @@
-const {getMovies, getMovie, searchMovies, getMovieSubmissions} = require("../controllers/movies.controller");
+const {
+    getMovies,
+    getMovie,
+    searchMovies,
+    getMovieSubmissions,
+    getMovieImagesById
+} = require("../controllers/movies.controller");
 
 const moviesRouter = require("express").Router();
 
@@ -13,6 +19,10 @@ moviesRouter
 moviesRouter
     .route("/:movie_id")
     .get(getMovie);
+
+moviesRouter
+    .route("/images/:movie_id")
+    .get(getMovieImagesById);
 
 moviesRouter
     .route("/:movie_id/submissions")
