@@ -1,4 +1,7 @@
 const client = require("../database/connection");
+const {checkIfExists, canUserAccessServer} = require("./utils.model");
+const jwt = require("jsonwebtoken");
+const axios = require("axios");
 
 // SELECT
 exports.selectSubmission = async (params, headers) => {
@@ -128,8 +131,56 @@ exports.updateSubmission = async (params, body, headers) => {
 
 // INSERT
 exports.insertSubmission = async (body, headers) => {
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
+    const {server_id, title, description, rating, tag_id, movies} = body;
+    const user_id = await checkServerIsAccessible(server_id, token);
 
+    for (const movie of movies) {
+        const options = {
+            method: "GET",
+            url: `https://api.themoviedb.org/3/movie/${movie.tmdb_id}?language=en-US`,
+            headers: {
+                accept: "application/json",
+                Authorization: `Bearer ${process.env.TMDB_AUTH}`
+            }
+        };
+        const result = await axios.request(options);
+        const movieData = {
+            id: result.data.id,
+            imdb_id: result.data.imdb_id,
+            title: result.data.title,
+            description: result.data.overview,
+            release_date: result.data.release_date,
+            poster: result.data.poster_path,
+            image: result.data.backdrop_path,
+            genres: result.data.genres,
+            duration: result.data.duration
+        };
+        await client.query(`INSERT INTO movies (id, title, release_date, duration,
+                                                description, image, poster, imdb_id)
+                            VALUES ($1, $2, $3, $4, $5, $6, $7,
+                                    $8)
+                            ON CONFLICT (id) DO UPDATE
+                                SET release_date = $3,
+                                    duration     = $4,
+                                    description  = $5,
+                                    image        = $6,
+                                    poster       = $7`,
+            [movieData.id, movieData.title, movieData.release_date, movieData.duration, movieData.description, movieData.image, movieData.poster, movieData.imdb_id]);
+    }
+    const submissionResult = await client.query(`INSERT INTO submissions (user_id, server_id, tag_id, title, description, rating, status)
+                                                 VALUES ($1, $2, $3, $4, $5, $6,
+                                                         'Queued')
+                                                 RETURNING *`, [user_id, server_id, tag_id, title, description, rating]);
+    const submission = submissionResult.rows[0];
+    for (const movie of movies) {
+        await client.query(`INSERT INTO submission_movies (movie_id, submission_id, image, poster)
+                            VALUES ($1, $2, $3, $4)`, [movie.tmdb_id, submission.id, movie.image, movie.poster]);
+    }
+    return submission;
 };
+
 exports.insertSubmissionMovie = async (params, body, headers) => {
 
 };
@@ -142,3 +193,40 @@ exports.deleteSubmissionMovie = async (params, headers) => {
 
 };
 
+
+const checkServerIsAccessible = async (server_id, token) => {
+    if (!server_id) {
+        return Promise.reject({status: 400, msg: "Server ID not provided"});
+    }
+    if (Number.isNaN(server_id)) {
+        return Promise.reject({status: 400, msg: "Invalid server_id datatype"});
+    }
+    if (!(await checkIfExists("servers", "id", server_id.toString()))) {
+        return Promise.reject({status: 404, msg: "Server not found"});
+    }
+    if (token) {
+        try {
+            const decoded = jwt.verify(token, process.env.JWT_KEY);
+            const username = decoded.username;
+            const userResult = await client.query(`SELECT *
+                                                   FROM users
+                                                   WHERE username = $1`, [username]);
+            const user_id = userResult.rows[0].id;
+            const access = await canUserAccessServer(server_id, user_id);
+            if (!access) {
+                return Promise.reject({status: 401, msg: "Unauthorised"});
+            }
+            return user_id;
+        } catch {
+            return Promise.reject({status: 401, msg: "Unauthorised"});
+        }
+    } else {
+        const serverResults = await client.query(`SELECT *
+                                                  FROM servers
+                                                  WHERE id = $1`, [server_id]);
+        const server = serverResults.rows[0];
+        if (server.visibility !== 0) {
+            return Promise.reject({status: 401, msg: "Unauthorised"});
+        }
+    }
+};
