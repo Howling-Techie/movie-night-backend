@@ -139,7 +139,7 @@ exports.insertSubmission = async (body, headers) => {
     for (const movie of movies) {
         const options = {
             method: "GET",
-            url: `https://api.themoviedb.org/3/movie/${movie.tmdb_id}?language=en-US`,
+            url: `https://api.themoviedb.org/3/movie/${movie.id}?language=en-US`,
             headers: {
                 accept: "application/json",
                 Authorization: `Bearer ${process.env.TMDB_AUTH}`
@@ -176,7 +176,7 @@ exports.insertSubmission = async (body, headers) => {
     const submission = submissionResult.rows[0];
     for (const movie of movies) {
         await client.query(`INSERT INTO submission_movies (movie_id, submission_id, image, poster)
-                            VALUES ($1, $2, $3, $4)`, [movie.tmdb_id, submission.id, movie.image, movie.poster]);
+                            VALUES ($1, $2, $3, $4)`, [movie.id, submission.id, movie.image, movie.poster]);
     }
     return submission;
 };
