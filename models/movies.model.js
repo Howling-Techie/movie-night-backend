@@ -1,5 +1,6 @@
 const client = require("../database/connection");
 const axios = require("axios");
+const {verifyToken} = require("./utils.model");
 
 // SELECT
 exports.selectMovie = async (params) => {
@@ -20,7 +21,7 @@ exports.selectMovie = async (params) => {
     return results.rows[0];
 };
 
-exports.selectMovieSubmissions = async (params) => {
+exports.selectMovieSubmissions = async (params, headers) => {
     const {movie_id} = params;
     if (!movie_id) {
         return Promise.reject({status: 400, msg: "Movie ID not provided"});
@@ -28,14 +29,33 @@ exports.selectMovieSubmissions = async (params) => {
     if (Number.isNaN(+movie_id)) {
         return Promise.reject({status: 400, msg: "Invalid movie_id datatype"});
     }
-    const submissionResults = await client.query(`SELECT s.*
-                                                  FROM submissions s
-                                                           INNER JOIN submission_movies sm on s.id = sm.submission_id
-                                                  WHERE sm.movie_id = $1`, [movie_id]);
-    if (submissionResults.rows.length === 0) {
-        return Promise.reject({status: 404, msg: "Movie not found"});
+
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
+    let submissions = [];
+    if (token) {
+        const decoded = await verifyToken(token);
+        if (!decoded) {
+            return Promise.reject({status: 401, msg: "Unauthorized"});
+        }
+        const submissionResults = await client.query(`SELECT s.*
+                                                      FROM submissions s
+                                                               INNER JOIN submission_movies sm on s.id = sm.submission_id
+                                                               INNER JOIN servers se on s.server_id = se.id
+                                                               LEFT JOIN server_users su on se.id = su.server_id AND su.user_id = $2
+                                                      WHERE sm.movie_id = $1
+                                                        AND (se.visibility = 0 OR su.user_id = $2)
+        `, [movie_id, id]);
+        submissions = submissionResults.rows;
+    } else {
+        const submissionResults = await client.query(`SELECT s.*
+                                                      FROM submissions s
+                                                               INNER JOIN submission_movies sm on s.id = sm.submission_id
+                                                               INNER JOIN servers se on s.server_id = se.id
+                                                      WHERE sm.movie_id = $1
+                                                        AND se.visibility = 0`, [movie_id]);
+        submissions = submissionResults.rows;
     }
-    const submissions = submissionResults.rows;
     for (const submission of submissions) {
         const userResult = await client.query(`SELECT *
                                                FROM users u

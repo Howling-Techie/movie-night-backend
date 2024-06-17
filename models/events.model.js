@@ -5,7 +5,8 @@ const {checkIfExists, getServerAccessLevel, canUserAccessEvent} = require("./uti
 // SELECT
 exports.selectEvent = async (params, headers) => {
     const {event_id} = params;
-    const token = headers["authorization"];
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
     await checkEventIsAccessible(event_id, token);
 
     const eventResult = await client.query(`SELECT *
@@ -20,21 +21,29 @@ exports.selectEvent = async (params, headers) => {
 };
 
 exports.selectEvents = async (queries, headers) => {
-    const token = headers["authorization"];
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
     if (token) {
         try {
             const decoded = jwt.verify(token, process.env.JWT_KEY);
-            const user_id = decoded.user_id;
-            const results = await client.query(`SELECT e.*
-                                                FROM events e
-                                                         LEFT JOIN servers s ON e.server_id = s.id
-                                                         LEFT JOIN server_users su ON su.server_id = s.id AND su.user_id = $1
-                                                WHERE (
-                                                          (e.visibility = 0 AND s.visibility = 0)
-                                                              OR
-                                                          (su.user_id = $1 AND e.visibility <= su.access_level)
-                                                          );`, [user_id]);
-            return results.rows;
+            const user_id = decoded.id;
+            const eventResults = await client.query(`SELECT e.*
+                                                     FROM events e
+                                                              LEFT JOIN servers s ON e.server_id = s.id
+                                                              LEFT JOIN server_users su ON su.server_id = s.id AND su.user_id = $1
+                                                     WHERE (
+                                                               (e.visibility = 0 AND s.visibility = 0)
+                                                                   OR
+                                                               (su.user_id = $1 AND e.visibility <= su.access_level)
+                                                               );`, [user_id]);
+            const events = eventResults.rows;
+            for (const event of events) {
+                const serverResult = await client.query(`SELECT *
+                                                         FROM servers
+                                                         WHERE id = $1`, [event.server_id]);
+                event.server = serverResult.rows[0];
+            }
+            return events;
         } catch {
             return Promise.reject({status: 401, msg: "Unauthorised"});
         }
@@ -57,7 +66,8 @@ exports.selectEvents = async (queries, headers) => {
 
 exports.selectEventEntries = async (params, headers) => {
     const {event_id} = params;
-    const token = headers["authorization"];
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
     await checkEventIsAccessible(event_id, token);
 
     const entryResults = await client.query(`SELECT *
@@ -66,33 +76,53 @@ exports.selectEventEntries = async (params, headers) => {
     const entries = entryResults.rows.map(entry => {
         return {...entry, score: +entry.score};
     });
+
+    const submissionIds = entries.reduce((ids, entry) => ids.concat(entry.submission_id), []);
+    const submissionResults = await client.query(`
+        SELECT *
+        FROM submissions
+        WHERE id = ANY ($1)
+    `, [submissionIds]);
+    const submissions = submissionResults.rows;
+
+    const userIds = submissions.reduce((ids, submission) => ids.concat(submission.user_id), []);
+    const userResults = await client.query(`
+        SELECT *
+        FROM users
+        WHERE id = ANY ($1)
+    `, [userIds]);
+    const users = userResults.rows;
+
+    const submissionMovieResults = await client.query(`
+        SELECT sm.submission_id, sm.movie_id, sm.image, sm.poster
+        FROM submission_movies sm
+        WHERE sm.submission_id = ANY ($1)
+    `, [submissionIds]);
+    const submissionMovies = submissionMovieResults.rows;
+
+    const movieIds = submissionMovies.reduce((ids, submissionMovie) => ids.concat(submissionMovie.movie_id), []);
+    const movieResults = await client.query(`
+        SELECT m.*
+        FROM movies m
+        WHERE m.id = ANY ($1)
+    `, [movieIds]);
+    const movies = movieResults.rows;
+
+    const genreResults = await client.query(`
+        SELECT mg.movie_id, g.name
+        FROM genres g
+                 INNER JOIN movie_genres mg on g.id = mg.genre_id
+        WHERE mg.movie_id = ANY ($1)
+    `, [movieIds]);
+    const genres = genreResults.rows;
+
     for (const entry of entries) {
-        const submissionResult = await client.query(`SELECT *
-                                                     FROM submissions
-                                                     WHERE id = $1`, [entry.submission_id]);
-        const submission = submissionResult.rows[0];
-        const userResult = await client.query(`SELECT *
-                                               FROM users u
-                                               WHERE u.id = $1`, [submission.user_id]);
-        submission.user = userResult.rows[0];
-        const serverResult = await client.query(`SELECT *
-                                                 FROM servers s
-                                                 WHERE s.id = $1`, [submission.server_id]);
-        submission.server = serverResult.rows[0];
-        const movieResults = await client.query(`SELECT sm.movie_id, sm.image, sm.poster
-                                                 FROM submission_movies sm
-                                                 WHERE sm.submission_id = $1`, [submission.id]);
-        submission.movies = movieResults.rows;
+        const submission = submissions.find(s => s.id === entry.submission_id);
+        submission.user = users.find(u => u.id === submission.user_id);
+        submission.movies = submissionMovies.filter(sm => sm.submission_id === submission.id);
         for (const movie of submission.movies) {
-            const movieResult = await client.query(`SELECT m.*
-                                                    FROM movies m
-                                                    WHERE m.id = $1`, [movie.movie_id]);
-            const genreResult = await client.query(`SELECT g.name
-                                                    FROM movie_genres mg
-                                                             LEFT JOIN genres g on g.id = mg.genre_id
-                                                    WHERE mg.movie_id = $1`, [movie.id]);
-            movie.movie_info = movieResult.rows[0];
-            movie.movie_info.genres = genreResult.rows;
+            movie.movie_info = movies.find(m => m.id === movie.movie_id);
+            movie.movie_info.genres = genres.filter(g => g.movie_id === movie.movie_id).map(g => g.name);
         }
         entry.submission = submission;
     }
@@ -101,7 +131,8 @@ exports.selectEventEntries = async (params, headers) => {
 
 exports.selectEventVotes = async (params, headers) => {
     const {event_id} = params;
-    const token = headers["authorization"];
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
     await checkEventIsAccessible(event_id, token);
 
     // Get points available for event
@@ -120,14 +151,20 @@ exports.selectEventVotes = async (params, headers) => {
     `, [event_id]);
     const votes = voteResults.rows;
 
-    // Fetch vote_values for each vote_id
+    // Get all vote ids
+    const voteIds = votes.map(vote => vote.id);
+
+    // Fetch all entry_votes for these vote ids at once
+    const voteValuesResult = await client.query(`
+        SELECT *
+        FROM entry_votes
+        WHERE vote_id = ANY ($1);
+    `, [voteIds]);
+
+    // Map vote_values to corresponding votes
+    const voteValues = voteValuesResult.rows;
     for (const vote of votes) {
-        const voteValuesResult = await client.query(`
-            SELECT *
-            FROM entry_votes
-            WHERE vote_id = $1;
-        `, [vote.id]);
-        vote.votes = voteValuesResult.rows.map(entryVote => {
+        vote.votes = voteValues.filter(entryVote => entryVote.vote_id === vote.id).map(entryVote => {
             return {...entryVote, points: +entryVote.points};
         });
     }
@@ -140,20 +177,32 @@ exports.selectEventVotes = async (params, headers) => {
     const entries = entryResults.rows.map(entry => {
         return {...entry, score: +entry.score};
     });
+    // Fetch all unique user_ids from votes
+    const userIds = [...new Set(votes.map(vote => vote.user_id))];
+
+    // Then fetch all these users at once
+    const usersResult = await client.query(`SELECT *
+                                            FROM users
+                                            WHERE id = ANY ($1)`, [userIds]);
+    const users = usersResult.rows;
+
+    // Same for submissions
+    const submissionIds = [...new Set(entries.map(entry => entry.submission_id))];
+
+    // Then fetch all these users at once
+    const submissionsResult = await client.query(`SELECT *
+                                                  FROM submissions
+                                                  WHERE id = ANY ($1)`, [submissionIds]);
+    const submissions = submissionsResult.rows;
+
     for (const entry of entries) {
-        const submissionResult = await client.query(`SELECT *
-                                                     FROM submissions
-                                                     WHERE id = $1`, [entry.submission_id]);
-        entry.submission = submissionResult.rows[0];
+        entry.submission = submissions.find(submission => submission.id === entry.submission_id);
         //Match up votes to entries
         entry.votes = [];
         entry.score = 0;
         for (const vote of votes) {
             if (vote.votes.some(voteVote => voteVote.entry_id === entry.id)) {
-                const userResult = await client.query(`SELECT *
-                                                       FROM users
-                                                       WHERE id = $1`, [vote.user_id]);
-                const user = userResult.rows[0];
+                const user = users.find(user => user.id === vote.user_id);
                 entry.votes.push({
                     user,
                     points: vote.votes.find(voteVote => voteVote.entry_id === entry.id).points

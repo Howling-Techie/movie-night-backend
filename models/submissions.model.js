@@ -15,11 +15,14 @@ exports.selectSubmission = async (params, headers) => {
     const results = await client.query(`SELECT *
                                         FROM submissions
                                         WHERE id = $1`, [submission_id]);
-
     if (results.rows.length === 0) {
         return Promise.reject({status: 404, msg: "Submission not found"});
     }
     const submission = results.rows[0];
+
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
+    await checkServerIsAccessible(submission.server_id, token);
     const userResult = await client.query(`SELECT *
                                            FROM users u
                                            WHERE u.id = $1`, [submission.user_id]);
@@ -71,6 +74,10 @@ exports.selectSubmissionEvents = async (params, headers) => {
         return Promise.reject({status: 404, msg: "Submission not found"});
     }
 
+    const tokenHeader = headers["authorization"];
+    const token = tokenHeader ? tokenHeader.split(" ")[1] : null;
+    await checkServerIsAccessible(results.rows[0].server_id, token);
+
     const eventResults = await client.query(`SELECT e.*
                                              FROM events e
                                                       INNER JOIN event_entries ee on e.id = ee.event_id
@@ -101,25 +108,30 @@ exports.selectSubmissions = async (queries, headers) => {
                                         LIMIT ${limit} OFFSET ${limit * (p - 1)}`);
     const submissions = results.rows;
 
+    const submissionIds = submissions.reduce((ids, submission) => ids.concat(submission.id), []);
+    const movieSubmissionResults = await client.query(`SELECT *
+                                                       FROM submission_movies
+                                                       WHERE submission_id = ANY ($1)`, [submissionIds]);
+    const submissionMovies = movieSubmissionResults.rows;
+
+    const movieIds = submissionMovies.reduce((ids, submissionMovie) => ids.concat(submissionMovie.movie_id), []);
+    const movieResults = await client.query(`SELECT *
+                                             FROM movies
+                                             WHERE id = ANY ($1)`, [movieIds]);
+    const movies = movieResults.rows;
+
+    const userIds = submissions.reduce((ids, submission) => ids.concat(submission.user_id), []);
+    const usersResults = await client.query(`SELECT *
+                                             FROM users
+                                             WHERE id = ANY ($1)`, [userIds]);
+    const submissionUsers = usersResults.rows;
+
     for (const submission of submissions) {
-        const movieSubmissionResults = await client.query(`SELECT *
-                                                           FROM submission_movies
-                                                           WHERE submission_id = $1`, [submission.id]);
-        const submissionMovies = movieSubmissionResults.rows;
-
-        for (const submissionMovie of submissionMovies) {
-            const movieResult = await client.query(`SELECT *
-                                                    FROM movies
-                                                    WHERE id = $1`, [submissionMovie.movie_id]);
-            submissionMovie.movie_info = movieResult.rows[0];
+        submission.movies = submissionMovies.filter(sm => sm.submission_id === submission.id);
+        for (const submissionMovie of submission.movies) {
+            submissionMovie.movie_info = movies.find(m => m.id === submissionMovie.movie_id);
         }
-
-        submission.movies = submissionMovies;
-
-        const userResult = await client.query(`SELECT *
-                                               FROM users
-                                               WHERE id = $1`, [submission.user_id]);
-        submission.user = userResult.rows[0];
+        submission.user = submissionUsers.find(u => u.id === submission.user_id);
     }
     return submissions;
 };
@@ -155,7 +167,7 @@ exports.insertSubmission = async (body, headers) => {
             poster: result.data.poster_path,
             image: result.data.backdrop_path,
             genres: result.data.genres,
-            duration: result.data.duration
+            duration: result.data.runtime
         };
         await client.query(`INSERT INTO movies (id, title, release_date, duration,
                                                 description, image, poster, imdb_id)

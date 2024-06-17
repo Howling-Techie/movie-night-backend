@@ -37,7 +37,7 @@ exports.getSubmissionStatuses = (req, res, next) => {
 };
 
 exports.getSubmissionEvents = (req, res, next) => {
-    selectSubmissionEvents(req.params)
+    selectSubmissionEvents(req.params, req.headers)
         .then((events) => {
             res.status(200).send({events});
         })
@@ -47,7 +47,7 @@ exports.getSubmissionEvents = (req, res, next) => {
 };
 
 exports.getSubmission = (req, res, next) => {
-    selectSubmission(req.params)
+    selectSubmission(req.params, req.headers)
         .then((submission) => {
             res.status(200).send({submission});
         })

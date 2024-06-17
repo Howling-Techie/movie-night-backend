@@ -17,7 +17,7 @@ exports.getMovies = (req, res, next) => {
 };
 
 exports.getMovieSubmissions = (req, res, next) => {
-    selectMovieSubmissions(req.params)
+    selectMovieSubmissions(req.params, req.headers)
         .then((submissions) => {
             res.status(200).send({submissions});
         })
